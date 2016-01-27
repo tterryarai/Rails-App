@@ -1,0 +1,31 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => 'Authors'} %>
+
+<div class="operation">
+  <%= render :partial => 'commands', :locals => {:val => 'index'} %>
+</div>
+
+<table class="index_table">
+  <tr>
+    <th>Name</th>
+    <th colspan="2" >Commands</th>
+  </tr>
+
+<% @authors.each do |author| %>
+  <tr>
+    <td id="index_table_title_td"><%= author.name %></td>
+    <td><%= link_to 'Edit', edit_author_path(author) %></td>
+    <td><%= link_to 'Destroy', author, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+
+<% content_for :sidebar do %>
+<p>
+This is side bar area.
+</p>
+<% end %>
+

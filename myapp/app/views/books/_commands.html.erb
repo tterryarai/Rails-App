@@ -1,0 +1,24 @@
+
+<div class="command_buttons">
+  <% case val %>
+  <% when 'index' then %>
+    <%= form_tag books_path, :method => :get do %>
+	    <%= text_field_tag :keyword, session[:keyword] %>
+	    <%= submit_tag 'Search', { :class => 'search_buttons' } %>
+	    <%= submit_tag 'Clear', { :class => 'search_buttons' } %>
+	    <%= hidden_field_tag :order, session[:order] %>
+    <% end %>
+    <%= button_to 'New Book', {:action => 'new'}, :method => :get %>
+  <% when 'new' then %>
+    <%= button_to 'Back', {:action => 'index'}, :method => :get %>
+  <% when 'edit' then %>
+    <%= button_to 'Back', {:action => 'index'}, :method => :get %>
+  <% when 'show' %>
+    <%= button_to 'Edit', {:action => 'edit'}, :method => :get %>
+    <%= button_to 'Delete', {:action => 'destroy', :id => @book.id}, :confirm => 'Are you sure?', :method => :delete %>
+    <%= button_to 'Back', {:action => 'index'}, :method => :get %>
+  <% else %>
+    <%= button_to 'Back', {:action => 'index'}, :method => :get %>
+  <% end %>
+</div>
+

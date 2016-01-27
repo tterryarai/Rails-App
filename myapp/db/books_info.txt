@@ -1,0 +1,415 @@
+Dragons of Autumn Twilight|Margaret Weis, Tracy Hickman|1|2|1|Dragonlance|Chronicles
+Dragons of Winter Night|Margaret Weis, Tracy Hickman|2|2|1|Dragonlance|Chronicles
+Dragons of Spring Dawning|Margaret Weis, Tracy Hickman|3|2|1|Dragonlance|Chronicles
+Time of the Twins|Margaret Weis, Tracy Hickman|1|2|1|Dragonlance|Legends
+War of the Twins|Margaret Weis, Tracy Hickman|2|2|1|Dragonlance|Legends
+Test of the Twins|Margaret Weis, Tracy Hickman|3|2|1|Dragonlance|Legends
+Dragons of the Dwarven Depths|Margaret Weis & Tracy Hickman|1|0|0|Dragonlance|Lost Chronicles, The
+Dragons of the Highlord Skies|Margaret Weis & Tracy Hickman|2|0|0|Dragonlance|Lost Chronicles, The
+Dragons of the Hourglass Mage|Margaret Weis, Tracy Hickman|3|0|0|Dragonlance|Lost Chronicles, The
+Magic of Krynn, The|Anthology|1|2|1|Dragonlance|Tales
+Kender, Gully Dwarves, and Gnomes|Anthology|2|2|1|Dragonlance|Tales
+Love and War|Anthology|3|2|1|Dragonlance|Tales
+Reign of Istar, The|Anthology|1|2|1|Dragonlance|Tales II
+Cataclysm, The|Anthology|2|2|1|Dragonlance|Tales II
+War of the Lance, The|Anthology|3|2|1|Dragonlance|Tales II
+Darkness & Light|Paul B.Thompson, Tonya R.Carter|1|2|1|Dragonlance|Preludes
+Kendermore|Mary Kirchoff|2|2|1|Dragonlance|Preludes
+Brothers Majere|Kevin Stein|3|2|1|Dragonlance|Preludes
+Riverwind the Plainsman|Paul B. Thompson & Tonya R. Carter|1|2|1|Dragonlance|Preludes II
+Flint the King|Mary Kirchoff & Douglas Niles|2|2|1|Dragonlance|Preludes II
+Tanis the Shadow Years|Barbara Siegel, Scott Siegel|3|2|1|Dragonlance|Preludes II
+Legend of Huma, The|Richard A. Knaak|1|2|1|Dragonlance|Heroes
+Stormblade|Nancy Varian Berberick|2|2|1|Dragonlance|Heroes
+Weasels Luck|Michael Williams|3|2|1|Dragonlance|Heroes
+Kaz the Minotaur|Richard A.Knaak|1|2|1|Dragonlance|Heroes II
+Gates of Thorbardin, The|Dan Parkinson|2|2|1|Dragonlance|Heroes II
+Galen Beknighted|Michael Williams|3|2|1|Dragonlance|Heroes II
+Kindred Spirits|Mark Anthony, Ellen Porath|1|0|0|Dragonlance|Meetings Sextet, The
+Wanderlust|Mary Kirchoff, Steve Winter|2|0|0|Dragonlance|Meetings Sextet, The
+Dark Heart|Tina Daniell|3|0|0|Dragonlance|Meetings Sextet, The
+Oath and the Measure, The|Michael Williams|4|0|0|Dragonlance|Meetings Sextet, The
+Steel and Stone|Ellen Porath|5|0|0|Dragonlance|Meetings Sextet, The
+Companions, The|Tina Daniell|6|0|0|Dragonlance|Meetings Sextet, The
+Firstborn|Paul B.Thompson, Tonya C.Cook|1|0|0|Dragonlance|Elven Nations Trilogy, The
+Kinslayer War, The|Douglas Niles|2|0|0|Dragonlance|Elven Nations Trilogy, The
+Qualinesti, The|Paul B.Thompson, Tonya C.Cook|3|0|0|Dragonlance|Elven Nations Trilogy, The
+Covenant of the Forge, The|Dan Parkinson|1|0|0|Dragonlance|Dwarven Nations Trilogy, The
+Hammer and Axe|Dan Parkinson|2|0|0|Dragonlance|Dwarven Nations Trilogy, The
+Swordsheath Scroll, The|Dan Parkinson|3|0|0|Dragonlance|Dwarven Nations Trilogy, The
+Night of the Eye|Mary Kirchoff|1|0|0|Dragonlance|Defenders of Magic
+Medusa Plague, The|Mary Kirchoff|2|0|0|Dragonlance|Defenders of Magic
+Seventh Sentinel, The|Mary Kirchoff|3|0|0|Dragonlance|Defenders of Magic
+Dragons of a Fallen Sun|Margaret Weis, Tracy Hickman|1|0|0|Dragonlance|War of Souls, The
+Dragons of a Lost Star|Margaret Weis, Tracy Hickman|2|0|0|Dragonlance|War of Souls, The
+Dragons of a Vanished Moon|Margaret Weis, Tracy Hickman|3|0|0|Dragonlance|War of Souls, The
+Messenger, The|Douglas Niles|1|0|0|Dragonlance|Icewall Trilogy, The
+Golden Orb, The|Douglas Niles|2|0|0|Dragonlance|Icewall Trilogy, The
+Winterheim|Douglas Niles|3|0|0|Dragonlance|Icewall Trilogy, The
+Before the Mask|Michael Williams|1|0|0|Dragonlance|Villains Series
+Black Wing, The|Mary Kirchoff|2|0|0|Dragonlance|Villains Series
+Emperor of Ansalon|Douglas Niles|3|0|0|Dragonlance|Villains Series
+Hederick the Theocrat|Ellen Dodge Severson|4|0|0|Dragonlance|Villains Series
+Lord Toede|Jeff Grubb|5|0|0|Dragonlance|Villains Series
+Dark Queen, The|Michael Williams|6|0|0|Dragonlance|Villains Series
+Kagonesti, The|Douglas Niles|1|0|0|Dragonlance|Lost Histories
+Irda, The|Linda P.Baker|2|0|0|Dragonlance|Lost Histories
+Dargonesti, The|Paul B.Thompson, Tonya Cook|3|0|0|Dragonlance|Lost Histories
+Land of the Minotaurs|Richard A.Knaak|4|0|0|Dragonlance|Lost Histories
+Gully Dwarves, The|Dan Parkinson|5|0|0|Dragonlance|Lost Histories
+Dragons, The|Douglas Niles|6|0|0|Dragonlance|Lost Histories
+Knights of the Crown|Roland J.Green|1|0|0|Dragonlance|Warriors, The
+Maquesta Kar-Thon|Tina Daniell, Jean Rabe|2|0|0|Dragonlance|Warriors, The
+Knights of the Sword|Roland, J.Green|3|0|0|Dragonlance|Warriors, The
+Theros Ironfeld|Don Perrin|4|0|0|Dragonlance|Warriors, The
+Knights of the Rose|Roland J.Green|5|0|0|Dragonlance|Warriors, The
+Lord Soth|Edo Van Belkom|6|0|0|Dragonlance|Warriors, The
+Wayward Knights, The|Roland J.Green|7|0|0|Dragonlance|Warriors, The
+Dawning of a New Age, The|Jean Rabe|1|0|0|Dragonlance|Dragons of a New Age
+Day of the Tempest, The|Jean Rabe|2|0|0|Dragonlance|Dragons of a New Age
+Eve of the Maelstrom, The|Jean Rabe|3|0|0|Dragonlance|Dragons of a New Age
+Downfall|Jean Rabe|1|0|0|Dragonlance|Dhamon Saga, The
+Betrayal|Jean Rabe|2|0|0|Dragonlance|Dhamon Saga, The
+Redemption|Jean Rabe|3|0|0|Dragonlance|Dhamon Saga, The
+Relics and Omens|Margaret Weis, Tracy Hickman|1|0|0|Dragonlance|Tales of the Fifth Age
+Heroes and Fools|Margared Weis, Tracy Hickman|2|0|0|Dragonlance|Tales of the Fifth Age
+Rebels and Tyrants|Margaret Weis, Tracy Hickman|3|0|0|Dragonlance|Tales of the Fifth Age
+Children of the Plains|Paul B.Thompson, Tonya C.Cook|1|0|0|Dragonlance|Barbarians
+Brother of the Dragon|Paul B.Thompson, Tonya C.Cook|2|0|0|Dragonlance|Barbarians
+Sister of the Sword|Paul B.Thompson, Tonya C.Cook|3|0|0|Dragonlance|Barbarians
+Dalamar the Dark|Nancy Varian Berberick|0|0|0|Dragonlance|Classics Series
+Citadel, The|Richard A.Knaak|0|0|0|Dragonlance|Classics Series
+Murder in Tarsis|John Maddox Roberts|0|0|0|Dragonlance|Classics Series
+Inheritance, The|Nancy Varian Berberick|0|0|0|Dragonlance|Classics Series
+Last Thane, The|Douglas Niles|1|0|0|Dragonlance|Chaos War Series, The
+Tears of the Night Sky|Linda P.Baker, Nancy Varian Berberick|2|0|0|Dragonlance|Chaos War Series, The
+Puppet King, The|Douglas Niles|3|0|0|Dragonlance|Chaos War Series, The
+Reavers of the Blood Sea|Richard A.Knaak|4|0|0|Dragonlance|Chaos War Series, The
+Siege of Mt. Nevermind, The|Fergus Ryan|5|0|0|Dragonlance|Chaos War Series, The
+Thieves Guild, The|Jeff Crook|0|0|0|Dragonlance|Crossroads
+Dragon Isles, The|Stephen D.Sullivan|0|0|0|Dragonlance|Crossroads
+Middle of Nowhere, The|Paul B.Thompson|0|0|0|Dragonlance|Crossroads
+Dragons Bluff|Mary H.Herbert|0|0|0|Dragonlance|Crossroads
+Clandestine Circle, The|Mary H.Herbert|0|1|0|Dragonlance|Crossroads
+Rose and the Skull, The|Jeff Crook|0|0|0|Dragonlance|Bridges of Time Series
+Dezras Quest|Chris Pierson|0|0|0|Dragonlance|Bridges of Time Series
+Legacy of Steel|Mary H.Herbert|0|0|0|Dragonlance|Bridges of Time Series
+Spirit of the Wind|Chris Pierson|0|0|0|Dragonlance|Bridges of Time Series
+Silver Stair, The|Jean Rabe|0|0|0|Dragonlance|Bridges of Time Series
+Lioness, The|Nancy Varian Berberick|0|0|0|Dragonlance|Age of Mortals, The
+Dark Thane|Jeff Crook|0|0|0|Dragonlance|Age of Mortals, The
+Prisoner of Haven|Nancy Varian Berberick|0|0|0|Dragonlance|Age of Mortals, The
+Lake of Death, The|Jean Rabe|0|0|0|Dragonlance|Age of Mortals, The
+Wizards Conclave|Douglas Niles|0|0|0|Dragonlance|Age of Mortals, The
+Conundrum|Jeff Crook|0|1|0|Dragonlance|Age of Mortals, The
+Warriors Journey, A|Paul B.Thompson|1|0|0|Dragonlance|Ergoth Trilogy, The
+Wizards Fate, The|Paul B.Thompson, Tonya C.Crook|2|0|0|Dragonlance|Ergoth Trilogy, The
+Heros Justice, A|Paul B.Thompson, Tonya C.Cook|3|0|0|Dragonlance|Ergoth Trilogy, The
+City of the Lost|Mary H.Herbert|1|0|0|Dragonlance|Linsha Trilogy, The
+Flight of the Fallen|Mary H.Herbert|2|0|0|Dragonlance|Linsha Trilogy, The
+Return of the Exile|Mary H.Herbert|3|0|0|Dragonlance|Linsha Trilogy, The
+Night of Blood|Richard A.Knaak|1|0|0|Dragonlance|Minotaur Wars, The
+Tides of Blood|Richard A.Knaak|2|0|0|Dragonlance|Minotaur Wars, The
+Empire of Blood|Richard A.Knaak|3|0|0|Dragonlance|Minotaur Wars, The
+Dragons of Krynn, The|Anthology|0|0|0|Dragonlance|Dragonlance Dragons
+Dragons at War, The|Anthology|0|0|0|Dragonlance|Dragonlance Dragons
+Dragons of Chaos, The|Anthology|0|0|0|Dragonlance|Dragonlance Dragons
+Amber and Ashes|Margaret Weis|1|0|0|Dragonlance|Dark Disciple, The
+Amber and Iron|Margaret Weis|2|0|0|Dragonlance|Dark Disciple, The
+Amber and Blood|Margaret Weis|3|0|0|Dragonlance|Dark Disciple, The
+Lord of the Rose|Douglas Niles|1|0|0|Dragonlance|Rise of Solamnia, The
+Crown and the Sword, The|Douglas Niles|2|0|0|Dragonlance|Rise of Solamnia, The
+Measure and the Truth, The|Douglas Niles|3|0|0|Dragonlance|Rise of Solamnia, The
+Sanctuary|Paul B.Thompson, Tonya C.Cook|1|0|0|Dragonlance|Elven Exiles
+Alliances|Tonya C.Cook, Paul B.Thompson|2|0|0|Dragonlance|Elven Exiles
+Destiny|Tonya C.Cook, Paul B.Thompson|3|0|0|Dragonlance|Elven Exiles
+Alien Sea, The|Lucien Soulban|0|0|0|Dragonlance|Champions, The
+Great White Wyrm, The|Peter Archer|0|0|0|Dragonlance|Champions, The
+Protecting Palanthas|Douglas W.Clark|0|0|0|Dragonlance|Champions, The
+Saving Solace|Douglas W.Clark|0|0|0|Dragonlance|Champions, The
+Chosen of the Gods|Chris Pierson|1|0|0|Dragonlance|Kingpriest Trilogy, The
+Divine Hammer|Chris Pierson|2|1|0|Dragonlance|Kingpriest Trilogy, The
+Sacred Fire|Chris Pierson|3|0|0|Dragonlance|Kingpriest Trilogy, The
+Sellsword, The|Cam Banks|1|0|0|Dragonlance|Anvil of Time, The
+Survivors, The|-|2|0|0|Dragonlance|Anvil of Time, The
+Renegade Wizards|Lucien Soulban|3|0|0|Dragonlance|Anvil of Time, The
+Forest King, The|Paul B.Thompson|4|0|0|Dragonlance|Anvil of Time, The
+Vinas Solamnus|J.Robert King|1|0|0|Dragonlance|Lost Legends
+Fistandantilus Reborn|Douglas Niles|2|0|0|Dragonlance|Lost Legends
+Soulforge, The|Margaret Weis|1|0|0|Dragonlance|Raistlin Chronicles, The
+Brothers in Arms|Margaret Weis, Don Perrin|2|0|0|Dragonlance|Raistlin Chronicles, The
+Doom Brigade, The|Margaret Weis, Don Perrin|1|0|0|Dragonlance|Kangs Regiment
+Draconian Measures|Don Perrin, Margaret Weis|2|0|0|Dragonlance|Kangs Regiment
+Black Talon, The|Richard A.Knaak|1|0|0|Dragonlance|Ogre Titans, The
+Fire Rose, The|Richard A.Knaak|2|0|0|Dragonlance|Ogre Titans, The
+Gargoyle King, The|Richard A.Knaak|3|0|0|Dragonlance|Ogre Titans, The
+Secret of Pax Tharkas, The|Douglas Niles|1|0|0|Dragonlance|Dwarf Home
+Heir of Kayolin, The|Douglas Niles|2|0|0|Dragonlance|Dwarf Home
+Fate of Thorbardin, The|Douglas Niles|3|0|0|Dragonlance|Dwarf Home
+Bertrems Guide to the War of Souls vol.1|Nacy Varian Berberick, Jeff Crook|1|1|0|Dragonlance|Bertrems Guide
+Bertrems Guide to the War of Souls vol.2|Steven Brown, Mary H.Herbert|2|1|0|Dragonlance|Bertrems Guide
+Bertrems Guide to the Age of Mortals|Nancy Varian Berberick|0|0|0|Dragonlance|Bertrems Guide
+Rebellion, The|Jean Rabe|1|0|0|Dragonlance|Stonetellers, The
+Death March|Jean Rabe|2|0|0|Dragonlance|Stonetellers, The
+Goblin Nation|Jean Rabe|3|0|0|Dragonlance|Stonetellers, The
+Players of Gilean, The|Anthology|0|0|0|Dragonlance|Tales from the World of Krynn
+Search for Magic, The|Anthology|0|0|0|Dragonlance|Tales from the War of Souls
+Search for Power, The|Anthology|0|0|0|Dragonlance|Dragons from the War of Souls
+Tales of Uncle Trapspringer|Dixie Lee McKeone|0|0|0|Dragonlance|Adventures in Krynn
+Dragons of Summer Flame|Margaret Weis, Tracy Hickman|0|0|0|Dragonlance|-
+Second Generation, The|Margaret Weis|0|0|0|Dragonlance|Anthology
+Odyssey of Gilthanas|Douglas Niles|0|0|0|Dragonlance|-
+Best of Tales, The, vol.1|Anthology|1|1|0|Dragonlance|-
+Best of Tales, The, vol.2|Anthology|2|0|0|Dragonlance|-
+Dragons of Time|Margaret Weis, Tracy Hickman|0|1|0|Dragonlance|-
+Dragons in the Archives|Anthology|0|0|0|Dragonlance|-
+Shadows of Doom|Ed Greenwood|1|2|1|Forgotten Realms|Shadow of the Avatar, The
+Cloak of Shadows|Ed Greenwood|2|2|1|Forgotten Realms|Shadow of the Avatar, The
+All Shadows Fled|Ed Greenwood|3|2|1|Forgotten Realms|Shadow of the Avatar, The
+Shadowdale|Scott Ciencin|1|2|1|Forgotten Realms|Avatar Series, The
+Tantras|Scott Ciencin|2|2|1|Forgotten Realms|Avatar Series, The
+Waterdeep|Troy Denning|3|2|1|Forgotten Realms|Avatar Series, The
+Prince of Lies|James Lowder|4|2|1|Forgotten Realms|Avatar Series, The
+Crucible: The Trial of Cyric the Mad|Troy Denning|5|1|1|Forgotten Realms|Avatar Series, The
+Crucible: The Trial of Cyric the Mad(2)|Troy Denning|5|2|1|Forgotten Realms|Avatar Series, The
+Darkwalker on Moonshae|Douglas Niles|1|2|1|Forgotten Realms|Moonshae Trilogy, The
+Black Wizards|Douglas Niles|2|2|1|Forgotten Realms|Moonshae Trilogy, The
+Darkwell|Douglas Niles|3|2|1|Forgotten Realms|Moonshae Trilogy, The
+Prophet of Moonshae|Douglas Niles|1|2|1|Forgotten Realms|Druidhome Trilogy, The
+Coral Kingdom|Douglas Niles|2|2|1|Forgotten Realms|Druidhome Trilogy, The
+Druid Queen|Douglas Niles|3|2|1|Forgotten Realms|Druidhome Trilogy, The
+Crystal Shard|R.A.Salvatore|1|2|1|Forgotten Realms|Icewind Dale Trilogy, The
+Streams of Silver|R.A.Salvatore|2|2|1|Forgotten Realms|Icewind Dale Trilogy, The
+Halflings Gem|R.A.Salvatore|3|2|1|Forgotten Realms|Icewind Dale Trilogy, The
+Homeland|R.A.Salvatore|1|2|1|Forgotten Realms|Dark Elf Trilogy, The
+Exile|R.A.Salvatore|2|2|1|Forgotten Realms|Dark Elf Trilogy, The
+Sojourn|R.A.Salvatore|3|2|1|Forgotten Realms|Dark Elf Trilogy, The
+Azure Bonds|Kate Novak|1|2|1|Forgotten Realms|Finders Stone Trilogy, The
+Wyverns Spur, The|Kate Novak|2|2|1|Forgotten Realms|Finders Stone Trilogy, The
+Song of the Saurials|Kate Novak|3|2|1|Forgotten Realms|Finders Stone Trilogy, The
+King Pinch|David Cook|1|0|0|Forgotten Realms|Nobles Series, The
+War in Tethyr|Victor Milan|2|0|0|Forgotten Realms|Nobles Series, The
+Escape from Undermountain|Mark Anthony|3|0|0|Forgotten Realms|Nobles Series, The
+Mage in the Iron Mask, The|Brian Thompsen|4|0|0|Forgotten Realms|Nobles Series, The
+Council of Blade, The|-|5|0|0|Forgotten Realms|Nobles Series, The
+Simbles Gift, The|Lynn Abbey|6|0|0|Forgotten Realms|Nobles Series, The
+Sword Play|Clayton Emery|1|0|0|Forgotten Realms|Netheril Trilogy, The
+Dangerous Games|Clayton Emery|2|0|0|Forgotten Realms|Netheril Trilogy, The
+Mortal Consequences|Clayton Emery|3|0|0|Forgotten Realms|Netheril Trilogy, The
+Legacy, The|R.A.Salvatore|1|0|0|Forgotten Realms|Legacy of the Drow
+Starless Night|R.A.Salvatore|2|0|0|Forgotten Realms|Legacy of the Drow
+Siege of Darkness|R.A.Salvatore|3|0|0|Forgotten Realms|Legacy of the Drow
+Passage to Dawn|R.A.Salvatore|4|0|0|Forgotten Realms|Legacy of the Drow
+Thousand Orcs, The|R.A.Salvatore|1|0|0|Forgotten Realms|Hunters Blades Trilogy, The
+Lone Drow, The|R.A.Salvatore|2|0|0|Forgotten Realms|Hunters Blades Trilogy, The
+Two Swords, The|R.A.Salvatore|3|0|0|Forgotten Realms|Hunters Blades Trilogy, The
+Canticle|R.A.Salvatore|1|0|0|Forgotten Realms|Cleric Quintet, The
+In Sylvan Shadows|R.A.Salvatore|2|0|0|Forgotten Realms|Cleric Quintet, The
+Night Masks|R.A.Salvatore|3|0|0|Forgotten Realms|Cleric Quintet, The
+Fallen Fortress, The|R.A.Salvatore|4|0|0|Forgotten Realms|Cleric Quintet, The
+Chaos Curse, The|R.A.Salvatore|5|0|0|Forgotten Realms|Cleric Quintet, The
+Elminster: the Making of a Mage|Ed Greenwood|0|2|0|Forgotten Realms|Elminster Series, The
+Elminster in Myth Drannor|Ed Greenwood|0|0|0|Forgotten Realms|Elminster Series, The
+Temptation of Elminster, The|Ed Greenwood|0|0|0|Forgotten Realms|Elminster Series, The
+Elminster in Hell|Ed Greenwood|0|0|0|Forgotten Realms|Elminster Series, The
+Elminsters Daughter|Ed Greenwood|0|0|0|Forgotten Realms|Elminster Series, The
+Elfshadow|Elaine Cunningham|1|2|1|Forgotten Realms|Songs & Swords Series, The
+Elfsong|Elaine Cunningham|2|0|0|Forgotten Realms|Songs & Swords Series, The
+Silver Shadows|Elaine Cunningham|3|0|0|Forgotten Realms|Songs & Swords Series, The
+Thornhold|Elaine Cunningham|4|0|0|Forgotten Realms|Songs & Swords Series, The
+Dream Spheres, The|Elaine Cunningham|5|0|0|Forgotten Realms|Songs & Swords Series, The
+Parched Sea, The|Troy Denning|0|2|1|Forgotten Realms|Harpers Series, The
+Red Magic|Jean Rabe|0|2|1|Forgotten Realms|Harpers Series, The
+Night Parade, The|Scott Ciencin|0|0|0|Forgotten Realms|Harpers Series, The
+Ring of Winter, The|James Lowder|0|0|0|Forgotten Realms|Harpers Series, The
+Crypt of the Shadowking|Mark Anthony|0|0|0|Forgotten Realms|Harpers Series, The
+Soldiers of Ice|David Cook|0|0|0|Forgotten Realms|Harpers Series, The
+Masquerades|Kate Novak|0|0|0|Forgotten Realms|Harpers Series, The
+Curse of the Shadowmage|Mark Anthony|0|0|0|Forgotten Realms|Harpers Series, The
+Veiled Dragon, The|Troy Denning|0|0|0|Forgotten Realms|Harpers Series, The
+Lost Library of Cormanthyr, The|Mel Odom|1|0|0|Forgotten Realms|Lost Empires, The
+Faces of Deception|Troy Denning|2|0|0|Forgotten Realms|Lost Empires, The
+Star of Cursrah|Clayton Emery|3|0|0|Forgotten Realms|Lost Empires, The
+Nether Scroll, The|Lynn Abbey|4|0|0|Forgotten Realms|Lost Empires, The
+Spellfire|Ed Greenwood|1|0|0|Forgotten Realms|Shandrils Saga, The
+Crown of Fire|Ed Greenwood|2|0|0|Forgotten Realms|Shandrils Saga, The
+Hand of Fire|Ed Greenwood|3|0|0|Forgotten Realms|Shandrils Saga, The
+Rising Tide|Mel Odom|1|0|0|Forgotten Realms|Threat From the Sea, The
+Under Fallen Stars|Mel Odom|2|0|0|Forgotten Realms|Threat From the Sea, The
+Sea Devils Eye, The|Mel Odom|3|0|0|Forgotten Realms|Threat From the Sea, The
+Realms of the Deep|Anthology|4|0|0|Forgotten Realms|Threat From the Sea, The
+Magehound, The|Elaine Cunningham|1|0|0|Forgotten Realms|Counselors and Kings
+Floodgate, The|Elaine Cunningham|2|0|0|Forgotten Realms|Counselors and Kings
+Wizardwar, The|Elaine Cunningham|3|0|0|Forgotten Realms|Counselors and Kings
+Summoning, The|Troy Denning|1|0|0|Forgotten Realms|Return of the Archwizards
+Siege, The|Troy Denning|2|0|0|Forgotten Realms|Return of the Archwizards
+Sorcerer, The|Troy Denning|3|0|0|Forgotten Realms|Return of the Archwizards
+Realms of Shadow|Anthology|4|0|0|Forgotten Realms|Return of the Archwizards
+Silent Blade, The|R.A.Salvatore|1|0|0|Forgotten Realms|Paths of Darkness
+Spine of the World, The|R.A.Salvatore|2|0|0|Forgotten Realms|Paths of Darkness
+Servant of the Shard|R.A.Salvatore|3|0|0|Forgotten Realms|Paths of Darkness
+Sea of Swords|R.A.Salvatore|4|0|0|Forgotten Realms|Paths of Darkness
+City of Ravens, The|Richard Baker|0|0|0|Forgotten Realms|Cities
+Temple Hill|Drew Karpyshyn|0|0|0|Forgotten Realms|Cities
+Jewel of Turmish, The|Mel Odom|0|0|0|Forgotten Realms|Cities
+City of Splendors: A Waterdeep Novel, The|Ed Greenwood, Elaine Cunningham|0|0|0|Forgotten Realms|Cities
+Pool of Radiance|James M.Ward|0|0|0|Forgotten Realms|Pool of Radiance
+Pools of Darkness|James M.Ward|0|0|0|Forgotten Realms|Pool of Radiance
+Pool of Twilight|James M.Ward|0|0|0|Forgotten Realms|Pool of Radiance
+Pool of Radiance: Ruins of Myth Drannor|Carrie A.Bebris|0|0|0|Forgotten Realms|Pool of Radiance
+Twilight Falling|Paul S.Kemp|1|0|0|Forgotten Realms|Erevis Cale Trilogy, The
+Dawn of Night|Paul S.Kemp|2|0|0|Forgotten Realms|Erevis Cale Trilogy, The
+Midnights Mask|Paul S.Kemp|3|0|0|Forgotten Realms|Erevis Cale Trilogy, The
+Dissolution|Richard Lee Byers|1|0|0|Forgotten Realms|War of the Spider Queen
+Insurrection|Thomas M.Reid|2|0|0|Forgotten Realms|War of the Spider Queen
+Condemnation|Richard Baker|3|0|0|Forgotten Realms|War of the Spider Queen
+Extinction|Lisa Smedman|4|0|0|Forgotten Realms|War of the Spider Queen
+Annihilation|Philip Athans|5|0|0|Forgotten Realms|War of the Spider Queen
+Resurrection|Paul S.Kemp|6|0|0|Forgotten Realms|War of the Spider Queen
+Alabaster Staff, The|Edward Bolme|0|0|0|Forgotten Realms|Rogues, The
+Crimson Gold, The|Voronica Whitney-Robinson|0|0|0|Forgotten Realms|Rogues, The
+Black Bouquet, The|Richard Lee Byers|0|0|0|Forgotten Realms|Rogues, The
+Yellow Silk, The|Don Bassingthwaite|0|0|0|Forgotten Realms|Rogues, The
+Halls of Stormweather, The|Anthology|1|0|0|Forgotten Realms|Sembia Series
+Shadows Witness|Paul S.Kemp|2|0|0|Forgotten Realms|Sembia Series
+Shattered Mask, The|Richard Lee Byers|3|0|0|Forgotten Realms|Sembia Series
+Black Wolf|Dave Gross|4|0|0|Forgotten Realms|Sembia Series
+Heirs of Prophecy|Lisa Smedman|5|0|0|Forgotten Realms|Sembia Series
+Sands of the Soul|Voronica Whitney-Robinson|6|0|0|Forgotten Realms|Sembia Series
+Lord of Stormweather|Dave Gross|7|0|0|Forgotten Realms|Sembia Series
+Cormyr: A Novel|Ed Greenwood, Jeff Grubb|1|0|0|Forgotten Realms|Cormyr Saga, The
+Beyond the High Road|Troy Denning|2|0|0|Forgotten Realms|Cormyr Saga, The
+Death of the Dragon|Ed Greenwood and Troy Denning|3|0|0|Forgotten Realms|Cormyr Saga, The
+Sapphire Crescent, The|Thomas M.Reid|1|0|0|Forgotten Realms|Scions of Arrabar Trilogy, The
+Ruby Guardian, The|Thomas M.Reid|2|0|0|Forgotten Realms|Scions of Arrabar Trilogy, The
+Emerald Sceptre, The|Thomas M.Reid|3|0|0|Forgotten Realms|Scions of Arrabar Trilogy, The
+Forsaken House|Richard Baker|1|0|0|Forgotten Realms|Last Mythal, The
+Farthest Reach|Richard Baker|2|0|0|Forgotten Realms|Last Mythal, The
+Final Gate|Richard Baker|3|0|0|Forgotten Realms|Last Mythal, The
+Realms of the Elves|Anthology|4|0|0|Forgotten Realms|Last Mythal, The
+Lady of Poison|Bruce R.Cordell|0|0|0|Forgotten Realms|Priests, The
+Mistress of the Night|Dave Gross, Don Bassingthwaite|0|0|0|Forgotten Realms|Priests, The
+Maiden of Pain|Kameron M.Franklin|0|0|0|Forgotten Realms|Priests, The
+Queen of the Depths|Richard Lee Byers|0|0|0|Forgotten Realms|Priests, The
+Rage, The|Richard Lee Byers|1|0|0|Forgotten Realms|Year of Rogue Dragons, The
+Rite, The|Richard Lee Byers|2|0|0|Forgotten Realms|Year of Rogue Dragons, The
+Ruin, The|Richard Lee Byers|3|0|0|Forgotten Realms|Year of Rogue Dragons, The
+Realms of the Dragons|Anthology|4|0|0|Forgotten Realms|Year of Rogue Dragons, The
+Realms of the Dragons II|Anthology|5|0|0|Forgotten Realms|Year of Rogue Dragons, The
+Unholy|Richard Lee Byers|3|0|0|Forgotten Realms|Haunted Lands, The
+Undead|Richard Lee Byers|2|0|0|Forgotten Realms|Haunted Lands, The
+Unclean|Richard Lee Byers|1|0|0|Forgotten Realms|Haunted Lands, The
+Realms of the Dead|Anthology|4|0|0|Forgotten Realms|Haunted Lands, The
+Once Around the Realms|Brian Thomsen|0|0|0|Forgotten Realms|Anthology
+Realms of Infamy|Anthology|0|0|0|Forgotten Realms|Anthology
+Realms of Valor|Anthology|0|0|0|Forgotten Realms|Anthology
+Realms of the Underdark|Anthology|0|0|0|Forgotten Realms|Anthology
+Realms of Magic|Anthology|0|0|0|Forgotten Realms|Anthology
+Realms of Mystery|Anthology|0|0|0|Forgotten Realms|Anthology
+Realms of the Arcane|Anthology|0|0|0|Forgotten Realms|Anthology
+Best of the Realms vol.1, The|Anthology|1|1|0|Forgotten Realms|Anthology
+Best of the Realms vol.2, The|Anthology|2|1|0|Forgotten Realms|Anthology
+Best of the Realms vol.3, The|Anthology|3|1|0|Forgotten Realms|Anthology
+Ogres Pact, The|Troy Denning|1|0|0|Forgotten Realms|Twilight Giants, The
+Giant Among Us, The|Troy Denning|2|0|0|Forgotten Realms|Twilight Giants, The
+Titan of Twilight, The|Troy Denning|3|0|0|Forgotten Realms|Twilight Giants, The
+Blackstaff|Steven E.Schend|0|0|0|Forgotten Realms|Wizards, The
+Bloodwalk|James P.Davis|0|0|0|Forgotten Realms|Wizards, The
+Frostfell|Mark Sehestedt|0|0|0|Forgotten Realms|Wizards, The
+Darkvision|Bruce R.Cordell|0|0|0|Forgotten Realms|Wizards, The
+Bladesinger|Keith Francis Strohm|0|0|0|Forgotten Realms|Fighters, The
+Ghostwalker|Erik Scott de Bie|0|0|0|Forgotten Realms|Fighters, The
+Master of Chains|Jess Lebow|0|0|0|Forgotten Realms|Fighters, The
+Son of Thunder|Murray J.D.Leeder|0|0|0|Forgotten Realms|Fighters, The
+Whisper of Waves|Philip Athans|1|0|0|Forgotten Realms|Watercourse Trilogy, The
+Lies of Light|Philip Athans|2|0|0|Forgotten Realms|Watercourse Trilogy, The
+Scream of Stone|Philip Athans|3|0|0|Forgotten Realms|Watercourse Trilogy, The
+Servant of the Shard(2)|R.A.Salvatore|1|0|0|Forgotten Realms|Sellswords, The
+Promise of the Witch-King|R.A.Salvatore|2|0|0|Forgotten Realms|Sellswords, The
+Road to the Patriarch|R.A.Salvatore|3|0|0|Forgotten Realms|Sellswords, The
+Swords of Eveningstar|Ed Greenwood|1|0|0|Forgotten Realms|Knights of Myth Drannor, The
+Swords of Dragonfire|Ed Greenwood|2|0|0|Forgotten Realms|Knights of Myth Drannor, The
+Sword Never Sleeps, The|Ed Greenwood|3|0|0|Forgotten Realms|Knights of Myth Drannor, The
+Depths of Madness|Erik Scott de Bie|0|0|0|Forgotten Realms|Dungeons, The
+Crypt of the Moaning Diamond|Rosemary Jones|0|0|0|Forgotten Realms|Dungeons, The
+Howling Delve, The|Jeleigh Johnson|0|0|0|Forgotten Realms|Dungeons, The
+Stardeep|Bruce R.Cordell|0|0|0|Forgotten Realms|Dungeons, The
+Shadowbred|Paul S.Kemp|1|0|0|Forgotten Realms|Twilight War, The
+Shadowstorm|Paul S.Kemp|2|0|0|Forgotten Realms|Twilight War, The
+Shadowrealm|Paul S.Kemp|3|0|0|Forgotten Realms|Twilight War, The
+Realms of War|Anthology|4|0|0|Forgotten Realms|Twilight War, The
+Sacrifice of the Widow|Lisa Smedman|1|0|0|Forgotten Realms|Lady Penitent, The
+Storm of the Dead|Lisa Smedman|2|0|0|Forgotten Realms|Lady Penitent, The
+Ascendancy of the Last|Lisa Smedman|3|0|0|Forgotten Realms|Lady Penitent, The
+Fractured Sky, The|Thomas M. Reid|2|0|0|Forgotten Realms|Empyrean Odyssey, The
+Gossamer Plain, The|Thomas M.Reid|1|0|0|Forgotten Realms|Empyrean Odyssey, The
+Crystal Mountain, The|Thomas M.Reid|3|0|0|Forgotten Realms|Empyrean Odyssey, The
+Stowaway, The|R.A.Salvatore|1|0|0|Forgotten Realms|Stone of Tymora
+Shadowmask, The|R.A.Salvatore|2|0|0|Forgotten Realms|Stone of Tymora
+Sentinels, The|-|3|0|0|Forgotten Realms|Stone of Tymora
+Finder's Bane|Jeff Grubb, Kate Novak|1|2|1|Forgotten Realms|Lost Legends, The
+Tymoras Luck|Jeff Grubb, Kate Novak|2|0|0|Forgotten Realms|Lost Legends, The
+Daughter of the Drow|Elaine Cunningham|1|0|0|Forgotten Realms|Starlight and Shadows, The
+Tangled Webs|Elaine Cunningham|2|0|0|Forgotten Realms|Starlight and Shadows, The
+Windwalker|Elaine Cunningham|3|0|0|Forgotten Realms|Starlight and Shadows, The
+Baldurs Gate|Philip Athans|1|0|0|Forgotten Realms|Baldurs Gate Series
+Baldurs Gate II: Shadows of Amn|Philip Athans|2|0|0|Forgotten Realms|Baldurs Gate Series
+Baldurs Gate II: Thron of Bhaal|Drew Karpyshyn|3|1|0|Forgotten Realms|Baldurs Gate Series
+Stormlight|Ed Greenwood|0|0|0|Forgotten Realms|Seven Sisters
+Silverfall: Stories of the Seven Sisters|Ed Greenwood|0|0|0|Forgotten Realms|Seven Sisters
+Venoms Taste|Lisa Smedman|1|0|0|Forgotten Realms|House of Serpents
+Vipers Kiss|Lisa Smedman|2|0|0|Forgotten Realms|House of Serpents
+Vanitys Blood|Lisa Smedman|3|0|0|Forgotten Realms|House of Serpents
+Neversfall|Ed Gentry|0|0|0|Forgotten Realms|Citadels, The
+Obsidian Ridge|Jess Lebow|0|0|0|Forgotten Realms|Citadels, The
+Shield of Weeping Ghosts, The|James P.Davis|0|0|0|Forgotten Realms|Citadels, The
+Sentinelspire|Mark Sehestedt|0|0|0|Forgotten Realms|Citadels, The
+Orc King, The|R.A.Salvatore|1|0|0|Forgotten Realms|Transitions, The
+Prirate King, The|R.A.Salvatore|2|0|0|Forgotten Realms|Transitions, The
+Ghost King, The|R.A.Salvatore|3|0|0|Forgotten Realms|Transitions, The
+Blackstaff Tower|Steven E.Schend|0|0|0|Forgotten Realms|Waterdeep
+Mistshore|Jeleigh Johnson|0|0|0|Forgotten Realms|Waterdeep
+Downshadow|Erik Scott de Bie|0|0|0|Forgotten Realms|Waterdeep
+City of the Dead|Rosemary Jones|0|0|0|Forgotten Realms|Waterdeep
+God Catcher, The|Erin M.Evans|0|0|0|Forgotten Realms|Waterdeep
+Circle of Skulls|Ed Greenwood|0|0|0|Forgotten Realms|Waterdeep
+Swordmage|Richard Baker|1|0|0|Forgotten Realms|Blades of the Moonsea
+Corsair|Richard Baker|2|0|0|Forgotten Realms|Blades of the Moonsea
+Avenger|Richard Baker|3|0|0|Forgotten Realms|Blades of the Moonsea
+Fanged Crown, The|Jenna Helland|0|0|0|Forgotten Realms|Wilds, The
+Restless Shore, The|James P.Davis|0|0|0|Forgotten Realms|Wilds, The
+Edge of Chaos, The|Jak Koke|0|0|0|Forgotten Realms|Wilds, The
+Wrath of the Blue Lady|Mel Odom|0|0|0|Forgotten Realms|Wilds, The
+Plague of Spells|Bruce Cordell|1|0|0|Forgotten Realms|Abolethic Sovereignty
+City of Torment|Bruce Cordell|2|0|0|Forgotten Realms|Abolethic Sovereignty
+Key of Stars|-|3|0|0|Forgotten Realms|Abolethic Sovereignty
+Hand of the Hunter, The|Mark Sehestedt|2|0|0|Forgotten Realms|Chosen of Nendawen
+Cry of the Ghost Wolves, The|-|3|1|1|Forgotten Realms|Chosen of Nendawen
+Fall of Highwatch, The|Mark Sehestedt|1|0|0|Forgotten Realms|Chosen of Nendawen
+Godborn|-|1|0|0|Forgotten Realms|Cycle of Night
+Godbound|-|2|0|0|Forgotten Realms|Cycle of Night
+Godslayer|-|3|0|0|Forgotten Realms|Cycle of Night
+Captive Flame, The|Richard Lee Byers|1|0|0|Forgotten Realms|Brotherhood of the Griffon
+Whisper of Venom|Richard Lee Byers|2|0|0|Forgotten Realms|Brotherhood of the Griffon
+Spectral Blaze, The|Richard Lee Byers|3|0|0|Forgotten Realms|Brotherhood of the Griffon
+Masked Witches, The|Richard Lee Byers|4|1|0|Forgotten Realms|Brotherhood of the Griffon
+Gauntlgrym|R.A. Salvatore|1|1|0|Forgotten Realms|Neverwinter
+Neverwinter|R.A.Salvatore|2|1|0|Forgotten Realms|Neverwinter
+Bury Elminster Deep|Ed Greenwood|0|1|0|Forgotten Realms|Sage of Shadowdale, The
+Elminster Must Die|Ed Greenwood|0|1|0|Forgotten Realms|Sage of Shadowdale, The
+Shadowbane|Erik Scott de Bie|1|1|0|Forgotten Realms|Abyssal Plague, The
+Sword of the Gods|Bruce Cordell|2|1|0|Forgotten Realms|Abyssal Plague, The
+Glass Prison, The|Monte Cook|0|0|0|Forgotten Realms|-
+Evermeet: Island of Elves|Elaine Cunningham|0|0|0|Forgotten Realms|-
+Shadow Stone, The|Richard Baker|0|0|0|Forgotten Realms|Adventures, The
+Murder in Cormyr|Chet Williamson|0|0|0|Forgotten Realms|-
+Unbroken Chain|Jaleigh Johnson|1|0|0|Forgotten Realms|Darker Road, The
+Sandstorm|Christopher Rowe|0|1|0|Forgotten Realms|-
+Dawnbringer|Samantha Henderson|0|1|0|Forgotten Realms|-
+Shard Axe, The|Marsheila Rockwell|0|0|0|Forgotten Realms|-
+Brimstone Angels|Erin M. Evans|0|1|0|Forgotten Realms|-
+Venom in Her Veins|Tim Pratt|0|0|0|Forgotten Realms|-
+Brimstone Angels: Lesser Evils|Erin M. Evans|0|1|0|Forgotten Realms|-
+Elminster Enraged|-|0|1|0|Forgotten Realms|-
+Prophet of the Dead|-|0|1|0|Forgotten Realms|-
+Charons Claw|-|0|1|0|Forgotten Realms|-

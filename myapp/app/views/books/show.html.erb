@@ -1,0 +1,57 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => 'Book Information'} %>
+
+<div class="operation">
+  <%= render :partial => 'commands', :locals => {:val => 'show'} %>
+</div>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b>Volume:</b>
+  <%= @book.volume %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @book.status.name %>
+</p>
+
+<p>
+  <b>Realm:</b>
+  <%= @book.series.realm.name %>
+</p>
+
+<p>
+  <b>Series:</b>
+  <%= @book.series.name %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @book.author.name %>
+</p>
+
+<p>
+  <b>Publisher:</b>
+  <%= @book.publisher.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @book.description %>
+</p>
+
+
+<% content_for :sidebar do %>
+<p>
+This is side bar area.
+</p>
+<% end %>
+
+

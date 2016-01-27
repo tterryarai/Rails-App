@@ -1,0 +1,415 @@
+1|Dragons of Autumn Twilight|Margaret Weis, Tracy Hickman|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:19:58.894000|Dragonlance|Chronicles
+2|Dragons of Winter Night|Margaret Weis, Tracy Hickman|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:20:07.023000|Dragonlance|Chronicles
+3|Dragons of Spring Dawning|Margaret Weis, Tracy Hickman|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:20:15.308000|Dragonlance|Chronicles
+4|Time of the Twins|Margaret Weis, Tracy Hickman|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:27:02.412000|Dragonlance|Legends
+5|War of the Twins|Margaret Weis, Tracy Hickman|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:27:10.760000|Dragonlance|Legends
+6|Test of the Twins|Margaret Weis, Tracy Hickman|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:27:19.060000|Dragonlance|Legends
+7|Dragons of the Dwarven Depths|Margaret Weis & Tracy Hickman|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Chronicles, The
+8|Dragons of the Highlord Skies|Margaret Weis & Tracy Hickman|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Chronicles, The
+9|Dragons of the Hourglass Mage|Margaret Weis, Tracy Hickman|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Chronicles, The
+10|Magic of Krynn, The|Anthology|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:31:28.893000|Dragonlance|Tales
+11|Kender, Gully Dwarves, and Gnomes|Anthology|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:31:37.921000|Dragonlance|Tales
+12|Love and War|Anthology|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:31:45.870000|Dragonlance|Tales
+13|Reign of Istar, The|Anthology|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:31:53.973000|Dragonlance|Tales II
+14|Cataclysm, The|Anthology|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:16:24.426000|Dragonlance|Tales II
+15|War of the Lance, The|Anthology|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:32:03.276000|Dragonlance|Tales II
+16|Darkness & Light|Paul B.Thompson, Tonya R.Carter|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:29:27.142000|Dragonlance|Preludes
+17|Kendermore|Mary Kirchoff|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:29:18.220000|Dragonlance|Preludes
+18|Brothers Majere|Kevin Stein|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:16:13.431000|Dragonlance|Preludes
+19|Riverwind the Plainsman|Paul B. Thompson & Tonya R. Carter|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:29:36.930000|Dragonlance|Preludes II
+20|Flint the King|Mary Kirchoff & Douglas Niles|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:29:52.699000|Dragonlance|Preludes II
+21|Tanis the Shadow Years|Barbara Siegel, Scott Siegel|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:29:44.908000|Dragonlance|Preludes II
+22|Legend of Huma, The|Richard A. Knaak|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:24:41.285000|Dragonlance|Heroes
+23|Stormblade|Nancy Varian Berberick|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:24:50.704000|Dragonlance|Heroes
+24|Weasels Luck|Michael Williams|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:24:59.082000|Dragonlance|Heroes
+25|Kaz the Minotaur|Richard A.Knaak|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:25:07.380000|Dragonlance|Heroes II
+26|Gates of Thorbardin, The|Dan Parkinson|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:25:22.429000|Dragonlance|Heroes II
+27|Galen Beknighted|Michael Williams|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:25:32.460000|Dragonlance|Heroes II
+28|Kindred Spirits|Mark Anthony, Ellen Porath|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Meetings Sextet, The
+29|Wanderlust|Mary Kirchoff, Steve Winter|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Meetings Sextet, The
+30|Dark Heart|Tina Daniell|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Meetings Sextet, The
+31|Oath and the Measure, The|Michael Williams|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Meetings Sextet, The
+32|Steel and Stone|Ellen Porath|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Meetings Sextet, The
+33|Companions, The|Tina Daniell|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Meetings Sextet, The
+34|Firstborn|Paul B.Thompson, Tonya C.Cook|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Elven Nations Trilogy, The
+35|Kinslayer War, The|Douglas Niles|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Elven Nations Trilogy, The
+36|Qualinesti, The|Paul B.Thompson, Tonya C.Cook|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Elven Nations Trilogy, The
+37|Covenant of the Forge, The|Dan Parkinson|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dwarven Nations Trilogy, The
+38|Hammer and Axe|Dan Parkinson|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dwarven Nations Trilogy, The
+39|Swordsheath Scroll, The|Dan Parkinson|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dwarven Nations Trilogy, The
+40|Night of the Eye|Mary Kirchoff|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Defenders of Magic
+41|Medusa Plague, The|Mary Kirchoff|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Defenders of Magic
+42|Seventh Sentinel, The|Mary Kirchoff|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Defenders of Magic
+43|Dragons of a Fallen Sun|Margaret Weis, Tracy Hickman|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|War of Souls, The
+44|Dragons of a Lost Star|Margaret Weis, Tracy Hickman|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|War of Souls, The
+45|Dragons of a Vanished Moon|Margaret Weis, Tracy Hickman|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|War of Souls, The
+46|Messenger, The|Douglas Niles|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Icewall Trilogy, The
+47|Golden Orb, The|Douglas Niles|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Icewall Trilogy, The
+48|Winterheim|Douglas Niles|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Icewall Trilogy, The
+49|Before the Mask|Michael Williams|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Villains Series
+50|Black Wing, The|Mary Kirchoff|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Villains Series
+51|Emperor of Ansalon|Douglas Niles|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Villains Series
+52|Hederick the Theocrat|Ellen Dodge Severson|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Villains Series
+53|Lord Toede|Jeff Grubb|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Villains Series
+54|Dark Queen, The|Michael Williams|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Villains Series
+55|Kagonesti, The|Douglas Niles|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Histories
+56|Irda, The|Linda P.Baker|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Histories
+57|Dargonesti, The|Paul B.Thompson, Tonya Cook|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Histories
+58|Land of the Minotaurs|Richard A.Knaak|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Histories
+59|Gully Dwarves, The|Dan Parkinson|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Histories
+60|Dragons, The|Douglas Niles|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Histories
+61|Knights of the Crown|Roland J.Green|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+62|Maquesta Kar-Thon|Tina Daniell, Jean Rabe|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+63|Knights of the Sword|Roland, J.Green|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+64|Theros Ironfeld|Don Perrin|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+65|Knights of the Rose|Roland J.Green|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+66|Lord Soth|Edo Van Belkom|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+67|Wayward Knights, The|Roland J.Green|7|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Warriors, The
+68|Dawning of a New Age, The|Jean Rabe|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragons of a New Age
+69|Day of the Tempest, The|Jean Rabe|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragons of a New Age
+70|Eve of the Maelstrom, The|Jean Rabe|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragons of a New Age
+71|Downfall|Jean Rabe|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dhamon Saga, The
+72|Betrayal|Jean Rabe|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dhamon Saga, The
+73|Redemption|Jean Rabe|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dhamon Saga, The
+74|Relics and Omens|Margaret Weis, Tracy Hickman|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Tales of the Fifth Age
+75|Heroes and Fools|Margared Weis, Tracy Hickman|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Tales of the Fifth Age
+76|Rebels and Tyrants|Margaret Weis, Tracy Hickman|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Tales of the Fifth Age
+77|Children of the Plains|Paul B.Thompson, Tonya C.Cook|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Barbarians
+78|Brother of the Dragon|Paul B.Thompson, Tonya C.Cook|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Barbarians
+79|Sister of the Sword|Paul B.Thompson, Tonya C.Cook|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Barbarians
+80|Dalamar the Dark|Nancy Varian Berberick|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Classics Series
+81|Citadel, The|Richard A.Knaak|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Classics Series
+82|Murder in Tarsis|John Maddox Roberts|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Classics Series
+83|Inheritance, The|Nancy Varian Berberick|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Classics Series
+84|Last Thane, The|Douglas Niles|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Chaos War Series, The
+85|Tears of the Night Sky|Linda P.Baker, Nancy Varian Berberick|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Chaos War Series, The
+86|Puppet King, The|Douglas Niles|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Chaos War Series, The
+87|Reavers of the Blood Sea|Richard A.Knaak|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Chaos War Series, The
+88|Siege of Mt. Nevermind, The|Fergus Ryan|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Chaos War Series, The
+89|Thieves Guild, The|Jeff Crook|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Crossroads
+90|Dragon Isles, The|Stephen D.Sullivan|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Crossroads
+91|Middle of Nowhere, The|Paul B.Thompson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Crossroads
+92|Dragons Bluff|Mary H.Herbert|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Crossroads
+93|Clandestine Circle, The|Mary H.Herbert|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Crossroads
+94|Rose and the Skull, The|Jeff Crook|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Bridges of Time Series
+95|Dezras Quest|Chris Pierson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Bridges of Time Series
+96|Legacy of Steel|Mary H.Herbert|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Bridges of Time Series
+97|Spirit of the Wind|Chris Pierson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Bridges of Time Series
+98|Silver Stair, The|Jean Rabe|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Bridges of Time Series
+99|Lioness, The|Nancy Varian Berberick|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Age of Mortals, The
+100|Dark Thane|Jeff Crook|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Age of Mortals, The
+101|Prisoner of Haven|Nancy Varian Berberick|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Age of Mortals, The
+102|Lake of Death, The|Jean Rabe|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Age of Mortals, The
+103|Wizards Conclave|Douglas Niles|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Age of Mortals, The
+104|Conundrum|Jeff Crook|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:54:40.848000|Dragonlance|Age of Mortals, The
+105|Warriors Journey, A|Paul B.Thompson|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Ergoth Trilogy, The
+106|Wizards Fate, The|Paul B.Thompson, Tonya C.Crook|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Ergoth Trilogy, The
+107|Heros Justice, A|Paul B.Thompson, Tonya C.Cook|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Ergoth Trilogy, The
+108|City of the Lost|Mary H.Herbert|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Linsha Trilogy, The
+109|Flight of the Fallen|Mary H.Herbert|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Linsha Trilogy, The
+110|Return of the Exile|Mary H.Herbert|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Linsha Trilogy, The
+111|Night of Blood|Richard A.Knaak|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Minotaur Wars, The
+112|Tides of Blood|Richard A.Knaak|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Minotaur Wars, The
+113|Empire of Blood|Richard A.Knaak|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Minotaur Wars, The
+114|Dragons of Krynn, The|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragonlance Dragons
+115|Dragons at War, The|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragonlance Dragons
+116|Dragons of Chaos, The|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragonlance Dragons
+117|Amber and Ashes|Margaret Weis|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dark Disciple, The
+118|Amber and Iron|Margaret Weis|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dark Disciple, The
+119|Amber and Blood|Margaret Weis|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dark Disciple, The
+120|Lord of the Rose|Douglas Niles|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Rise of Solamnia, The
+121|Crown and the Sword, The|Douglas Niles|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Rise of Solamnia, The
+122|Measure and the Truth, The|Douglas Niles|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Rise of Solamnia, The
+123|Sanctuary|Paul B.Thompson, Tonya C.Cook|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Elven Exiles
+124|Alliances|Tonya C.Cook, Paul B.Thompson|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Elven Exiles
+125|Destiny|Tonya C.Cook, Paul B.Thompson|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Elven Exiles
+126|Alien Sea, The|Lucien Soulban|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Champions, The
+127|Great White Wyrm, The|Peter Archer|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Champions, The
+128|Protecting Palanthas|Douglas W.Clark|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Champions, The
+129|Saving Solace|Douglas W.Clark|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Champions, The
+130|Chosen of the Gods|Chris Pierson|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Kingpriest Trilogy, The
+131|Divine Hammer|Chris Pierson|2|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:55:17.733000|Dragonlance|Kingpriest Trilogy, The
+132|Sacred Fire|Chris Pierson|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Kingpriest Trilogy, The
+133|Sellsword, The|Cam Banks|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Anvil of Time, The
+134|Survivors, The|-|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Anvil of Time, The
+135|Renegade Wizards|Lucien Soulban|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Anvil of Time, The
+136|Forest King, The|Paul B.Thompson|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Anvil of Time, The
+137|Vinas Solamnus|J.Robert King|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Legends
+138|Fistandantilus Reborn|Douglas Niles|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Lost Legends
+139|Soulforge, The|Margaret Weis|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Raistlin Chronicles, The
+140|Brothers in Arms|Margaret Weis, Don Perrin|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Raistlin Chronicles, The
+141|Doom Brigade, The|Margaret Weis, Don Perrin|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Kangs Regiment
+142|Draconian Measures|Don Perrin, Margaret Weis|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Kangs Regiment
+143|Black Talon, The|Richard A.Knaak|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Ogre Titans, The
+144|Fire Rose, The|Richard A.Knaak|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Ogre Titans, The
+145|Gargoyle King, The|Richard A.Knaak|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Ogre Titans, The
+146|Secret of Pax Tharkas, The|Douglas Niles|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dwarf Home
+147|Heir of Kayolin, The|Douglas Niles|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dwarf Home
+148|Fate of Thorbardin, The|Douglas Niles|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dwarf Home
+149|Bertrems Guide to the War of Souls vol.1|Nacy Varian Berberick, Jeff Crook|1|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:53:23.229000|Dragonlance|Bertrems Guide
+150|Bertrems Guide to the War of Souls vol.2|Steven Brown, Mary H.Herbert|2|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:53:30.451000|Dragonlance|Bertrems Guide
+151|Bertrems Guide to the Age of Mortals|Nancy Varian Berberick|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Bertrems Guide
+152|Rebellion, The|Jean Rabe|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Stonetellers, The
+153|Death March|Jean Rabe|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Stonetellers, The
+154|Goblin Nation|Jean Rabe|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Stonetellers, The
+155|Players of Gilean, The|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Tales from the World of Krynn
+156|Search for Magic, The|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Tales from the War of Souls
+157|Search for Power, The|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Dragons from the War of Souls
+158|Tales of Uncle Trapspringer|Dixie Lee McKeone|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Adventures in Krynn
+159|Dragons of Summer Flame|Margaret Weis, Tracy Hickman|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|-
+160|Second Generation, The|Margaret Weis|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|Anthology
+161|Odyssey of Gilthanas|Douglas Niles|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|-
+162|Best of Tales, The, vol.1|Anthology|1|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:54:02.028000|Dragonlance|-
+163|Best of Tales, The, vol.2|Anthology|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|-
+164|Dragons of Time|Margaret Weis, Tracy Hickman|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:55:42.488000|Dragonlance|-
+165|Dragons in the Archives|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Dragonlance|-
+166|Shadows of Doom|Ed Greenwood|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:12:10.257000|Forgotten Realms|Shadow of the Avatar, The
+167|Cloak of Shadows|Ed Greenwood|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:31:20.146000|Forgotten Realms|Shadow of the Avatar, The
+168|All Shadows Fled|Ed Greenwood|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:12:53.287000|Forgotten Realms|Shadow of the Avatar, The
+169|Shadowdale|Scott Ciencin|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:18:06.437000|Forgotten Realms|Avatar Series, The
+170|Tantras|Scott Ciencin|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:18:14.315000|Forgotten Realms|Avatar Series, The
+171|Waterdeep|Troy Denning|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:18:22.828000|Forgotten Realms|Avatar Series, The
+172|Prince of Lies|James Lowder|4|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:18:32.681000|Forgotten Realms|Avatar Series, The
+173|Crucible: The Trial of Cyric the Mad|Troy Denning|5|1|1|2012-11-17 12:00:00.000000|2012-11-17 03:42:18.952000|Forgotten Realms|Avatar Series, The
+174|Crucible: The Trial of Cyric the Mad(2)|Troy Denning|5|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:18:51.266000|Forgotten Realms|Avatar Series, The
+175|Darkwalker on Moonshae|Douglas Niles|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:28:06.083000|Forgotten Realms|Moonshae Trilogy, The
+176|Black Wizards|Douglas Niles|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:16:02.833000|Forgotten Realms|Moonshae Trilogy, The
+177|Darkwell|Douglas Niles|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:28:14.677000|Forgotten Realms|Moonshae Trilogy, The
+178|Prophet of Moonshae|Douglas Niles|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:22:14.133000|Forgotten Realms|Druidhome Trilogy, The
+179|Coral Kingdom|Douglas Niles|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:22:23.978000|Forgotten Realms|Druidhome Trilogy, The
+180|Druid Queen|Douglas Niles|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:22:03.120000|Forgotten Realms|Druidhome Trilogy, The
+181|Crystal Shard|R.A.Salvatore|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:26:17.195000|Forgotten Realms|Icewind Dale Trilogy, The
+182|Streams of Silver|R.A.Salvatore|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:26:26.136000|Forgotten Realms|Icewind Dale Trilogy, The
+183|Halflings Gem|R.A.Salvatore|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:26:34.796000|Forgotten Realms|Icewind Dale Trilogy, The
+184|Homeland|R.A.Salvatore|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:20:55.559000|Forgotten Realms|Dark Elf Trilogy, The
+185|Exile|R.A.Salvatore|2|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:21:05.657000|Forgotten Realms|Dark Elf Trilogy, The
+186|Sojourn|R.A.Salvatore|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:21:13.091000|Forgotten Realms|Dark Elf Trilogy, The
+187|Azure Bonds|Kate Novak|1|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:13:49.647000|Forgotten Realms|Finders Stone Trilogy, The
+188|Wyverns Spur, The|Kate Novak|2|2|1|2012-11-17 12:00:00.000000|2013-08-14 03:29:12.555000|Forgotten Realms|Finders Stone Trilogy, The
+189|Song of the Saurials|Kate Novak|3|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:23:30.237000|Forgotten Realms|Finders Stone Trilogy, The
+190|King Pinch|David Cook|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Nobles Series, The
+191|War in Tethyr|Victor Milan|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Nobles Series, The
+192|Escape from Undermountain|Mark Anthony|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Nobles Series, The
+193|Mage in the Iron Mask, The|Brian Thompsen|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Nobles Series, The
+194|Council of Blade, The|-|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Nobles Series, The
+195|Simbles Gift, The|Lynn Abbey|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Nobles Series, The
+196|Sword Play|Clayton Emery|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Netheril Trilogy, The
+197|Dangerous Games|Clayton Emery|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Netheril Trilogy, The
+198|Mortal Consequences|Clayton Emery|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Netheril Trilogy, The
+199|Legacy, The|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Legacy of the Drow
+200|Starless Night|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Legacy of the Drow
+201|Siege of Darkness|R.A.Salvatore|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Legacy of the Drow
+202|Passage to Dawn|R.A.Salvatore|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Legacy of the Drow
+203|Thousand Orcs, The|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Hunters Blades Trilogy, The
+204|Lone Drow, The|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Hunters Blades Trilogy, The
+205|Two Swords, The|R.A.Salvatore|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Hunters Blades Trilogy, The
+206|Canticle|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cleric Quintet, The
+207|In Sylvan Shadows|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cleric Quintet, The
+208|Night Masks|R.A.Salvatore|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cleric Quintet, The
+209|Fallen Fortress, The|R.A.Salvatore|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cleric Quintet, The
+210|Chaos Curse, The|R.A.Salvatore|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cleric Quintet, The
+211|Elminster: the Making of a Mage|Ed Greenwood|0|2|0|2012-11-17 12:00:00.000000|2013-08-14 03:31:17.864000|Forgotten Realms|Elminster Series, The
+212|Elminster in Myth Drannor|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Elminster Series, The
+213|Temptation of Elminster, The|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Elminster Series, The
+214|Elminster in Hell|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Elminster Series, The
+215|Elminsters Daughter|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Elminster Series, The
+216|Elfshadow|Elaine Cunningham|1|2|1|2012-11-17 12:00:00.000000|2013-01-11 12:14:46.845000|Forgotten Realms|Songs & Swords Series, The
+217|Elfsong|Elaine Cunningham|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Songs & Swords Series, The
+218|Silver Shadows|Elaine Cunningham|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Songs & Swords Series, The
+219|Thornhold|Elaine Cunningham|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Songs & Swords Series, The
+220|Dream Spheres, The|Elaine Cunningham|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Songs & Swords Series, The
+221|Parched Sea, The|Troy Denning|0|2|1|2012-11-17 12:00:00.000000|2012-11-17 03:23:52.388000|Forgotten Realms|Harpers Series, The
+222|Red Magic|Jean Rabe|0|2|1|2012-11-17 12:00:00.000000|2013-08-14 03:28:30.789000|Forgotten Realms|Harpers Series, The
+223|Night Parade, The|Scott Ciencin|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+224|Ring of Winter, The|James Lowder|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+225|Crypt of the Shadowking|Mark Anthony|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+226|Soldiers of Ice|David Cook|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+227|Masquerades|Kate Novak|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+228|Curse of the Shadowmage|Mark Anthony|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+229|Veiled Dragon, The|Troy Denning|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Harpers Series, The
+230|Lost Library of Cormanthyr, The|Mel Odom|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lost Empires, The
+231|Faces of Deception|Troy Denning|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lost Empires, The
+232|Star of Cursrah|Clayton Emery|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lost Empires, The
+233|Nether Scroll, The|Lynn Abbey|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lost Empires, The
+234|Spellfire|Ed Greenwood|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Shandrils Saga, The
+235|Crown of Fire|Ed Greenwood|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Shandrils Saga, The
+236|Hand of Fire|Ed Greenwood|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Shandrils Saga, The
+237|Rising Tide|Mel Odom|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Threat From the Sea, The
+238|Under Fallen Stars|Mel Odom|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Threat From the Sea, The
+239|Sea Devils Eye, The|Mel Odom|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Threat From the Sea, The
+240|Realms of the Deep|Anthology|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Threat From the Sea, The
+241|Magehound, The|Elaine Cunningham|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Counselors and Kings
+242|Floodgate, The|Elaine Cunningham|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Counselors and Kings
+243|Wizardwar, The|Elaine Cunningham|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Counselors and Kings
+244|Summoning, The|Troy Denning|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Return of the Archwizards
+245|Siege, The|Troy Denning|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Return of the Archwizards
+246|Sorcerer, The|Troy Denning|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Return of the Archwizards
+247|Realms of Shadow|Anthology|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Return of the Archwizards
+248|Silent Blade, The|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Paths of Darkness
+249|Spine of the World, The|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Paths of Darkness
+250|Servant of the Shard|R.A.Salvatore|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Paths of Darkness
+251|Sea of Swords|R.A.Salvatore|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Paths of Darkness
+252|City of Ravens, The|Richard Baker|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cities
+253|Temple Hill|Drew Karpyshyn|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cities
+254|Jewel of Turmish, The|Mel Odom|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cities
+255|City of Splendors: A Waterdeep Novel, The|Ed Greenwood, Elaine Cunningham|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cities
+256|Pool of Radiance|James M.Ward|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Pool of Radiance
+257|Pools of Darkness|James M.Ward|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Pool of Radiance
+258|Pool of Twilight|James M.Ward|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Pool of Radiance
+259|Pool of Radiance: Ruins of Myth Drannor|Carrie A.Bebris|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Pool of Radiance
+260|Twilight Falling|Paul S.Kemp|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Erevis Cale Trilogy, The
+261|Dawn of Night|Paul S.Kemp|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Erevis Cale Trilogy, The
+262|Midnights Mask|Paul S.Kemp|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Erevis Cale Trilogy, The
+263|Dissolution|Richard Lee Byers|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|War of the Spider Queen
+264|Insurrection|Thomas M.Reid|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|War of the Spider Queen
+265|Condemnation|Richard Baker|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|War of the Spider Queen
+266|Extinction|Lisa Smedman|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|War of the Spider Queen
+267|Annihilation|Philip Athans|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|War of the Spider Queen
+268|Resurrection|Paul S.Kemp|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|War of the Spider Queen
+269|Alabaster Staff, The|Edward Bolme|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Rogues, The
+270|Crimson Gold, The|Voronica Whitney-Robinson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Rogues, The
+271|Black Bouquet, The|Richard Lee Byers|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Rogues, The
+272|Yellow Silk, The|Don Bassingthwaite|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Rogues, The
+273|Halls of Stormweather, The|Anthology|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+274|Shadows Witness|Paul S.Kemp|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+275|Shattered Mask, The|Richard Lee Byers|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+276|Black Wolf|Dave Gross|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+277|Heirs of Prophecy|Lisa Smedman|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+278|Sands of the Soul|Voronica Whitney-Robinson|6|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+279|Lord of Stormweather|Dave Gross|7|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sembia Series
+280|Cormyr: A Novel|Ed Greenwood, Jeff Grubb|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cormyr Saga, The
+281|Beyond the High Road|Troy Denning|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cormyr Saga, The
+282|Death of the Dragon|Ed Greenwood and Troy Denning|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cormyr Saga, The
+283|Sapphire Crescent, The|Thomas M.Reid|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Scions of Arrabar Trilogy, The
+284|Ruby Guardian, The|Thomas M.Reid|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Scions of Arrabar Trilogy, The
+285|Emerald Sceptre, The|Thomas M.Reid|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Scions of Arrabar Trilogy, The
+286|Forsaken House|Richard Baker|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Last Mythal, The
+287|Farthest Reach|Richard Baker|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Last Mythal, The
+288|Final Gate|Richard Baker|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Last Mythal, The
+289|Realms of the Elves|Anthology|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Last Mythal, The
+290|Lady of Poison|Bruce R.Cordell|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Priests, The
+291|Mistress of the Night|Dave Gross, Don Bassingthwaite|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Priests, The
+292|Maiden of Pain|Kameron M.Franklin|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Priests, The
+293|Queen of the Depths|Richard Lee Byers|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Priests, The
+294|Rage, The|Richard Lee Byers|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Year of Rogue Dragons, The
+295|Rite, The|Richard Lee Byers|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Year of Rogue Dragons, The
+296|Ruin, The|Richard Lee Byers|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Year of Rogue Dragons, The
+297|Realms of the Dragons|Anthology|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Year of Rogue Dragons, The
+298|Realms of the Dragons II|Anthology|5|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Year of Rogue Dragons, The
+299|Unholy|Richard Lee Byers|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Haunted Lands, The
+300|Undead|Richard Lee Byers|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Haunted Lands, The
+301|Unclean|Richard Lee Byers|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Haunted Lands, The
+302|Realms of the Dead|Anthology|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Haunted Lands, The
+303|Once Around the Realms|Brian Thomsen|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+304|Realms of Infamy|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+305|Realms of Valor|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+306|Realms of the Underdark|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+307|Realms of Magic|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+308|Realms of Mystery|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+309|Realms of the Arcane|Anthology|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Anthology
+310|Best of the Realms vol.1, The|Anthology|1|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:36:56.159000|Forgotten Realms|Anthology
+311|Best of the Realms vol.2, The|Anthology|2|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:37:02.431000|Forgotten Realms|Anthology
+312|Best of the Realms vol.3, The|Anthology|3|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:37:08.670000|Forgotten Realms|Anthology
+313|Ogres Pact, The|Troy Denning|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight Giants, The
+314|Giant Among Us, The|Troy Denning|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight Giants, The
+315|Titan of Twilight, The|Troy Denning|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight Giants, The
+316|Blackstaff|Steven E.Schend|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wizards, The
+317|Bloodwalk|James P.Davis|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wizards, The
+318|Frostfell|Mark Sehestedt|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wizards, The
+319|Darkvision|Bruce R.Cordell|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wizards, The
+320|Bladesinger|Keith Francis Strohm|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Fighters, The
+321|Ghostwalker|Erik Scott de Bie|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Fighters, The
+322|Master of Chains|Jess Lebow|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Fighters, The
+323|Son of Thunder|Murray J.D.Leeder|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Fighters, The
+324|Whisper of Waves|Philip Athans|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Watercourse Trilogy, The
+325|Lies of Light|Philip Athans|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Watercourse Trilogy, The
+326|Scream of Stone|Philip Athans|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Watercourse Trilogy, The
+327|Servant of the Shard(2)|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sellswords, The
+328|Promise of the Witch-King|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sellswords, The
+329|Road to the Patriarch|R.A.Salvatore|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Sellswords, The
+330|Swords of Eveningstar|Ed Greenwood|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Knights of Myth Drannor, The
+331|Swords of Dragonfire|Ed Greenwood|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Knights of Myth Drannor, The
+332|Sword Never Sleeps, The|Ed Greenwood|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Knights of Myth Drannor, The
+333|Depths of Madness|Erik Scott de Bie|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Dungeons, The
+334|Crypt of the Moaning Diamond|Rosemary Jones|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Dungeons, The
+335|Howling Delve, The|Jeleigh Johnson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Dungeons, The
+336|Stardeep|Bruce R.Cordell|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Dungeons, The
+337|Shadowbred|Paul S.Kemp|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight War, The
+338|Shadowstorm|Paul S.Kemp|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight War, The
+339|Shadowrealm|Paul S.Kemp|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight War, The
+340|Realms of War|Anthology|4|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Twilight War, The
+341|Sacrifice of the Widow|Lisa Smedman|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lady Penitent, The
+342|Storm of the Dead|Lisa Smedman|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lady Penitent, The
+343|Ascendancy of the Last|Lisa Smedman|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lady Penitent, The
+344|Fractured Sky, The|Thomas M. Reid|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Empyrean Odyssey, The
+345|Gossamer Plain, The|Thomas M.Reid|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Empyrean Odyssey, The
+346|Crystal Mountain, The|Thomas M.Reid|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Empyrean Odyssey, The
+347|Stowaway, The|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Stone of Tymora
+348|Shadowmask, The|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Stone of Tymora
+349|Sentinels, The|-|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Stone of Tymora
+350|Finder's Bane|Jeff Grubb, Kate Novak|1|2|1|2012-11-17 12:00:00.000000|2014-01-16 06:53:36.906000|Forgotten Realms|Lost Legends, The
+351|Tymoras Luck|Jeff Grubb, Kate Novak|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Lost Legends, The
+352|Daughter of the Drow|Elaine Cunningham|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Starlight and Shadows, The
+353|Tangled Webs|Elaine Cunningham|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Starlight and Shadows, The
+354|Windwalker|Elaine Cunningham|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Starlight and Shadows, The
+355|Baldurs Gate|Philip Athans|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Baldurs Gate Series
+356|Baldurs Gate II: Shadows of Amn|Philip Athans|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Baldurs Gate Series
+357|Baldurs Gate II: Thron of Bhaal|Drew Karpyshyn|3|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:35:39.808000|Forgotten Realms|Baldurs Gate Series
+358|Stormlight|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Seven Sisters
+359|Silverfall: Stories of the Seven Sisters|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Seven Sisters
+360|Venoms Taste|Lisa Smedman|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|House of Serpents
+361|Vipers Kiss|Lisa Smedman|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|House of Serpents
+362|Vanitys Blood|Lisa Smedman|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|House of Serpents
+363|Neversfall|Ed Gentry|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Citadels, The
+364|Obsidian Ridge|Jess Lebow|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Citadels, The
+365|Shield of Weeping Ghosts, The|James P.Davis|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Citadels, The
+366|Sentinelspire|Mark Sehestedt|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Citadels, The
+367|Orc King, The|R.A.Salvatore|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Transitions, The
+368|Prirate King, The|R.A.Salvatore|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Transitions, The
+369|Ghost King, The|R.A.Salvatore|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Transitions, The
+370|Blackstaff Tower|Steven E.Schend|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Waterdeep
+371|Mistshore|Jeleigh Johnson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Waterdeep
+372|Downshadow|Erik Scott de Bie|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Waterdeep
+373|City of the Dead|Rosemary Jones|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Waterdeep
+374|God Catcher, The|Erin M.Evans|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Waterdeep
+375|Circle of Skulls|Ed Greenwood|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Waterdeep
+376|Swordmage|Richard Baker|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Blades of the Moonsea
+377|Corsair|Richard Baker|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Blades of the Moonsea
+378|Avenger|Richard Baker|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Blades of the Moonsea
+379|Fanged Crown, The|Jenna Helland|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wilds, The
+380|Restless Shore, The|James P.Davis|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wilds, The
+381|Edge of Chaos, The|Jak Koke|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wilds, The
+382|Wrath of the Blue Lady|Mel Odom|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Wilds, The
+383|Plague of Spells|Bruce Cordell|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Abolethic Sovereignty
+384|City of Torment|Bruce Cordell|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Abolethic Sovereignty
+385|Key of Stars|-|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Abolethic Sovereignty
+386|Hand of the Hunter, The|Mark Sehestedt|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Chosen of Nendawen
+387|Cry of the Ghost Wolves, The|-|3|1|1|2012-11-17 12:00:00.000000|2012-11-17 03:42:39.414000|Forgotten Realms|Chosen of Nendawen
+388|Fall of Highwatch, The|Mark Sehestedt|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Chosen of Nendawen
+389|Godborn|-|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cycle of Night
+390|Godbound|-|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cycle of Night
+391|Godslayer|-|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Cycle of Night
+392|Captive Flame, The|Richard Lee Byers|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Brotherhood of the Griffon
+393|Whisper of Venom|Richard Lee Byers|2|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Brotherhood of the Griffon
+394|Spectral Blaze, The|Richard Lee Byers|3|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Brotherhood of the Griffon
+395|Masked Witches, The|Richard Lee Byers|4|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:49:00.362000|Forgotten Realms|Brotherhood of the Griffon
+396|Gauntlgrym|R.A. Salvatore|1|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:46:11.181000|Forgotten Realms|Neverwinter
+397|Neverwinter|R.A.Salvatore|2|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:47:03.810000|Forgotten Realms|Neverwinter
+398|Bury Elminster Deep|Ed Greenwood|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:40:39.128000|Forgotten Realms|Sage of Shadowdale, The
+399|Elminster Must Die|Ed Greenwood|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:44:27.005000|Forgotten Realms|Sage of Shadowdale, The
+400|Shadowbane|Erik Scott de Bie|1|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:50:58.091000|Forgotten Realms|Abyssal Plague, The
+401|Sword of the Gods|Bruce Cordell|2|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:51:33.963000|Forgotten Realms|Abyssal Plague, The
+402|Glass Prison, The|Monte Cook|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|-
+403|Evermeet: Island of Elves|Elaine Cunningham|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|-
+404|Shadow Stone, The|Richard Baker|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Adventures, The
+405|Murder in Cormyr|Chet Williamson|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|-
+406|Unbroken Chain|Jaleigh Johnson|1|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|Darker Road, The
+407|Sandstorm|Christopher Rowe|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:50:15.491000|Forgotten Realms|-
+408|Dawnbringer|Samantha Henderson|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:43:25.094000|Forgotten Realms|-
+409|Shard Axe, The|Marsheila Rockwell|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|-
+410|Brimstone Angels|Erin M. Evans|0|1|0|2012-11-17 12:00:00.000000|2012-11-17 03:38:18.056000|Forgotten Realms|-
+411|Venom in Her Veins|Tim Pratt|0|0|0|2012-11-17 12:00:00.000000|2012-11-17 12:00:00.000000|Forgotten Realms|-
+412|Brimstone Angels: Lesser Evils|Erin M. Evans|0|1|0|2012-11-17 03:39:28.907000|2012-11-17 03:40:17.877000|Forgotten Realms|-
+413|Elminster Enraged|-|0|1|0|2012-11-17 03:45:08.036000|2012-11-17 03:45:08.036000|Forgotten Realms|-
+414|Prophet of the Dead|-|0|1|0|2012-11-17 03:48:28.090000|2012-11-17 03:48:28.090000|Forgotten Realms|-
+415|Charons Claw|-|0|1|0|2012-11-17 03:49:28.201000|2012-11-17 03:49:28.201000|Forgotten Realms|-

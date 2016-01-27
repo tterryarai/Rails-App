@@ -1,0 +1,17 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => 'Edit Book Information'} %>
+
+<div class="operation">
+  <%= render :partial => 'commands', :locals => {:val => 'edit'} %>
+</div>
+
+<%= render :partial => 'form', :locals => {:val => 'Update'} %>
+
+
+<% content_for :sidebar do %>
+<p>
+This is side bar area.
+</p>
+<% end %>
+
+

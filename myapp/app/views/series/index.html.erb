@@ -1,0 +1,33 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => 'Series'} %>
+
+<div class="operation">
+  <%= render :partial => 'commands', :locals => {:val => 'index'} %>
+</div>
+
+<table class="index_table">
+  <tr>
+    <th>Realm</th>
+    <th>Name</th>
+    <th colspan="2">Commands</th>
+  </tr>
+
+<% @series.each do |series| %>
+  <tr>
+    <td><%= series.realm.name %></td>
+    <td id="index_table_title_td"><%= series.name %></td>
+    <td><%= link_to 'Edit', edit_series_path(series) %></td>
+    <td><%= link_to 'Destroy', series, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+
+<% content_for :sidebar do %>
+<p>
+This is side bar area.
+</p>
+<% end %>
+
