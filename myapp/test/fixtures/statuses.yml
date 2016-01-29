@@ -1,7 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
+  name: test_status_1
 
 two:
-  name: MyString
+  name: test_status_2
+
+three:
+  name: test_status_3

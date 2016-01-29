@@ -36,7 +36,7 @@ class SeriesControllerTest < ActionController::TestCase
 
   test "should update series" do
     put :update, id: @series, series: { name: @series.name, realm_id: @series.realm_id }
-    assert_redirected_to series_path(assigns(:series))
+    assert_redirected_to series_index_path
   end
 
   test "should destroy series" do

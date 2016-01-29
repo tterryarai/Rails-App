@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#coding: utf-8
 class Book < ActiveRecord::Base
   attr_accessible :description, :title, :volume, :status_id, :publisher_id, :series_id, :author_id
   belongs_to :status
@@ -6,45 +6,8 @@ class Book < ActiveRecord::Base
   belongs_to :series
   belongs_to :author
 
-# pagination(kaminari) settings
-# move as default setting to config/initializers/kaminari_config.rb
-#  paginates_per 20
-
-# validation
-  validates_presence_of :title, :status_id, :publisher_id, :series_id, :author_id
+  validates_uniqueness_of :title
+  validates_presence_of :title, :volume, :status_id, :publisher_id, :series_id, :author_id
+  validates_length_of :title, :volume, in: 1..255
   validates_associated :status, :publisher, :series, :author
-
-# These are implemented as relations.
-# constant
-#  BOOK_SHELF_STATUS_LIST = {
-#    'Purchased'     => 0,
-#    'Not Purchased' => 1,
-#    'Read'          => 2
-#  }
-# Category: Publisher
-#  BOOK_SHELF_GROUP1_LIST = {
-#    '-'                   => 0,
-#    'Wizard of the Coast' => 1,
-#    'TSR'                 => 2
-#  }
-# class methods
-#  def self.status_list
-#    BOOK_SHELF_STATUS_LIST
-#  end
-#
-#  def self.group1_list
-#    BOOK_SHELF_GROUP1_LIST
-#  end
-# methods
-#  def isNotPurchased?
-#    BookShelf.status_list.key(self.status)=='NotPurchased'
-#  end
-#
-#  def isPurchased?
-#    BookShelf.status_list.key(self.status)=='Purchased'
-#  end
-#
-#  def isRead?
-#    BookShelf.status_list.key(self.status)=='Read'
-#  end
 end

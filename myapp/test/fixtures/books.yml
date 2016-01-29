@@ -1,26 +1,2 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: 'Dragons of autumn twilight'
-  volume: '1'
-  description: 'aaaaabbbbbb'
-  status_id: 1
-  publisher_id: 1
-  series_id: 2
-
-two:
-  title: 'Dragons of winter night'
-  volume: '2'
-  description: 'bbbbbbcccccc'
-  status_id: 2
-  publisher_id: 1
-  series_id: 2
-
-three:
-  title: 'Dragons of spring dawn'
-  volume: '3'
-  description: 'bbbbbbcccccc'
-  status_id: 3
-  publisher_id: 1
-  series_id: 2
-
