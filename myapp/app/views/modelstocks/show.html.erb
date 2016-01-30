@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @modelstock.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @modelstock.description %>
+</p>
+
+<p>
+  <b>Scale:</b>
+  <%= @modelstock.scale_id %>
+</p>
+
+<p>
+  <b>Publisher:</b>
+  <%= @modelstock.publisher %>
+</p>
+
+<p>
+  <b>Realm:</b>
+  <%= @modelstock.realm_id %>
+</p>
+
+<p>
+  <b>Series:</b>
+  <%= @modelstock.series_id %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @modelstock.status_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_modelstock_path(@modelstock) %> |
+<%= link_to 'Back', modelstocks_path %>

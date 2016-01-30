@@ -7,6 +7,7 @@
 
 <table class="index_table">
   <tr>
+    <th>App ID</th>
     <th>Realm</th>
     <th>Name</th>
     <th colspan="2">Commands</th>
@@ -14,6 +15,7 @@
 
 <% @series.each do |series| %>
   <tr>
+    <td><%= series.realm.app_id %></td>
     <td><%= series.realm.name %></td>
     <td id="index_table_title_td"><%= series.name %></td>
     <td><%= link_to 'Edit', edit_series_path(series) %></td>

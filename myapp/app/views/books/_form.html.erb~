@@ -23,11 +23,11 @@
   </div>
   <div class="field">
     <%= f.label :status %><br />
-    <%= f.select :status_id, options_for_select(get_status_list, @book.status_id) %>
+    <%= f.select :status_id, options_for_select(get_status_list(Book::APP_ID), @book.status_id) %>
   </div>
   <div class="field">
     <%= f.label :realm_and_series %><br />
-    <%= f.select :series_id, options_for_select(get_series_list, @book.series_id) %>
+    <%= f.select :series_id, options_for_select(get_series_list(APP_ID), @book.series_id) %>
   </div>
   <div class="field">
     <%= f.label :author %><br />
@@ -35,14 +35,14 @@
   </div>
   <div class="field">
     <%= f.label :publisher %><br />
-    <%= f.select :publisher_id, options_for_select(get_publisher_list, @book.publisher_id) %>
+    <%= f.select :publisher_id, options_for_select(get_publisher_list(APP_ID), @book.publisher_id) %>
   </div>
 </div>
 
 <div class="form">
   <div class="field">
     <%= f.label :description %><br />
-    <%= f.text_area :description, {:size => "40x12"}%>
+    <%= f.text_area :description, {:size => "40x13"}%>
   </div>
   <div class="actions">
     <%= f.submit val %>
