@@ -41,20 +41,4 @@ class SeriesTest < ActiveSupport::TestCase
     assert Series.where(:name => 'test_series_0'), '取得失敗'
   end
 
-
-  test 'series save' do
-    # setup
-    Realm.new({:name => 'test_realm_0'}).save
-    series = Series.new({
-      :name => 'test_series_0',
-      :realm_id => Realm.where(:name => 'test_realm_0').first.id
-    })
-
-    # assertion
-    assert series.save, '保存失敗'
-    assert_equal Series.where(:name => 'test_series_0').first.name, series.name, '保存前のnameと異なる'
-    assert_equal Series.where(:name => 'test_series_0').first.realm, series.realm, '保存前のrealmと異なる'
-    assert_equal Series.where(:name => 'test_series_0').first.realm.name, series.realm.name, '保存前のrealm.nameと異なる'
-  end
-
 end
