@@ -1,11 +1,11 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'Edit Series Information'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('series.edit.main_title')} %>
 
 <div class="operation">
   <%= render :partial => 'commands', :locals => {:val => 'edit'} %>
 </div>
 
-<%= render :partial => 'form', :locals => {:val => 'Update'} %>
+<%= render :partial => 'form', :locals => {:val => t('series.edit.register')} %>
 
 
 <% content_for :sidebar do %>
@@ -13,4 +13,5 @@
 This is side bar area.
 </p>
 <% end %>
+
 

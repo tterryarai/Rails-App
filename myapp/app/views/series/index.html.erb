@@ -1,5 +1,5 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'Series'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('series.index.main_title')} %>
 
 <div class="operation">
   <%= render :partial => 'commands', :locals => {:val => 'index'} %>
@@ -7,10 +7,10 @@
 
 <table class="index_table">
   <tr>
-    <th>App ID</th>
-    <th>Realm</th>
-    <th>Name</th>
-    <th colspan="2">Commands</th>
+    <th><%= t('series.index.th_app_id') %></th>
+    <th><%= t('series.index.th_realm') %></th>
+    <th><%= t('series.index.th_name') %></th>
+    <th colspan="2"><%= t('series.index.th_commands') %></th>
   </tr>
 
 <% @series.each do |series| %>
@@ -18,8 +18,8 @@
     <td><%= series.realm.app_id %></td>
     <td><%= series.realm.name %></td>
     <td id="index_table_title_td"><%= series.name %></td>
-    <td><%= link_to 'Edit', edit_series_path(series) %></td>
-    <td><%= link_to 'Destroy', series, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to t('series.common.edit'), edit_series_path(series) %></td>
+    <td><%= link_to t('series.common.delete'), series, method: :delete, data: { confirm: t('series.common.confirm') } %></td>
   </tr>
 <% end %>
 </table>

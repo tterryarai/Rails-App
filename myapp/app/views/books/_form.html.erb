@@ -14,34 +14,34 @@
 
 <div class="form">
   <div class="field">
-    <%= f.label :title %><br />
+    <%= f.label t('book.form.title') %><br />
     <%= f.text_field :title %>
   </div>
   <div class="field">
-    <%= f.label :volume %><br />
+    <%= f.label t('book.form.volume') %><br />
     <%= f.text_field :volume %>
   </div>
   <div class="field">
-    <%= f.label :status %><br />
+    <%= f.label t('book.form.status') %><br />
     <%= f.select :status_id, options_for_select(get_status_list(Book::APP_ID), @book.status_id) %>
   </div>
   <div class="field">
-    <%= f.label :realm_and_series %><br />
+    <%= f.label t('book.form.realm_and_series') %><br />
     <%= f.select :series_id, options_for_select(get_series_list(Book::APP_ID), @book.series_id) %>
   </div>
   <div class="field">
-    <%= f.label :author %><br />
+    <%= f.label t('book.form.author') %><br />
     <%= f.select :author_id, options_for_select(get_author_list, @book.author_id) %>
   </div>
   <div class="field">
-    <%= f.label :publisher %><br />
+    <%= f.label t('book.form.publisher') %><br />
     <%= f.select :publisher_id, options_for_select(get_publisher_list(Book::APP_ID), @book.publisher_id) %>
   </div>
 </div>
 
 <div class="form">
   <div class="field">
-    <%= f.label :description %><br />
+    <%= f.label t('book.form.description') %><br />
     <%= f.text_area :description, {:size => "40x13"}%>
   </div>
   <div class="actions">

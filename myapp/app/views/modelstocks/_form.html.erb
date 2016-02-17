@@ -14,30 +14,30 @@
 
 <div class="form">
   <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label t('modelstock.form.name') %><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :scale %><br />
+    <%= f.label t('modelstock.form.scale') %><br />
     <%= f.select :scale_id, options_for_select(get_scale_list, @modelstock.scale_id) %>
   </div>
   <div class="field">
-    <%= f.label :maker %><br />
+    <%= f.label t('modelstock.form.publisher') %><br />
     <%= f.select :publisher_id, options_for_select(get_publisher_list(Modelstock::APP_ID), @modelstock.publisher_id) %>
   </div>
   <div class="field">
-    <%= f.label :category_and_Group %><br />
+    <%= f.label t('modelstock.form.realm_and_series') %><br />
     <%= f.select :series_id, options_for_select(get_series_list(Modelstock::APP_ID), @modelstock.series_id) %>
   </div>
   <div class="field">
-    <%= f.label :status %><br />
+    <%= f.label t('modelstock.form.status') %><br />
     <%= f.select :status_id, options_for_select(get_status_list(Modelstock::APP_ID), @modelstock.status_id) %>
   </div>
 </div>
 
 <div class="form">
   <div class="field">
-    <%= f.label :description %><br />
+    <%= f.label t('modelstock.form.description') %><br />
     <%= f.text_area :description, {:size => "40x13"}%>
   </div>
   <div class="actions">

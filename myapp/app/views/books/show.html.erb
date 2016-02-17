@@ -1,5 +1,5 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'Book Information'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('book.show.main_title')} %>
 
 <div class="operation">
   <%= render :partial => 'commands', :locals => {:val => 'show'} %>
@@ -8,42 +8,42 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <b>Title:</b>
+  <b><%= ts('book.show.title') %></b>
   <%= @book.title %>
 </p>
 
 <p>
-  <b>Volume:</b>
+  <b><%= ts('book.show.volume') %></b>
   <%= @book.volume %>
 </p>
 
 <p>
-  <b>Status:</b>
+  <b><%= ts('book.show.status') %></b>
   <%= @book.status.name %>
 </p>
 
 <p>
-  <b>Realm:</b>
+  <b><%= ts('book.show.realm') %></b>
   <%= @book.series.realm.name %>
 </p>
 
 <p>
-  <b>Series:</b>
+  <b><%= ts('book.show.series') %></b>
   <%= @book.series.name %>
 </p>
 
 <p>
-  <b>Author:</b>
+  <b><%= ts('book.show.author') %></b>
   <%= @book.author.name %>
 </p>
 
 <p>
-  <b>Publisher:</b>
+  <b><%= ts('book.show.publisher') %></b>
   <%= @book.publisher.name %>
 </p>
 
 <p>
-  <b>Description:</b>
+  <b><%= ts('book.show.description') %></b>
   <%= @book.description %>
 </p>
 

@@ -14,11 +14,11 @@
 
 <div class="form">
   <div class="field">
-    <%= f.label :realm %><br />
+    <%= f.label ts('series.form.realm') %><br />
     <%= f.select :realm_id, options_for_select(get_realm_list(), @series.realm_id) %>
   </div>
   <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label ts('series.form.name') %><br />
     <%= f.text_field :name %>
   </div>
   <div class="actions">

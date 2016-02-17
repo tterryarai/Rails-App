@@ -1,5 +1,5 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'Books'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('book.index.main_title')} %>
 
 <div class="operation">
   <%= render :partial => 'pagination' %>
@@ -8,12 +8,12 @@
 
 <table class="index_table">
   <tr>
-    <th><%= link_to 'Title', books_path(:order => 'title ' + cycle_order(session[:order].to_s))%></th>
-    <th>Volume</th>
-    <th>Status</th>
-    <th>Realm</th>
-    <th><%= link_to 'Series', books_path(:order => 'series_id, volume ' + cycle_order(session[:order].to_s))%></th>
-    <th>Edit</th>
+    <th><%= link_to t('book.index.th_title'), books_path(:order => 'title ' + cycle_order(session[:order].to_s))%></th>
+    <th><%= t('book.index.th_volume') %></th>
+    <th><%= t('book.index.th_status') %></th>
+    <th><%= t('book.index.th_realm') %></th>
+    <th><%= link_to t('book.index.th_series'), books_path(:order => 'series_id, volume ' + cycle_order(session[:order].to_s))%></th>
+    <th><%= t('book.index.th_edit') %></th>
   </tr>
 
 <% @books.each do |book| %>

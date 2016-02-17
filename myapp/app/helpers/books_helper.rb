@@ -60,4 +60,8 @@ module BooksHelper
     end
     return list
   end
+
+  def tt(text= '')
+    return t(text) + t('book.common.separator')
+  end
 end

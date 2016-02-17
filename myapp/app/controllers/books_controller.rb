@@ -25,10 +25,10 @@ class BooksController < ApplicationController
     session[:order] = order_params # store order
 
     # set LIKE parameter from params[:keyword] or session[:keyword] or ''
-    if params[:keyword].present? && params[:commit].present? && params[:commit]=='Search' then
+    if params[:keyword].present? && params[:commit].present? && params[:commit]==t('book.index.search') then
       like_params = params[:keyword].to_s
       session[:keyword] = like_params
-    elsif params[:commit].present? && params[:commit]=='Clear' then
+    elsif params[:commit].present? && params[:commit]==t('book.index.clear') then
       like_params = ''
       session[:keyword] = like_params
     elsif session[:keyword].present? then

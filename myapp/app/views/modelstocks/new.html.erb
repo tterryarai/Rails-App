@@ -1,11 +1,11 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'New Model Stock'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('modelstock.new.main_title')} %>
 
 <div class="operation">
   <%= render :partial => 'commands', :locals => {:val => 'new'} %>
 </div>
 
-<%= render :partial => 'form', :locals => {:val => 'Register'} %>
+<%= render :partial => 'form', :locals => {:val => t('modelstock.new.register')} %>
 
 
 <% content_for :sidebar do %>

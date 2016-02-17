@@ -1,5 +1,5 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'Model Stocks'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('modelstock.index.main_title')} %>
 
 <div class="operation">
   <%= render :partial => 'pagination' %>
@@ -8,24 +8,24 @@
 
 <table class="index_table">
   <tr>
-    <th><%= link_to 'Name', modelstocks_path(:order => 'name ' + cycle_order(session[:order].to_s))%></th>
-    <th>Scale</th>
-    <th>Maker</th>
-    <th>Category</th>
-    <th><%= link_to 'Group', modelstocks_path(:order => 'series_id, volume ' + cycle_order(session[:order].to_s))%></th>
-    <th>Status</th>
-    <th>Edit</th>
+    <th><%= link_to t('modelstock.index.th_name'), modelstocks_path(:order => 'name ' + cycle_order(session[:order].to_s))%></th>
+    <th><%= t('modelstock.index.th_scale') %></th>
+    <th><%= t('modelstock.index.th_publisher') %></th>
+    <th><%= t('modelstock.index.th_realm') %></th>
+    <th><%= link_to t('modelstock.index.th_series'), modelstocks_path(:order => 'series_id ' + cycle_order(session[:order].to_s))%></th>
+    <th><%= t('modelstock.index.th_status') %></th>
+    <th><%= t('modelstock.index.th_edit') %></th>
   </tr>
 
-<% @modelstocks.each do |modelstock| %>
+<% @modelstocks.each do |ms| %>
   <tr>
-    <td id='index_table_title_td'><%= link_to modelstock.name, modelstock %></td>
-    <td><%= modelstock.scale.name if modelstock.scale_id.present? %></td>
-    <td><%= modelstock.publisher.name if modelstcok.publisher_id.present? %></td>
-    <td><%= modelstock.series.realm.name if modelstock.series_id.present? %></td>
-    <td><%= modelstock.series.name if modelstock.series_id.present? %></td>
-    <td><%= modelstock.status.name if modelstock.status_id.present? %></td>
-    <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => modelstock.id}, :method => :get %></td>
+    <td id='index_table_title_td'><%= link_to ms.name, ms %></td>
+    <td><%= ms.scale.name if ms.scale_id.present? %></td>
+    <td><%= ms.publisher.name if ms.publisher_id.present? %></td>
+    <td><%= ms.series.realm.name if ms.series_id.present? %></td>
+    <td><%= ms.series.name if ms.series_id.present? %></td>
+    <td><%= ms.status.name if ms.status_id.present? %></td>
+    <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => ms.id}, :method => :get %></td>
   </tr>
 <% end %>
 </table>
