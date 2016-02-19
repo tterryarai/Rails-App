@@ -1,26 +1,21 @@
 module BooksHelper
 
-  def cycle_order(str)
-    if str.include?('asc') then
-      ret = 'desc'
-    elsif str.include?('desc') then
-      ret = 'asc'
-    else
-      ret = 'asc'
+  def cycle_bk_order(str1 = '', str2 = '')
+    if str1.empty? then
+      return 'title asc' # set default
     end
-    return ret
+    if str2.include?('asc') then
+      return str1 + ' desc'
+    elsif str2.include?('desc') then
+      return str1 + ' asc'
+    end
+    return 'title asc' # set default
   end
 
-  def get_status_list(app_id = 0)
+  def get_bk_status_list
     list = []
-    if app_id > 0 then
-      Status.where(:app_id => app_id).each do |status|
-        list << [ status.name, status.id ]
-      end
-    else
-      Status.all.each do |status|
-        list << [ status.name, status.id ]
-      end
+    Book.status_list.each do |s|
+        list << [t('book.status.'+s), s]
     end
     return list
   end

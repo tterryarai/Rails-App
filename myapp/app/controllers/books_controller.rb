@@ -9,42 +9,42 @@ class BooksController < ApplicationController
     if params[:order].present? then 
       case params[:order]
       when 'title desc'
-        order_params = 'title desc'
+        order = 'books.title DESC'
       when 'title asc'
-        order_params = 'title asc'
-      when 'series_id, volume desc'
-        order_params = 'series_id, volume desc'
-      when 'series_id, volume asc'
-        order_params = 'series_id, volume asc'
+        order = 'books.title ASC'
+      when 'series desc'
+        order = 'series.name DESC'
+      when 'series asc'
+        order = 'series.name ASC'
       else
-        order_params = 'title asc' # default
+        order = 'books.title ASC' # set default for other illegal order
       end
+        session[:order] = params[:order] # store order
     else
-      order_params = 'title asc' # default
+      order = 'books.title ASC' # set default
+      session[:order] = ''
     end
-    session[:order] = order_params # store order
 
     # set LIKE parameter from params[:keyword] or session[:keyword] or ''
     if params[:keyword].present? && params[:commit].present? && params[:commit]==t('book.index.search') then
-      like_params = params[:keyword].to_s
-      session[:keyword] = like_params
+      like = '%' + params[:keyword].to_s + '%'
+      session[:keyword] = params[:keyword]
     elsif params[:commit].present? && params[:commit]==t('book.index.clear') then
-      like_params = ''
-      session[:keyword] = like_params
+      like = ''
+      session[:keyword] = ''
     elsif session[:keyword].present? then
-      like_params = session[:keyword].to_s
+      like = '%' + session[:keyword].to_s + '%'
     else
-      like_params = '' # default
-    end
-
-    # set OR condition from series
-    series_cond = ''
-    Series.select('id').where('(name LIKE ?)', '%'+like_params+'%').each do |item|
-      series_cond = series_cond + ' or series_id = ' + item.id.to_s
+      like = '' # default
     end
 
     # exec SELECT
-    @books = Book.order(order_params).where("(title LIKE ?)" + series_cond, '%'+like_params+'%').page(params[:page])
+    @books = Book.joins('LEFT JOIN series ON books.series_id = series.id').
+      joins('LEFT JOIN realms ON series.realm_id = realms.id')
+    if like.present? then
+      @books = @books.where('(books.title LIKE ?) OR (series.name LIKE ?) OR (realms.name LIKE ?)', like, like, like)
+    end
+    @books = @books.order(order).page(params[:page])
 
     respond_with(@books)
   end

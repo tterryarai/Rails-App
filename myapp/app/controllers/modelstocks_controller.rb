@@ -12,39 +12,40 @@ class ModelstocksController < ApplicationController
         order = 'modelstocks.name DESC'
       when 'name asc'
         order = 'modelstocks.name ASC'
-      when 'series_id desc'
-        order = 'realms.name, series.name, modelstocks.name DESC'
-      when 'series_id asc'
-        order = 'realms.name, series.name, modelstocks.name ASC'
+      when 'series desc'
+        order = 'series.name DESC'
+      when 'series asc'
+        order = 'series.name ASC'
+      when 'realm desc'
+        order = 'modelstocks.realm DESC'
+      when 'realm asc'
+        order = 'modelstocks.realm ASC'
       else
-        order = 'modelstocks.name ASC' # default
+        order = 'modelstocks.name ASC' # set default for other illegal order
       end
       session[:order] = params[:order] # store order
     else
-      order = 'modelstocks.name ASC' # default
+      order = 'modelstocks.name ASC' # set default
       session[:order] = ''
     end
 
     # set LIKE parameter from params[:keyword] or session[:keyword] or ''
     if params[:keyword].present? && params[:commit].present? && params[:commit]==t('modelstock.index.search') then
-      like = '%'+params[:keyword].to_s+'%'
+      like = '%' + params[:keyword].to_s + '%'
       session[:keyword] = params[:keyword]
     elsif params[:commit].present? && params[:commit]==t('modelstock.index.clear') then
       like = ''
       session[:keyword] = ''
     elsif session[:keyword].present? then
-      like = '%'+session[:keyword].to_s+'%'
+      like = '%' + session[:keyword].to_s + '%'
     else
-      like_params = '' # default
-      session[:keyword] = ''
+      like = '' # default
     end
 
     # exec SELECT
-    @modelstocks = Modelstock.
-      joins('LEFT JOIN series ON modelstocks.series_id = series.id').
-      joins('LEFT JOIN realms ON series.realm_id = realms.id')
+    @modelstocks = Modelstock.joins('LEFT JOIN series ON modelstocks.series_id = series.id')
     if like.present? then
-      @modelstocks = @modelstocks.where('modelstocks.name LIKE ? OR series.name LIKE ? OR realms.name LIKE ?', like, like, like)
+      @modelstocks = @modelstocks.where('(modelstocks.realms LIKE ?) OR (series.name LIKE ?) OR (modelstocks.name LIKE ?)', like, like, like)
     end
     @modelstocks = @modelstocks.order(order).page(params[:page])
 

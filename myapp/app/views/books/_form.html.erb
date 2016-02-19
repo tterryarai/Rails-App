@@ -23,7 +23,7 @@
   </div>
   <div class="field">
     <%= f.label t('book.form.status') %><br />
-    <%= f.select :status_id, options_for_select(get_status_list(Book::APP_ID), @book.status_id) %>
+    <%= f.select :status, options_for_select(get_bk_status_list, @book.status) %>
   </div>
   <div class="field">
     <%= f.label t('book.form.realm_and_series') %><br />

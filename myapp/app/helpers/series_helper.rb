@@ -7,7 +7,7 @@ module SeriesHelper
       end
     else
       Realm.all.each do |realm|
-        list << [ realm.app_id.to_s+':'+realm.name, realm.id ]
+        list << [ realm.app_id.to_s+' : '+realm.name, realm.id ]
       end
     end      
     return list

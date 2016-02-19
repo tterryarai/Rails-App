@@ -14,7 +14,7 @@
 
 <p>
   <b><%= ts('modelstock.show.status') %></b>
-  <%= @modelstock.status.name %>
+  <%= td('modelstock.status', @modelstock.status)%>
 </p>
 
 <p>
@@ -24,7 +24,7 @@
 
 <p>
   <b><%= ts('modelstock.show.scale') %></b>
-  <%= @modelstock.scale.name %>
+  <%= @modelstock.scale %>
 </p>
 
 <p>
@@ -34,12 +34,12 @@
 
 <p>
   <b><%= ts('modelstock.show.realm') %></b>
-  <%= @modelstock.series.realm.name %>
+  <%= td('modelstock.realm', @modelstock.realm)%>
 </p>
 
 <p>
   <b><%= ts('modelstock.show.series') %></b>
-  <%= @modelstock.series.name %>
+  <%= td('modelstock.series', @modelstock.series.name)%>
 </p>
 
 

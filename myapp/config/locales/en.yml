@@ -10,6 +10,7 @@ en:
       app_model_stocks: "Model Stocks"
       app_authors: "Edit Authors"
       app_series:  "Edit Series"
+      no_data: "no data"
       separator: ":"
 
   book:
@@ -19,6 +20,11 @@ en:
       show: "Show"
       delete: "Delete"
       confirm: "Are you sure?"
+    status:
+      __not_purchase: "Not Purchased"
+      __purchase: "Purchased"
+      __read: "Read"
+
     index:
       main_title: "Books"
       th_title:  "Title"
@@ -62,6 +68,32 @@ en:
       show: "Show"
       delete: "Delete"
       confirm: "Are you sure?"
+    status:
+      __plan: "Planned"
+      __purchase: "Purchased"
+      __build: "Building"
+      __complete: "Completed"
+    realm:
+      __none:    "(none)"
+      __ijn:     "IJN"
+      __usn:     "USN"
+      __hms:     "HMS"
+      __sms_dkm: "SMS/DKM"
+      __fn:      "FN"
+      __rn:      "RN"
+      __other_navy: "Other Navy"
+      __logh:    "LoGH"
+      __mobilesuit_gundam: "Mobilesuit Gundam"
+      __space_battleship_yamato: "Space Battleship Yamato"
+      __fss: "Five Star Stories"
+    series:
+      __other_vessels:       "Other Vessels"
+      __earch_federation_space_force:   "E.F.S.F"
+      __earth_federation_defense_force: "E.F.D.F"
+      __gamilas_empire:      "Gamilas Empire"
+      __empire_fleets:       "Empire Fleets"
+      __free_planets_fleets: "Free Planets Fleets"
+
     index:
       main_title: "Model Stocks"
       th_name:   "Name"
@@ -93,6 +125,8 @@ en:
       name:      "Name"
       scale:     "Scale"
       publisher: "Maker"
+      realm:     "Category"
+      series:    "Group"
       realm_and_series: "Category and Group"
       status:    "Status"
       description: "Description"

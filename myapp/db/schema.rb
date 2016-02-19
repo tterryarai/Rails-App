@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160130123535) do
+ActiveRecord::Schema.define(:version => 20160218095219) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -25,22 +25,22 @@ ActiveRecord::Schema.define(:version => 20160130123535) do
     t.text     "description"
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
-    t.integer  "status_id"
     t.integer  "publisher_id"
     t.integer  "series_id"
     t.integer  "author_id"
+    t.string   "status"
   end
 
   create_table "modelstocks", :force => true do |t|
     t.string   "name"
     t.text     "description"
-    t.integer  "scale_id"
     t.integer  "publisher_id"
-    t.integer  "realm_id"
     t.integer  "series_id"
-    t.integer  "status_id"
     t.datetime "created_at",   :null => false
     t.datetime "updated_at",   :null => false
+    t.string   "scale"
+    t.string   "status"
+    t.string   "realm"
   end
 
   create_table "publishers", :force => true do |t|
@@ -55,12 +55,6 @@ ActiveRecord::Schema.define(:version => 20160130123535) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.integer  "app_id"
-  end
-
-  create_table "scales", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
   end
 
   create_table "series", :force => true do |t|

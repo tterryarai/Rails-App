@@ -7,24 +7,32 @@
 </div>
 
 <table class="index_table">
+<% order = session[:order].to_s %>
   <tr>
-    <th><%= link_to t('modelstock.index.th_name'), modelstocks_path(:order => 'name ' + cycle_order(session[:order].to_s))%></th>
+    <th><%= link_to t('modelstock.index.th_name'),   modelstocks_path(:order => cycle_order('name', order))%></th>
     <th><%= t('modelstock.index.th_scale') %></th>
     <th><%= t('modelstock.index.th_publisher') %></th>
-    <th><%= t('modelstock.index.th_realm') %></th>
-    <th><%= link_to t('modelstock.index.th_series'), modelstocks_path(:order => 'series_id ' + cycle_order(session[:order].to_s))%></th>
+    <th><%= link_to t('modelstock.index.th_realm') , modelstocks_path(:order => cycle_order('realm', order))%></th>
+    <th><%= link_to t('modelstock.index.th_series'), modelstocks_path(:order => cycle_order('series', order))%></th>
     <th><%= t('modelstock.index.th_status') %></th>
     <th><%= t('modelstock.index.th_edit') %></th>
   </tr>
 
+<% no_data = t('app.common.no_data')%>
 <% @modelstocks.each do |ms| %>
   <tr>
-    <td id='index_table_title_td'><%= link_to ms.name, ms %></td>
-    <td><%= ms.scale.name if ms.scale_id.present? %></td>
-    <td><%= ms.publisher.name if ms.publisher_id.present? %></td>
-    <td><%= ms.series.realm.name if ms.series_id.present? %></td>
-    <td><%= ms.series.name if ms.series_id.present? %></td>
-    <td><%= ms.status.name if ms.status_id.present? %></td>
+    <td id='index_table_title_td'>
+    <% if ms.name.present? then %>
+      <%= link_to ms.name, ms %>
+    <% else %>
+      <%= no_data %>
+    <% end %>
+    </td>
+    <td><%= ms.scale.present? ? ms.scale : no_data %></td>
+    <td><%= ms.publisher_id.present? ? ms.publisher.name : no_data %></td>
+    <td><%= ms.realm.present? ? td('modelstock.realm', ms.realm) : no_data %></td>
+    <td><%= ms.series_id.present? ? td('modelstock.series', ms.series.name) : no_data %></td>
+    <td><%= ms.status.present? ? td('modelstock.status', ms.status) : no_data %></td>
     <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => ms.id}, :method => :get %></td>
   </tr>
 <% end %>

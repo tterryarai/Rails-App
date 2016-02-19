@@ -19,11 +19,15 @@
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.scale') %><br />
-    <%= f.select :scale_id, options_for_select(get_scale_list, @modelstock.scale_id) %>
+    <%= f.select :scale, options_for_select(get_scale_list, @modelstock.scale) %>
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.publisher') %><br />
     <%= f.select :publisher_id, options_for_select(get_publisher_list(Modelstock::APP_ID), @modelstock.publisher_id) %>
+  </div>
+  <div class="field">
+    <%= f.label t('modelstock.form.realm') %><br />
+    <%= f.select :realm, options_for_select(get_ms_realm_list, @modelstock.realm) %>
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.realm_and_series') %><br />
@@ -31,7 +35,7 @@
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.status') %><br />
-    <%= f.select :status_id, options_for_select(get_status_list(Modelstock::APP_ID), @modelstock.status_id) %>
+    <%= f.select :status, options_for_select(get_status_list, @modelstock.status) %>
   </div>
 </div>
 
