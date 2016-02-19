@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160218095219) do
+ActiveRecord::Schema.define(:version => 20160219111220) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -29,6 +29,7 @@ ActiveRecord::Schema.define(:version => 20160218095219) do
     t.integer  "series_id"
     t.integer  "author_id"
     t.string   "status"
+    t.string   "realm"
   end
 
   create_table "modelstocks", :force => true do |t|

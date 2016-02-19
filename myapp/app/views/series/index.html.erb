@@ -8,15 +8,13 @@
 <table class="index_table">
   <tr>
     <th><%= t('series.index.th_app_id') %></th>
-    <th><%= t('series.index.th_realm') %></th>
     <th><%= t('series.index.th_name') %></th>
     <th colspan="2"><%= t('series.index.th_commands') %></th>
   </tr>
 
 <% @series.each do |series| %>
   <tr>
-    <td><%= series.realm.app_id %></td>
-    <td><%= series.realm.name %></td>
+    <td><%= series.app_id %></td>
     <td id="index_table_title_td"><%= series.name %></td>
     <td><%= link_to t('series.common.edit'), edit_series_path(series) %></td>
     <td><%= link_to t('series.common.delete'), series, method: :delete, data: { confirm: t('series.common.confirm') } %></td>

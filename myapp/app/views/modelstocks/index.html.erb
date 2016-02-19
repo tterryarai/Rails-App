@@ -9,11 +9,11 @@
 <table class="index_table">
 <% order = session[:order].to_s %>
   <tr>
-    <th><%= link_to t('modelstock.index.th_name'),   modelstocks_path(:order => cycle_order('name', order))%></th>
+    <th><%= link_to t('modelstock.index.th_name'),   modelstocks_path(:order => cycle_ms_order('name', order))%></th>
     <th><%= t('modelstock.index.th_scale') %></th>
     <th><%= t('modelstock.index.th_publisher') %></th>
-    <th><%= link_to t('modelstock.index.th_realm') , modelstocks_path(:order => cycle_order('realm', order))%></th>
-    <th><%= link_to t('modelstock.index.th_series'), modelstocks_path(:order => cycle_order('series', order))%></th>
+    <th><%= link_to t('modelstock.index.th_realm') , modelstocks_path(:order => cycle_ms_order('realm', order))%></th>
+    <th><%= link_to t('modelstock.index.th_series'), modelstocks_path(:order => cycle_ms_order('series', order))%></th>
     <th><%= t('modelstock.index.th_status') %></th>
     <th><%= t('modelstock.index.th_edit') %></th>
   </tr>

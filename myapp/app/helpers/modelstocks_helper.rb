@@ -1,6 +1,6 @@
 module ModelstocksHelper
 
-  def cycle_order(str1 = '', str2 = '')
+  def cycle_ms_order(str1 = '', str2 = '')
     if str1.empty? then
       return 'name asc' # set default
     end
@@ -12,7 +12,7 @@ module ModelstocksHelper
     return 'name asc' # set default
   end
 
-  def get_status_list
+  def get_ms_status_list
     list = []
     Modelstock.status_list.each do |s|
         list << [t('modelstock.status.'+s), s]
@@ -20,7 +20,7 @@ module ModelstocksHelper
     return list
   end
 
-  def get_scale_list
+  def get_ms_scale_list
     list = []
     Modelstock.scale_list.each do |s|
       list << [s, s]
@@ -36,32 +36,5 @@ module ModelstocksHelper
     return list
   end
 
-  def get_publisher_list(app_id = 0)
-    list = []
-    if app_id > 0 then
-      Publisher.where(:app_id => app_id).each do |pub|
-        list << [pub.name, pub.id ]
-      end
-    else
-      Publisher.all.each do |pub|
-        list << [ pub.name, pub.id ]
-      end
-    end
-    return list
-  end
-
-  def get_series_list(app_id = 0)
-    list = []
-    if app_id > 0 then
-      Series.where(:app_id => app_id).each do |series|
-        list << [ series.realm.name+':'+series.name, series.id ]
-      end
-    else
-      Series.all.each do |series|
-        list << [ series.realm.name+':'+series.name, series.id ]
-      end
-    end
-    return list
-  end
 end
 

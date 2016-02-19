@@ -39,10 +39,9 @@ class BooksController < ApplicationController
     end
 
     # exec SELECT
-    @books = Book.joins('LEFT JOIN series ON books.series_id = series.id').
-      joins('LEFT JOIN realms ON series.realm_id = realms.id')
+    @books = Book.joins('LEFT JOIN series ON books.series_id = series.id')
     if like.present? then
-      @books = @books.where('(books.title LIKE ?) OR (series.name LIKE ?) OR (realms.name LIKE ?)', like, like, like)
+      @books = @books.where('(books.title LIKE ?) OR (series.name LIKE ?) OR (books.realm LIKE ?)', like, like, like)
     end
     @books = @books.order(order).page(params[:page])
 

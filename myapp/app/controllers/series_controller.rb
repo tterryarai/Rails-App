@@ -4,7 +4,7 @@ class SeriesController < ApplicationController
   respond_to :html
 
   def index
-    @series = Series.order("realm_id, name asc").all
+    @series = Series.order("app_id, name asc").all
     respond_with(@series)
   end
 
@@ -22,7 +22,6 @@ class SeriesController < ApplicationController
 
   def create
     @series = Series.new(params[:series])
-    @series.app_id = Realm.find(params[:series][:realm_id]).app_id
     @series.save
 #    respond_with(@series)
     redirect_to series_index_path
@@ -30,7 +29,6 @@ class SeriesController < ApplicationController
 
   def update
     @series.update_attributes(params[:series])
-    @series.app_id = Realm.find(params[:series][:realm_id]).app_id
 #    respond_with(@series)
     redirect_to series_index_path
   end

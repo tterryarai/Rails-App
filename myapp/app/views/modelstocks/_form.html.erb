@@ -19,7 +19,7 @@
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.scale') %><br />
-    <%= f.select :scale, options_for_select(get_scale_list, @modelstock.scale) %>
+    <%= f.select :scale, options_for_select(get_ms_scale_list, @modelstock.scale) %>
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.publisher') %><br />
@@ -35,7 +35,7 @@
   </div>
   <div class="field">
     <%= f.label t('modelstock.form.status') %><br />
-    <%= f.select :status, options_for_select(get_status_list, @modelstock.status) %>
+    <%= f.select :status, options_for_select(get_ms_status_list, @modelstock.status) %>
   </div>
 </div>
 

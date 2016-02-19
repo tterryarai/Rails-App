@@ -26,12 +26,16 @@
     <%= f.select :status, options_for_select(get_bk_status_list, @book.status) %>
   </div>
   <div class="field">
+    <%= f.label t('book.form.realm') %><br />
+    <%= f.select :realm, options_for_select(get_bk_realm_list, @book.realm) %>
+  </div>
+  <div class="field">
     <%= f.label t('book.form.realm_and_series') %><br />
     <%= f.select :series_id, options_for_select(get_series_list(Book::APP_ID), @book.series_id) %>
   </div>
   <div class="field">
     <%= f.label t('book.form.author') %><br />
-    <%= f.select :author_id, options_for_select(get_author_list, @book.author_id) %>
+    <%= f.select :author_id, options_for_select(get_bk_author_list, @book.author_id) %>
   </div>
   <div class="field">
     <%= f.label t('book.form.publisher') %><br />

@@ -29,7 +29,7 @@
     </td>
     <td><%= book.volume.present? ? book.volume : no_data %></td>
     <td><%= book.status.present? ? td('book.status', book.status) : no_data %></td>
-    <td><%= book.series.realm_id.present? ? book.series.realm.name : no_data %></td>
+    <td><%= book.realm.present? ? td('book.realm', book.realm) : no_data %></td>
     <td><%= book.series_id.present? ? book.series.name : no_data %></td>
     <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => book.id}, :method => :get %></td>
   </tr>

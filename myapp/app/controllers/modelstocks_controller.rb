@@ -45,7 +45,7 @@ class ModelstocksController < ApplicationController
     # exec SELECT
     @modelstocks = Modelstock.joins('LEFT JOIN series ON modelstocks.series_id = series.id')
     if like.present? then
-      @modelstocks = @modelstocks.where('(modelstocks.realms LIKE ?) OR (series.name LIKE ?) OR (modelstocks.name LIKE ?)', like, like, like)
+      @modelstocks = @modelstocks.where('(modelstocks.realm LIKE ?) OR (series.name LIKE ?) OR (modelstocks.name LIKE ?)', like, like, like)
     end
     @modelstocks = @modelstocks.order(order).page(params[:page])
 
