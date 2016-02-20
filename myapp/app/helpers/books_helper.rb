@@ -9,7 +9,7 @@ module BooksHelper
     elsif str2.include?('desc') then
       return str1 + ' asc'
     end
-    return 'title asc' # set default
+    return str1 + ' asc' # set default
   end
 
   def get_bk_status_list

@@ -16,6 +16,10 @@ class BooksController < ApplicationController
         order = 'series.name DESC'
       when 'series asc'
         order = 'series.name ASC'
+      when 'realm desc'
+        order = 'books.realm DESC'
+      when 'realm asc'
+        order = 'books.realm ASC'
       else
         order = 'books.title ASC' # set default for other illegal order
       end

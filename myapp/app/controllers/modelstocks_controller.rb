@@ -6,7 +6,11 @@ class ModelstocksController < ApplicationController
   def index
     # set ORDER_BY parameter if params[:order] is set
     # default is 'name asc'
-    if params[:order].present? then 
+
+    if params[:commit].present? && params[:commit]==t('modelstock.index.clear') then
+      order = 'modelstocks.name ASC' # set default
+      session[:order] = ''
+    elsif params[:order].present? then 
       case params[:order]
       when 'name desc'
         order = 'modelstocks.name DESC'

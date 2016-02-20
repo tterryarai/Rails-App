@@ -9,7 +9,7 @@ module ModelstocksHelper
     elsif str2.include?('desc') then
       return str1 + ' asc'
     end
-    return 'name asc' # set default
+    return str1 + ' asc' # set default
   end
 
   def get_ms_status_list
