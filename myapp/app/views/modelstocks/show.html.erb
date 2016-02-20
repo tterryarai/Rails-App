@@ -1,0 +1,52 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => t('modelstock.show.main_title')} %>
+
+<div class="operation">
+  <%= render :partial => 'commands', :locals => {:val => 'show'} %>
+</div>
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= ts('modelstock.show.name') %></b>
+  <%= @modelstock.name %>
+</p>
+
+<p>
+  <b><%= ts('modelstock.show.status') %></b>
+  <%= td('modelstock.status', @modelstock.status)%>
+</p>
+
+<p>
+  <b><%= ts('modelstock.show.description') %></b>
+  <%= @modelstock.description %>
+</p>
+
+<p>
+  <b><%= ts('modelstock.show.scale') %></b>
+  <%= @modelstock.scale %>
+</p>
+
+<p>
+  <b><%= ts('modelstock.show.publisher') %></b>
+  <%= @modelstock.publisher.name %>
+</p>
+
+<p>
+  <b><%= ts('modelstock.show.realm') %></b>
+  <%= td('modelstock.realm', @modelstock.realm)%>
+</p>
+
+<p>
+  <b><%= ts('modelstock.show.series') %></b>
+  <%= td('modelstock.series', @modelstock.series.name)%>
+</p>
+
+
+<% content_for :sidebar do %>
+<p>
+This is side bar area.
+</p>
+<% end %>
+
+

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160125041823) do
+ActiveRecord::Schema.define(:version => 20160220035141) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -25,35 +25,37 @@ ActiveRecord::Schema.define(:version => 20160125041823) do
     t.text     "description"
     t.datetime "created_at",                    :null => false
     t.datetime "updated_at",                    :null => false
-    t.integer  "status_id"
     t.integer  "publisher_id"
     t.integer  "series_id"
     t.integer  "author_id"
+    t.string   "status"
+    t.string   "realm"
+  end
+
+  create_table "modelstocks", :force => true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.integer  "publisher_id"
+    t.integer  "series_id"
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
+    t.string   "scale"
+    t.string   "status"
+    t.string   "realm"
   end
 
   create_table "publishers", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "realms", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "app_id"
   end
 
   create_table "series", :force => true do |t|
     t.string   "name"
-    t.integer  "realm_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
-  end
-
-  create_table "statuses", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "app_id"
   end
 
 end

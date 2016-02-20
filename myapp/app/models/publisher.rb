@@ -1,8 +1,8 @@
 class Publisher < ActiveRecord::Base
-  attr_accessible :name
+  attr_accessible :name, :app_id
   has_many :books
+  has_many :modelstocks
 
-  validates_uniqueness_of :name
   validates_presence_of :name
   validates_length_of :name, in: 1..255
 end

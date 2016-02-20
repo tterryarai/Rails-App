@@ -1,5 +1,5 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => 'Authors'} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('author.index.main_title') } %>
 
 <div class="operation">
   <%= render :partial => 'commands', :locals => {:val => 'index'} %>
@@ -7,15 +7,15 @@
 
 <table class="index_table">
   <tr>
-    <th>Name</th>
-    <th colspan="2" >Commands</th>
+    <th><%= t('author.index.th_name') %></th>
+    <th colspan="2" ><%= t('author.index.th_commands') %></th>
   </tr>
 
 <% @authors.each do |author| %>
   <tr>
     <td id="index_table_title_td"><%= author.name %></td>
-    <td><%= link_to 'Edit', edit_author_path(author) %></td>
-    <td><%= link_to 'Destroy', author, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td><%= link_to t('author.common.edit'), edit_author_path(author) %></td>
+    <td><%= link_to t('author.common.delete'), author, method: :delete, data: { confirm: t('author.common.confirm')} %></td>
   </tr>
 <% end %>
 </table>

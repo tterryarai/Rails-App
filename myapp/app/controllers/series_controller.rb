@@ -4,7 +4,7 @@ class SeriesController < ApplicationController
   respond_to :html
 
   def index
-    @series = Series.order("realm_id, name asc").all
+    @series = Series.order("app_id, name asc").all
     respond_with(@series)
   end
 

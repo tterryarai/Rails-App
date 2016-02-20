@@ -1,0 +1,52 @@
+
+<% if @modelstock.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@modelstock.errors.count, "error") %> prohibited this modelstock from being saved:</h2>
+    <ul>
+    <% @modelstock.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<%= form_for(@modelstock) do |f| %>
+
+<div class="form">
+  <div class="field">
+    <%= f.label t('modelstock.form.name') %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label t('modelstock.form.scale') %><br />
+    <%= f.select :scale, options_for_select(get_ms_scale_list, @modelstock.scale) %>
+  </div>
+  <div class="field">
+    <%= f.label t('modelstock.form.publisher') %><br />
+    <%= f.select :publisher_id, options_for_select(get_publisher_list(Modelstock::APP_ID), @modelstock.publisher_id) %>
+  </div>
+  <div class="field">
+    <%= f.label t('modelstock.form.realm') %><br />
+    <%= f.select :realm, options_for_select(get_ms_realm_list, @modelstock.realm) %>
+  </div>
+  <div class="field">
+    <%= f.label t('modelstock.form.realm_and_series') %><br />
+    <%= f.select :series_id, options_for_select(get_series_list(Modelstock::APP_ID), @modelstock.series_id) %>
+  </div>
+  <div class="field">
+    <%= f.label t('modelstock.form.status') %><br />
+    <%= f.select :status, options_for_select(get_ms_status_list, @modelstock.status) %>
+  </div>
+</div>
+
+<div class="form">
+  <div class="field">
+    <%= f.label t('modelstock.form.description') %><br />
+    <%= f.text_area :description, {:size => "40x13"}%>
+  </div>
+  <div class="actions">
+    <%= f.submit val %>
+  </div>
+</div>
+
+<% end %>

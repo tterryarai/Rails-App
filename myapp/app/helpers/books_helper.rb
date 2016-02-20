@@ -1,26 +1,34 @@
 module BooksHelper
 
-  def cycle_order(str)
-    if str.include?('asc') then
-      ret = 'desc'
-    elsif str.include?('desc') then
-      ret = 'asc'
-    else
-      ret = 'asc'
+  def cycle_bk_order(str1 = '', str2 = '')
+    if str1.empty? then
+      return 'title asc' # set default
     end
-    return ret
+    if str2.include?('asc') then
+      return str1 + ' desc'
+    elsif str2.include?('desc') then
+      return str1 + ' asc'
+    end
+    return str1 + ' asc' # set default
   end
 
-
-  def get_status_list
+  def get_bk_status_list
     list = []
-    Status.all.each do |status|
-      list << [ status.name, status.id ]
+    Book.status_list.each do |s|
+        list << [t('book.status.'+s), s]
     end
     return list
   end
 
-  def get_author_list
+  def get_bk_realm_list
+    list = []
+    Book.realm_list.each do |r|
+      list << [t('book.realm.'+r), r]
+    end
+    return list
+  end
+
+  def get_bk_author_list
     list = []
     Author.all.each do |author|
       list << [ author.name, author.id ]
@@ -28,19 +36,4 @@ module BooksHelper
     return list
   end
 
-  def get_publisher_list
-    list = []
-    Publisher.all.each do |pub|
-      list << [ pub.name, pub.id ]
-    end
-    return list
-  end
-
-  def get_series_list
-    list = []
-    Series.all.each do |series|
-      list << [ series.realm.name+':'+series.name, series.id ]
-    end
-    return list
-  end
 end
