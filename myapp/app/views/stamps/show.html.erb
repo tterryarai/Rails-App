@@ -1,0 +1,65 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @stamp.name %>
+</p>
+
+<p>
+  <b>Issue date:</b>
+  <%= @stamp.issue_date %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @stamp.status %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @stamp.description %>
+</p>
+
+<p>
+  <b>Image path:</b>
+  <%= @stamp.image_path %>
+</p>
+
+<p>
+  <b>Issue area:</b>
+  <%= @stamp.issue_area %>
+</p>
+
+<p>
+  <b>Realm:</b>
+  <%= @stamp.realm %>
+</p>
+
+<p>
+  <b>Series:</b>
+  <%= @stamp.series %>
+</p>
+
+<p>
+  <b>Issue price:</b>
+  <%= @stamp.issue_price %>
+</p>
+
+<p>
+  <b>Remark1:</b>
+  <%= @stamp.remark1 %>
+</p>
+
+<p>
+  <b>Remark2:</b>
+  <%= @stamp.remark2 %>
+</p>
+
+<p>
+  <b>Remark3:</b>
+  <%= @stamp.remark3 %>
+</p>
+
+
+<%= link_to 'Edit', edit_stamp_path(@stamp) %> |
+<%= link_to 'Back', stamps_path %>

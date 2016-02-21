@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160220035141) do
+ActiveRecord::Schema.define(:version => 20160221030300) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -56,6 +56,24 @@ ActiveRecord::Schema.define(:version => 20160220035141) do
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
     t.integer  "app_id"
+  end
+
+  create_table "stamps", :force => true do |t|
+    t.string   "name",        :default => "(none)", :null => false
+    t.string   "issue_date"
+    t.text     "description"
+    t.string   "image_path"
+    t.string   "remark1"
+    t.string   "remark2"
+    t.string   "remark3"
+    t.datetime "created_at",                        :null => false
+    t.datetime "updated_at",                        :null => false
+    t.integer  "region"
+    t.integer  "status"
+    t.string   "group1"
+    t.string   "group2"
+    t.string   "group3"
+    t.string   "price"
   end
 
 end
