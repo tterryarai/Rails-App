@@ -177,3 +177,39 @@ en:
       app_id:    "APP ID"
       name:      "Name"
 
+  stamp:
+    common:
+      back:    "Back"
+      edit:    "Edit"
+      show:    "Show"
+      delete:  "Delete"
+      confirm: "Are you sure?"
+    attr:
+      name:       "Name"
+      region:     "Region"
+      group1:     "Group1"
+      group2:     "Group2"
+      group3:     "Group3"
+      issue_date: "Issue Date"
+      price:      "Price"
+      status:     "Status"
+      image_path: "Image Path"
+      remark1:    "Remark1"
+      remark2:    "Remark2"
+      remark3:    "Remark3"
+      description: "Description"
+    index:
+      main_title: "Stamps"
+      search:     "Search"
+      clear:      "Clear"
+      register:   "New Stamp"
+    new:
+      main_title: "New Stamp"
+      register:   "Register"
+    edit:
+      main_title: "Edit Stamp Information"
+      register:   "Update"
+    show:
+      main_title: "Stamp Information"
+    form:
+

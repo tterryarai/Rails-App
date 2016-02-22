@@ -1,5 +1,17 @@
-<h1>New stamp</h1>
 
-<%= render 'form' %>
+<%= render :partial => '/parts/title', :locals => {:val => t('stamp.new.main_title')} %>
 
-<%= link_to 'Back', stamps_path %>
+<div class="operation">
+  <%= render :partial => 'commands', :locals => {:val => 'new'} %>
+</div>
+
+<%= render :partial => 'form', :locals => {:val => t('stamp.new.register')} %>
+
+
+<% content_for :sidebar do %>
+<p>
+This is side bar area.
+</p>
+<% end %>
+
+

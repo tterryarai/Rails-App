@@ -12,23 +12,23 @@ class Stamp < ActiveRecord::Base
   NO_IMAGE = 'no_image.png'
 
   REGIONS = {
-    '(none)'           => 0,
-    'JP'               => 1,
-    'GB'               => 2,
-    'Ryukyu'           => 3,
-    'England'          => 4,
+    '(none)'  => 0,
+    'JP'      => 1,
+    'GB'      => 2,
+    'Ryukyu'  => 3,
+    'England' => 4,
     'Northern Ireland' => 5,
-    'Scotland'         => 6,
-    'Wales'            => 7,
-    'Isle of Mann'     => 8,
-    'Guernsey'         => 9,
-    'Jersey'           => 10
+    'Scotland' => 6,
+    'Wales'    => 7,
+    'Isle of Mann' => 8,
+    'Guernsey' => 9,
+    'Jersey'   => 10
   }
 
   STATUSES = {
     'Not Purchased' => 0,
-    'Planning'      => 1,
-    'Purchased'     => 2
+    'Planning' => 1,
+    'Purchased' => 2
   }
 
   GROUP1 = [
@@ -51,9 +51,9 @@ class Stamp < ActiveRecord::Base
   # validation
   validates_presence_of :name, :image_path, :region, :status
   validates_length_of :name, :image_path, in: 1..255
-  validates_inclusion_of :region, within: REGIONS
-  validates_inclusion_of :status, within: STATUSES
-  validates_inclusion_of :greoup1, within: GROUP1
+#  validates_inclusion_of :region, within: REGIONS
+#  validates_inclusion_of :status, within: STATUSES
+  validates_inclusion_of :group1, within: GROUP1
 
 
   def self.region_list
