@@ -9,8 +9,9 @@
 <table class="index_table">
 <% order = cycle_order(session[:order].to_s) %>
   <tr>
+    <th><%= t('stamp.common.edit')%></th>
     <th><%= link_to t('stamp.attr.name'), stamps_path(:sort => 'name', :order => order) %></th>
-    <th><%= link_to t('stamp.attr.region'), stamps_path(:sort => 'region', :order => order) %></th>
+    <th><%= link_to t('stamp.attr.area'), stamps_path(:sort => 'area', :order => order) %></th>
     <th><%= link_to t('stamp.attr.group1'), stamps_path(:sort => 'group1', :order => order) %></th>
     <th><%= link_to t('stamp.attr.group2'), stamps_path(:sort => 'group2', :order => order) %></th>
     <th><%= t('stamp.attr.group3')%></th>
@@ -19,15 +20,15 @@
     <th><%= t('stamp.attr.remark1')%></th>
     <th><%= t('stamp.attr.remark2')%></th>
     <th><%= t('stamp.attr.remark3')%></th>
-    <th><%= link_to t('stamp.attr.status'), stamps_path(:sort => 'status', :order => order) %></th>
-    <th><%= t('stamp.common.edit')%></th>
+    <th><%= link_to t('stamp.attr.own'), stamps_path(:sort => 'own', :order => order) %></th>
   </tr>
 
 <% no_data = t('app.common.no_data')%>
 <% @stamps.each do |stamp| %>
   <tr>
+    <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => stamp.id}, :method => :get %></td>
     <td id='index_table_title_td'><%= link_to stamp.name, stamp %></td>
-    <td><%= Stamp.region_list.key(stamp.region)  %></td>
+    <td><%= stamp.area    %></td>
     <td><%= stamp.group1  %></td>
     <td><%= stamp.group2  %></td>
     <td><%= stamp.group3  %></td>
@@ -36,8 +37,7 @@
     <td><%= stamp.remark1 %></td>
     <td><%= stamp.remark2 %></td>
     <td><%= stamp.remark3 %></td>
-    <td><%= Stamp.status_list.key(stamp.status)  %></td>
-    <td><%= link_to 'Edit', edit_stamp_path(stamp) %></td>
+    <td><%= stamp.own     %></td>
   </tr>
 <% end %>
 </table>

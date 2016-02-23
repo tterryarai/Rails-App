@@ -18,8 +18,8 @@
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label t('stamp.attr.region') %><br />
-    <%= f.select :region, options_for_select(get_region_list, @stamp.region) %>
+    <%= f.label t('stamp.attr.area') %><br />
+    <%= f.select :area, options_for_select(get_area_list, @stamp.area) %>
   </div>
   <div class="field">
     <%= f.label t('stamp.attr.group1') %><br />
@@ -42,8 +42,8 @@
     <%= f.text_field :price %>
   </div>
   <div class="field">
-    <%= f.label t('stamp.attr.status') %><br />
-    <%= f.select :status, options_for_select(get_status_list, @stamp.status) %>
+    <%= f.label t('stamp.attr.own') %><br />
+    <%= f.select :own, options_for_select(get_own_list, @stamp.own) %>
   </div>
   <div class="field">
     <%= f.label t('stamp.attr.image_path') %><br />

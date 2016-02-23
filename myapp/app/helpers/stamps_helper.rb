@@ -1,17 +1,17 @@
 module StampsHelper
 
-  def get_region_list
+  def get_area_list
     list = []
-    Stamp.region_list.each do |s|
-        list << [s[0], s[1]]
+    Stamp.area_list.each do |s|
+        list << [s, s]
     end
     return list
   end
 
-  def get_status_list
+  def get_own_list
     list = []
-    Stamp.status_list.each do |s|
-        list << [s[0], s[1]]
+    Stamp.own_list.each do |s|
+        list << [s, s]
     end
     return list
   end

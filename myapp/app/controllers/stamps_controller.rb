@@ -24,14 +24,14 @@ class StampsController < ApplicationController
       case params[:sort]
       when 'name'
         sort = 'name'
-      when 'region'
-        sort = 'region'
+      when 'area'
+        sort = 'area'
       when 'group1'
         sort = 'group1'
       when 'group2'
         sort = 'group2'
-      when 'status'
-        sort = 'status'
+      when 'own'
+        sort = 'own'
       else
         sort = 'name' # set default
       end
@@ -60,7 +60,7 @@ class StampsController < ApplicationController
 
     # exec SELECT
     if like.present? then
-      @stamps = Stamp.where('(name LIKE ?) OR (group1 LIKE ?) OR (group2 LIKE ?) OR (group3 LIKE ?) OR (price LIKE ?) OR (remark1 LIKE ?) OR (remark2 LIKE ?) OR (remark3 LIKE ?)', like, like , like, like, like, like, like, like).order(sort + ' ' + order).page(params[:page])
+      @stamps = Stamp.where('(name LIKE ?) OR (area LIKE ?) OR (own LIKE ?) OR (group1 LIKE ?) OR (group2 LIKE ?) OR (group3 LIKE ?) OR (remark1 LIKE ?) OR (remark2 LIKE ?) OR (remark3 LIKE ?)', like, like , like, like, like, like, like, like, like).order(sort + ' ' + order).page(params[:page])
     else
       @stamps = Stamp.order(sort + ' ' + order).page(params[:page])
     end

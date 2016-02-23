@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20160221030300) do
+ActiveRecord::Schema.define(:version => 20160223004524) do
 
   create_table "authors", :force => true do |t|
     t.string   "name"
@@ -68,12 +68,13 @@ ActiveRecord::Schema.define(:version => 20160221030300) do
     t.string   "remark3"
     t.datetime "created_at",                        :null => false
     t.datetime "updated_at",                        :null => false
-    t.integer  "region"
     t.integer  "status"
     t.string   "group1"
     t.string   "group2"
     t.string   "group3"
     t.string   "price"
+    t.string   "area"
+    t.string   "own"
   end
 
 end

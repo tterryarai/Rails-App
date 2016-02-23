@@ -13,8 +13,8 @@
 </p>
 
 <p>
-  <b><%= ts('stamp.attr.region')%></b>
-  <%= Stamp.region_list.key(@stamp.region) %>
+  <b><%= ts('stamp.attr.area')%></b>
+  <%= @stamp.area %>
 </p>
 
 <p>
@@ -24,7 +24,7 @@
 
 <p>
   <b><%= ts('stamp.attr.group2')%></b>
-  <%= @stamp.group3 %>
+  <%= @stamp.group2 %>
 </p>
 
 <p>
@@ -43,8 +43,8 @@
 </p>
 
 <p>
-  <b><%= ts('stamp.attr.status')%></b>
-  <%= Stamp.status_list.key(@stamp.status) %>
+  <b><%= ts('stamp.attr.own')%></b>
+  <%= @stamp.own %>
 </p>
 
 <p>
