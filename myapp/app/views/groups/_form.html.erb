@@ -1,0 +1,21 @@
+<div class="form_layout">
+
+<%= form_for(@group) do |f| %>
+
+<%= render :partial => '/parts/form_errors', :locals => {:obj => @group} %>
+
+<div>
+<fieldset>
+  <%= f.label :app_id, t('group.app_id') %><br>
+  <%= f.number_field :app_id %><br>
+  <%= f.label :group1, t('group.group1') %><br>
+  <%= f.text_field :group1 %><br>
+  <%= f.label :group2, t('group.group2') %><br>
+  <%= f.text_field :group2 %><br>
+  <%= f.submit val, {:class => "actions"} %>
+</fieldset>
+</div>
+
+<% end %>
+
+</div>

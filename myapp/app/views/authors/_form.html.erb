@@ -1,25 +1,17 @@
-
-<% if @author.errors.any? %>
-  <div id="error_explanation">
-    <h2><%= pluralize(@author.errors.count, "error") %> prohibited this author from being saved:</h2>
-    <ul>
-    <% @author.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
-    <% end %>
-    </ul>
-  </div>
-<% end %>
+<div class="form_layout">
 
 <%= form_for(@author) do |f| %>
 
-<div class="form">
-  <div class="field">
-    <%= f.label ts('author.form.name') %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="actions">
-    <%= f.submit val %>
-  </div>
+<%= render :partial => '/parts/form_errors', :locals => {:obj => @author} %>
+
+<div>
+<fieldset>
+  <%= f.label :name, t('author.name') %><br>
+  <%= f.text_field :name %><br>
+  <%= f.submit val, {:class => "actions"} %>
+</fieldset>
 </div>
 
 <% end %>
+
+</div>

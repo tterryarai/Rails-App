@@ -1,0 +1,19 @@
+<div class="form_layout">
+
+<%= form_for(@provider) do |f| %>
+
+<%= render :partial => '/parts/form_errors', :locals => {:obj => @provider} %>
+
+<div>
+<fieldset>
+  <%= f.label :app_id, t('provider.app_id') %><br>
+  <%= f.number_field :app_id %><br>
+  <%= f.label :name, t('provider.name') %><br>
+  <%= f.text_field :name %><br>
+  <%= f.submit val, {:class => "actions"} %>
+</fieldset>
+</div>
+
+<% end %>
+
+</div>

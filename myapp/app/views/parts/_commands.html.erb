@@ -1,0 +1,15 @@
+
+<%# params: command, obj %>
+
+<div id="command_buttons">
+  <% case command %>
+  <% when 'index' then %>
+    <%= button_to t('common.new'), {:action => 'new'}, :method => :get %>
+  <% when 'show' then %>
+    <%= button_to t('common.edit'), {:action => 'edit'}, :method => :get %>
+    <%= button_to t('common.delete'), {:action => 'destroy', :id => obj.id}, data: {confirm: t('common.confirm')}, :method => :delete %>
+    <%= button_to t('common.back'), {:action => 'index'}, :method => :get %>
+  <% else %>
+    <%= button_to t('common.back'), {:action => 'index'}, :method => :get %>
+  <% end %>
+</div>

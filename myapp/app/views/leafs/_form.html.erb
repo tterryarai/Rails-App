@@ -1,0 +1,32 @@
+<div class="form_layout">
+
+<%= form_for(@leaf) do |f| %>
+
+<%= render partial: '/parts/form_errors', locals: {obj: @leaf} %>
+
+<div>
+<fieldset>
+  <%= f.label t('leaf.title') %><br>
+  <%= f.text_field :title %><br>
+  <%= f.label t('leaf.subtitle') %><br>
+  <%= f.text_field :subtitle %><br>
+  <%= f.label t('leaf.group1') %><br>
+  <%= f.select :group1, options_for_select(leaf_group1_selection, @leaf.group1) %><br>
+  <%= f.label t('leaf.group2') %><br>
+  <%= f.select :group2, options_for_select(leaf_group2_selection, @leaf.group2) %><br>
+  <%= f.label t('leaf.group3') %><br>
+  <%= f.text_field :group3 %><br>
+</fieldset>
+</div>
+
+<div>
+<fieldset>
+  <%= f.label t('leaf.description') %><br>
+  <%= f.text_area :description %><br>
+  <%= f.submit val, {:class => "actions"} %>
+</fieldset>
+</div>
+
+<% end %>
+
+</div>

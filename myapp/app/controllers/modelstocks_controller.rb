@@ -1,91 +1,97 @@
 class ModelstocksController < ApplicationController
-  before_filter :set_modelstock, only: [:show, :edit, :update, :destroy]
+  before_action :set_modelstock, only: [:show, :edit, :update, :destroy]
 
-  respond_to :html
-
+  # GET /modelstocks
   def index
-    # set ORDER_BY parameter if params[:order] is set
-    # default is 'name asc'
 
-    if params[:commit].present? && params[:commit]==t('modelstock.index.clear') then
-      order = 'modelstocks.name ASC' # set default
-      session[:order] = ''
-    elsif params[:order].present? then 
-      case params[:order]
-      when 'name desc'
-        order = 'modelstocks.name DESC'
-      when 'name asc'
-        order = 'modelstocks.name ASC'
-      when 'series desc'
-        order = 'series.name DESC'
-      when 'series asc'
-        order = 'series.name ASC'
-      when 'realm desc'
-        order = 'modelstocks.realm DESC'
-      when 'realm asc'
-        order = 'modelstocks.realm ASC'
-      else
-        order = 'modelstocks.name ASC' # set default for other illegal order
-      end
-      session[:order] = params[:order] # store order
+    # ORDER BY parameter
+    if params[:order].present? then
+      order = params[:order]
+    elsif session[:order].present? then
+      order = session[:order]
     else
-      order = 'modelstocks.name ASC' # set default
-      session[:order] = ''
+      order = 'name' # default
     end
+    session[:order] = order # store order
 
-    # set LIKE parameter from params[:keyword] or session[:keyword] or ''
-    if params[:keyword].present? && params[:commit].present? && params[:commit]==t('modelstock.index.search') then
+    # LIKE parameter
+    if params[:keyword].present? && params[:commit].present? && params[:commit]==t('common.search') then
       like = '%' + params[:keyword].to_s + '%'
       session[:keyword] = params[:keyword]
-    elsif params[:commit].present? && params[:commit]==t('modelstock.index.clear') then
-      like = ''
-      session[:keyword] = ''
     elsif session[:keyword].present? then
       like = '%' + session[:keyword].to_s + '%'
     else
-      like = '' # default
+      like = ''
+      session[:keyword] = ''
+      session[:order] = ''
+    end
+
+    # all clear
+    if params[:commit].present? && params[:commit]==t('common.clear') then
+      like = ''
+      session[:keyword] = ''
+      session[:order] = ''
     end
 
     # exec SELECT
-    @modelstocks = Modelstock.joins('LEFT JOIN series ON modelstocks.series_id = series.id')
+    select = 'id, name, scale, status, group1, group2, provider'
+    @modelstocks = Modelstock.select(select)
     if like.present? then
-      @modelstocks = @modelstocks.where('(modelstocks.realm LIKE ?) OR (series.name LIKE ?) OR (modelstocks.name LIKE ?)', like, like, like)
+      @modelstocks = @modelstocks.where('(name LIKE ?) OR (group2 LIKE ?) OR (group1 LIKE ?)', like, like, like)
     end
     @modelstocks = @modelstocks.order(order).page(params[:page])
 
-    respond_with(@modelstocks)
   end
 
+  # GET /modelstocks/1
   def show
-    respond_with(@modelstock)
   end
 
+  # GET /modelstocks/new
   def new
     @modelstock = Modelstock.new
-    respond_with(@modelstock)
+    render_new
   end
 
+  # GET /modelstocks/1/edit
   def edit
+    render_edit
   end
 
+  # POST /modelstocks
   def create
-    @modelstock = Modelstock.new(params[:modelstock])
-    @modelstock.save
-    respond_with(@modelstock)
+    @modelstock = Modelstock.new(modelstock_params)
+
+    if @modelstock.save
+      redirect_to @modelstock, notice: t('message.registered')
+    else
+      render_new
+    end
   end
 
+  # PATCH/PUT /modelstocks/1
   def update
-    @modelstock.update_attributes(params[:modelstock])
-    respond_with(@modelstock)
+    if @modelstock.update(modelstock_params)
+      redirect_to @modelstock, notice: t('message.updated')
+    else
+      render_edit
+    end
   end
 
+  # DELETE /modelstocks/1
   def destroy
     @modelstock.destroy
-    respond_with(@modelstock)
+    redirect_to modelstocks_url, notice: t('message.deleted')
   end
 
   private
+    # Use callbacks to share common setup or constraints between actions.
     def set_modelstock
       @modelstock = Modelstock.find(params[:id])
+    end
+
+    # Only allow a trusted parameter "white list" through.
+    def modelstock_params
+      params.require(:modelstock).permit(:name, :description, :scale, :status, :group1, :group2, :provider)
     end
 end

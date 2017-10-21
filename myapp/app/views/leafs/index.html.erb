@@ -1,0 +1,18 @@
+
+<% title = leaf_title(t('common.leafs'), session[:select]) %>
+<%= render partial: '/parts/title', locals: {val: title} %>
+
+<!-- <div class="index_layout"> -->
+<div class="js-masonry" data-masonry-options='{"columnWidth": 5,"itemSelector": ".leaf, .index_layout_all, .index_layout_ctl"}'>
+
+<% if session[:select].present? then %>
+
+  <%= render partial: 'index_leaf' %>
+
+<% else %>
+
+  <%= render partial: 'index_group1' %>
+
+<% end %>
+
+</div>

@@ -1,2 +1,21 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
+one:
+  title: MyString
+  volume: MyString
+  description: MyText
+  status: MyString
+  group1: MyString
+  group2: MyString
+  provider: MyString
+  author: MyString
+
+two:
+  title: MyString
+  volume: MyString
+  description: MyText
+  status: MyString
+  group1: MyString
+  group2: MyString
+  provider: MyString
+  author: MyString

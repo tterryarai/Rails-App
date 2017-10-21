@@ -1,0 +1,27 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => t('common.new')} %>
+
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'new' } %>
+</div>
+
+<div class="form_layout">
+
+<%= form_for(@virtual_run) do |f| %>
+
+<%= render :partial => '/parts/form_errors', :locals => {:obj => @virtual_run} %>
+
+<div>
+<fieldset>
+  <%= f.label :virtual_course_id, t('virtual_run.virtual_course_id') %><br>
+  <%= f.select :virtual_course_id, options_for_select(virtual_course_id_selection, @virtual_run.virtual_course_id) %><br>
+  <%= f.label :name, t('virtual_run.name') %><br>
+  <%= f.text_field :name %><br>
+  <%= f.submit t('common.register'), {:class => "actions"} %>
+</fieldset>
+</div>
+
+<% end %>
+
+</div>
+

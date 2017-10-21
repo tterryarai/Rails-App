@@ -1,48 +1,42 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => t('book.index.main_title')} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('common.books')} %>
 
-<div class="operation">
-  <%= render :partial => 'pagination' %>
-  <%= render :partial => 'commands', :locals => {:val => 'index'} %>
+<div id="operations">
+  <%= render :partial => '/parts/paginate', :locals => {:obj => @books} %>
+  <%= render :partial => '/parts/search', :locals => {:path => books_path} %>
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index'} %>
 </div>
 
-<table class="index_table">
-<% order = session[:order].to_s %>
-  <tr>
-    <th><%= link_to t('book.index.th_title'),  books_path(:order => cycle_bk_order('title', order))%></th>
-    <th><%= t('book.index.th_volume') %></th>
-    <th><%= t('book.index.th_status') %></th>
-    <th><%= link_to t('book.index.th_realm'),  books_path(:order => cycle_bk_order('realm',  order))%></th>
-    <th><%= link_to t('book.index.th_series'), books_path(:order => cycle_bk_order('series', order))%></th>
-    <th><%= t('book.index.th_edit') %></th>
-  </tr>
+<% if @books.present? then %>
 
-<% no_data = t('app.common.no_data')%>
-<% @books.each do |book| %>
-  <tr>
-    <td id='index_table_title_td'>
-    <% if book.title.present? then %>
-      <%= link_to book.title, book %>
-    <% else %>
-      <%= no_data %>
-    <% end %>
-    </td>
-    <td><%= book.volume.present? ? book.volume : no_data %></td>
-    <td><%= book.status.present? ? td('book.status', book.status) : no_data %></td>
-    <td><%= book.realm.present? ? td('book.realm', book.realm) : no_data %></td>
-    <td><%= book.series_id.present? ? book.series.name : no_data %></td>
-    <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => book.id}, :method => :get %></td>
-  </tr>
-<% end %>
+<table>
+  <thead>
+    <tr>
+      <th><%= link_to t('book.title'), books_path(:order => 'title') %></th>
+      <th><%= t('book.volume') %></th>
+      <th><%= link_to t('book.group1'), books_path(:order => 'group1') %></th>
+      <th><%= link_to t('book.group2'), books_path(:order => 'group2') %></th>
+      <th><%= link_to t('book.status'), books_path(:order => 'status') %></th>
+      <th><%= t('common.edit') %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @books.each do |book| %>
+    <tr>
+      <td><%= link_to book.title, book %></td>
+      <td><%= sn(book.volume) %></td>
+      <td><%= sn(book.group1) %></td>
+      <td><%= sn(book.group2) %></td>
+      <td><%= image_tag Book.icons[book.status] %></td>
+      <td><%= link_to image_tag(Book.icons['edit']), edit_book_path(book) %></td>
+    </tr>
+  <% end %>
+  </tbody>
 </table>
 
-<br />
+<% else %>
 
+<%= t('message.empty') %>
 
-<% content_for :sidebar do %>
-<p>
-This is side bar area.
-</p>
 <% end %>
-
-

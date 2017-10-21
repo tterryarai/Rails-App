@@ -1,49 +1,44 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => t('modelstock.index.main_title')} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('common.modelstocks')} %>
 
-<div class="operation">
-  <%= render :partial => 'pagination' %>
-  <%= render :partial => 'commands', :locals => {:val => 'index'} %>
+<div id="operations">
+  <%= render :partial => '/parts/paginate', :locals => {:obj => @modelstocks} %>
+  <%= render :partial => '/parts/search', :locals => {:path => modelstocks_path } %>
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index' } %>
 </div>
 
-<table class="index_table">
-<% order = session[:order].to_s %>
-  <tr>
-    <th><%= link_to t('modelstock.index.th_name'),   modelstocks_path(:order => cycle_ms_order('name', order))%></th>
-    <th><%= t('modelstock.index.th_scale') %></th>
-    <th><%= t('modelstock.index.th_publisher') %></th>
-    <th><%= link_to t('modelstock.index.th_realm') , modelstocks_path(:order => cycle_ms_order('realm', order))%></th>
-    <th><%= link_to t('modelstock.index.th_series'), modelstocks_path(:order => cycle_ms_order('series', order))%></th>
-    <th><%= t('modelstock.index.th_status') %></th>
-    <th><%= t('modelstock.index.th_edit') %></th>
-  </tr>
+<% if @modelstocks.present? then %>
 
-<% no_data = t('app.common.no_data')%>
-<% @modelstocks.each do |ms| %>
-  <tr>
-    <td id='index_table_title_td'>
-    <% if ms.name.present? then %>
-      <%= link_to ms.name, ms %>
-    <% else %>
-      <%= no_data %>
-    <% end %>
-    </td>
-    <td><%= ms.scale.present? ? ms.scale : no_data %></td>
-    <td><%= ms.publisher_id.present? ? ms.publisher.name : no_data %></td>
-    <td><%= ms.realm.present? ? td('modelstock.realm', ms.realm) : no_data %></td>
-    <td><%= ms.series_id.present? ? td('modelstock.series', ms.series.name) : no_data %></td>
-    <td><%= ms.status.present? ? td('modelstock.status', ms.status) : no_data %></td>
-    <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => ms.id}, :method => :get %></td>
-  </tr>
-<% end %>
+<table>
+  <thead>
+    <tr>
+      <th><%= link_to t('modelstock.name'), modelstocks_path(:order => 'name') %></th>
+      <th><%= link_to t('modelstock.scale'), modelstocks_path(:order => 'scale') %></th>
+      <th><%= link_to t('modelstock.provider'), modelstocks_path(:order => 'provider') %></th>
+      <th><%= link_to t('modelstock.group1'), modelstocks_path(:order => 'group1') %></th>
+      <th><%= link_to t('modelstock.group2'), modelstocks_path(:order => 'group2') %></th>
+      <th><%= link_to t('modelstock.status'), modelstocks_path(:order => 'status') %></th>
+      <th><%= t('common.edit') %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @modelstocks.each do |modelstock| %>
+    <tr>
+      <td><%= link_to modelstock.name, modelstock %></td>
+      <td><%= sn(modelstock.scale) %></td>
+      <td><%= sn(modelstock.provider) %></td>
+      <td><%= sn(modelstock.group1) %></td>
+      <td><%= sn(modelstock.group2) %></td>
+      <td><%= t('modelstock.statuses.' + modelstock.status) %></td>
+      <td><%= link_to image_tag(Modelstock.icons['edit']), edit_modelstock_path(modelstock) %></td>
+    </tr>
+  <% end %>
+  </tbody>
 </table>
 
-<br />
+<% else %>
 
+<%= t('message.empty') %>
 
-<% content_for :sidebar do %>
-<p>
-This is side bar area.
-</p>
 <% end %>
-

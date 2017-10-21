@@ -1,77 +1,50 @@
-
-<% if @stamp.errors.any? %>
-  <div id="error_explanation">
-    <h2><%= pluralize(@stamp.errors.count, "error") %> prohibited this stamp from being saved:</h2>
-    <ul>
-    <% @stamp.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
-    <% end %>
-    </ul>
-  </div>
-<% end %>
+<div class="form_layout">
 
 <%= form_for(@stamp) do |f| %>
 
-<div class="form">
-  <div class="field">
-    <%= f.label t('stamp.attr.name') %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.area') %><br />
-    <%= f.select :area, options_for_select(get_area_list, @stamp.area) %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.group1') %><br />
-    <%= f.select :group1, options_for_select(get_group1_list, @stamp.group1) %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.group2') %><br />
-    <%= f.text_field :group2 %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.group3') %><br />
-    <%= f.text_field :group3 %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.issue_date') %><br />
-    <%= f.text_field :issue_date %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.price') %><br />
-    <%= f.text_field :price %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.own') %><br />
-    <%= f.select :own, options_for_select(get_own_list, @stamp.own) %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.image_path') %><br />
-    <%= f.text_field :image_path %>
-  </div>
+<%= render :partial => '/parts/form_errors', :locals => {:obj => @stamp} %>
+
+<% stamp_override_defaults(@stamp) if val == t('common.register') %>
+
+<div>
+<fieldset>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %><br>
+  <%= f.label :area, 'Region' %><br>
+  <%= f.select :area, options_for_select(stamp_area_selection, @stamp.area) %><br>
+  <%= f.label :group1 %><br>
+  <%= f.select :group1, options_for_select(stamp_group1_selection, @stamp.group1) %><br>
+  <%= f.label :group2 %><br>
+  <%= f.text_field :group2 %><br>
+  <%= f.label :group3 %><br>
+  <%= f.text_field :group3 %><br>
+  <%= f.label :issue_date %><br>
+  <%= f.text_field :issue_date %><br>
+  <%= f.label :price %><br>
+  <%= f.text_field :price %><br>
+  <%= f.label :remark1 %><br>
+  <%= f.text_field :remark1 %><br>
+  <%= f.label :remark2 %><br>
+  <%= f.text_field :remark2 %><br>
+  <%= f.label :remark3 %><br>
+  <%= f.text_field :remark3 %><br>
+</fieldset>
 </div>
 
-<div class="form">
-  <div class="field">
-    <%= f.label t('stamp.attr.remark1') %><br />
-    <%= f.text_field :remark1 %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.remark2') %><br />
-    <%= f.text_field :remark2 %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.remark3') %><br />
-    <%= f.text_field :remark3 %>
-  </div>
-  <div class="field">
-    <%= f.label t('stamp.attr.description') %><br />
-    <%= f.text_area :description, {:size => "40x13"} %>
-  </div>
-  <div class="actions">
-    <%= f.submit val %>
-  </div>
+<div>
+<fieldset>
+  <%= f.label :status %><br>
+  <%= f.select :status, options_for_select(stamp_status_selection, @stamp.status) %><br>
+  <%= f.label :image_path %><br>
+  <%= f.text_field :image_path %><br>
+  <%= f.label :description %><br>
+  <%= f.text_area :description %><br>
+  <%= f.label :leaf %><br>
+  <%= f.select :leaf_id, options_for_select(stamp_leaf_id_selection, @stamp.leaf_id) %><br>
+  <%= f.submit val, {:class => "actions"}%><br>
+</fieldset>
 </div>
 
 <% end %>
 
+</div>

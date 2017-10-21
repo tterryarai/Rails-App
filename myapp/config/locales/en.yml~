@@ -1,0 +1,130 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  common:
+    main_title: "Web Application on Ruby on Rails"
+    leafs: "Leaves"
+    stamps: "Stamps"
+    books: "Books"
+    modelstocks: "Model Stocks"
+    authors: "Authors"
+    groups: "Groups"
+    providers: "Providers"
+    virtual_runs: "Virtual Runs"
+    new: "New Register"
+    edit: "Edit"
+    update: "Update"
+    show: "Detail"
+    delete: "Delete"
+    confirm: "Are you sure?"
+    statistics: "Statistics"
+    register: "Register"
+    back: "Back"
+    search: "Search"
+    clear: "Clear"
+    logout: "Logout"
+    commands: "Commands"
+    none: "(none)"
+  message:
+    registered: 'Registered successfully.'
+    updated: 'Updated successfully.'
+    deleted: 'Deleted successfully.'
+    empty: 'No items found.'
+
+  author:
+    name: "Name"
+  book:
+    title: "Title"
+    volume: "Volume"
+    description: "Description"
+    status: "Status"
+    group1: "Realm"
+    group2: "Series"
+    statuses:
+      __not_purchase__: "Not Purchase"
+      __purchased__: "Purchased"
+      __read__: "Read"
+    provider: "Publisher"
+    author: "Author"
+  group:
+    app_id: "APP ID"
+    group1: "Group1"
+    group2: "Group2"
+  leaf:
+    title: "Title"
+    subtitle: "Sub Title"
+    description: "Description"
+    group1: "Group1"
+    group2: "Group2"
+    group3: "Group3"
+    all: "ALL"
+  modelstock:
+    name: "Name"
+    scale: "Scale"
+    status: "Status"
+    description: "Description"
+    group1: "Group1"
+    group2: "Group2"
+    provider: "Maker"
+    statuses:
+      __build__: "Building"
+      __complete__: "Complete"
+      __plan__: "Planning"
+      __purchase__: "Purchased"
+  provider:
+    app_id: "APP ID"
+    name: "Name"
+  stamp:
+    name: "Name"
+    area: "Region"
+    issue_date: "Issue Date"
+    price: "Price"
+    image_path: "Image Path"
+    description: "Description"
+    group1: "Group1"
+    group2: "Group2"
+    group3: "Group3"
+    remark1: "Remark1"
+    remark2: "Remark2"
+    remark3: "Remark3"
+    leaf_id: "Leaf ID"
+    leaf: "Leaf"
+    status: "Status"
+    statuses:
+      __not_purchase__: "Not Purchase"
+      __purchased__: "Purchased"
+      __plan__: "Planning"
+    override:
+      remark1: "(SG#/Used)"
+      remark2: "(Printing)"
+  virtual_run:
+    name: "Course Memo"
+    length: "Current:"
+    last: "Latest Run[km]"
+    virtual_course_id: "Course"
+    virtual_course:
+      name: "Course Name"
+      length: "Course Length:"
+  devise:
+    new: "Login"
+    email: "ID"
+    password: "Password"

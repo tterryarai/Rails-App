@@ -1,46 +1,60 @@
 class AuthorsController < ApplicationController
-  before_filter :set_author, only: [:edit, :update, :destroy]
+  before_action :set_author, only: [:show, :edit, :update, :destroy]
 
-  respond_to :html
-
+  # GET /authors
   def index
-    @authors = Author.order(:name).all
-    respond_with(@authors)
+    @authors = Author.all.order(name: :asc)
   end
 
-#  def show
-#    respond_with(@author)
-#  end
+  # GET /authors/1
+  # def show
+  # end
 
+  # GET /authors/new
   def new
     @author = Author.new
-    respond_with(@author)
+    render_new
   end
 
+  # GET /authors/1/edit
   def edit
+    render_edit
   end
 
+  # POST /authors
   def create
-    @author = Author.new(params[:author])
-    @author.save
-#    respond_with(@author)
-    redirect_to authors_path
+    @author = Author.new(author_params)
+
+    if @author.save
+      redirect_to authors_path, notice: t('message.registered')
+    else
+      render_new
+    end
   end
 
+  # PATCH/PUT /authors/1
   def update
-    @author.update_attributes(params[:author])
-#    respond_with(@author)
-    redirect_to authors_path
+    if @author.update(author_params)
+      redirect_to authors_path, notice: t('message.updated')
+    else
+      render_edit
+    end
   end
 
+  # DELETE /authors/1
   def destroy
     @author.destroy
-#    respond_with(@author)
-    redirect_to authors_path
+    redirect_to authors_path, notice: t('message.deleted')
   end
 
   private
+    # Use callbacks to share common setup or constraints between actions.
     def set_author
       @author = Author.find(params[:id])
+    end
+
+    # Only allow a trusted parameter "white list" through.
+    def author_params
+      params.require(:author).permit(:name)
     end
 end

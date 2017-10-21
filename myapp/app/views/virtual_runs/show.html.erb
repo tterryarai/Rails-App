@@ -1,0 +1,44 @@
+
+<h2 id="title"><%= @virtual_run.virtual_course.name %>:<%= @virtual_run.name %></h2>
+
+<div id="operations">
+  <%= render :partial => 'commands', :locals => {:command => 'show', :obj => @virtual_run } %>
+</div>
+
+<div class="vcourse">
+  <%= @virtual_run.status %><br>
+  <%= t('virtual_run.length') + @virtual_run.length.round(2).to_s + 'km' %><br>
+  <%= t('virtual_run.virtual_course.length') + @virtual_run.virtual_course.length.round(2).to_s + 'km' %><br>
+</div>
+
+<div class="js-masonry" data-masonry-options='{"columnWidth": 5,"itemSelector": ".vpoint_pass, .vpoint_not_pass"}'>
+  <% VirtualPoint.where('virtual_course_id = ?', @virtual_run.virtual_course_id).order(:order).each do |vp| %>
+
+    <% if @virtual_run.status == 'Goal' then %>
+      <% vp_css = "vpoint_goal" %>
+      <% img_file = VirtualRun.image_path['Pass_goal'] %>
+    <% else %>
+      <% if vp.distance < @virtual_run.length then %>
+        <% vp_css = "vpoint_pass" %>
+      <% else %>
+        <% vp_css = "vpoint_not_pass" %>
+      <% end %>
+      <% img_file = VirtualRun.image_path['Pass'] %>
+    <% end %>
+    <div class=<%= vp_css %>>
+
+    <%= link_to 'http://maps.google.co.jp/maps?ll=' + vp.lat.to_s + ',' + vp.lng.to_s + '&z=17' do %>
+      <%= vp.order.to_s + ':' + vp.name %><br>
+      <% if vp.distance < @virtual_run.length then %>
+        <%= image_tag img_file, :class => "vpoint_pass_image" %>
+      <% end %><br>
+      <!-- % if vp.order != 0 then % -->
+        <%= vp.distance.round(2).to_s + 'km' %><br>
+      <!-- % end % -->
+    <% end %>
+
+    </div>
+
+  <% end %>
+</div>
+

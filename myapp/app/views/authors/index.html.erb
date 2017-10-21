@@ -1,31 +1,25 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => t('author.index.main_title') } %>
+<%= render :partial => '/parts/title', :locals => {:val => t('common.authors') } %>
 
-<div class="operation">
-  <%= render :partial => 'commands', :locals => {:val => 'index'} %>
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index' } %>
 </div>
 
-<table class="index_table">
-  <tr>
-    <th><%= t('author.index.th_name') %></th>
-    <th colspan="2" ><%= t('author.index.th_commands') %></th>
-  </tr>
+<table>
+  <thead>
+    <tr>
+      <th><%= t('author.name') %></th>
+      <th colspan="2"><%= t('common.commands') %></th>
+    </tr>
+  </thead>
 
-<% @authors.each do |author| %>
-  <tr>
-    <td id="index_table_title_td"><%= author.name %></td>
-    <td><%= link_to t('author.common.edit'), edit_author_path(author) %></td>
-    <td><%= link_to t('author.common.delete'), author, method: :delete, data: { confirm: t('author.common.confirm')} %></td>
-  </tr>
-<% end %>
+  <tbody>
+  <% @authors.each do |author| %>
+    <tr>
+      <td><%= author.name %></td>
+      <td><%= link_to t('common.edit'), edit_author_path(author) %></td>
+      <td><%= link_to t('common.delete'), author, method: :delete, data: {confirm: t('common.confirm')} %></td>
+    </tr>
+  <% end %>
+  </tbody>
 </table>
-
-<br />
-
-
-<% content_for :sidebar do %>
-<p>
-This is side bar area.
-</p>
-<% end %>
-

@@ -1,0 +1,44 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => t('common.virtual_runs')} %>
+
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index'} %>
+</div>
+
+<div class="js-masonry" data-masonry-options='{"columnWidth": 5,"itemSelector": ".vruns"}'>
+
+<% if @virtual_runs.present? then %>
+
+<% @virtual_runs.each do |vrun| %>
+
+  <% if vrun.status == 'Running' then %>
+    <% vrun_css = 'vrun_running' %>
+    <% img_file = VirtualRun.image_path['Running'] %>
+  <% elsif vrun.status == 'Goal' then %>
+    <% vrun_css ='vrun_goal' %>
+    <% img_file = VirtualRun.image_path['Goal'] %>
+  <% else %>
+    <% vrun_css = 'vrun_not_running' %>
+    <% img_file = VirtualRun.image_path['Not_running'] %>
+  <% end %>
+
+  <div class=<%= vrun_css %>>
+    <%= link_to vrun do %>
+      <p><%= vrun.virtual_course.name %><br>
+      <%= vrun.name %><br>
+      <%= image_tag img_file, :class => "vrun_image" %><br>
+      <%= vrun.status %><br>
+      <%= vrun.length.round(2).to_s+'km' %><br>
+      <%= '(Total:'+vrun.virtual_course.length.round(2).to_s+'km)' %></p>
+    <% end %>
+  </div>
+<% end %>
+
+<% else %>
+
+<%= t('message.empty') %>
+
+<% end %>
+
+</div>
+

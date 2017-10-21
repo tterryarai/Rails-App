@@ -1,0 +1,13 @@
+
+<% title = leaf_title(t('common.show'), session[:select]) %>
+<%= render partial: '/parts/title', locals: {val: title} %>
+
+<div id="operations">
+  <%= render partial: '/parts/commands', locals: {command: 'show', obj: @leaf } %>
+</div>
+
+<div id="leaf_layout">
+  <%= render partial: 'show_header', locals: {val: @leaf} %>
+  <%= render partial: 'show_stamps', locals: {val: @leaf} %>
+  <%= render partial: 'show_footer', locals: {val: @leaf} %>
+</div>

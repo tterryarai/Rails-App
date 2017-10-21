@@ -1,19 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
   name: MyString
   description: MyText
-  scale_id: 1
-  publisher: 
-  realm_id: 1
-  series_id: 1
-  status_id: 1
+  scale: MyString
+  status: MyString
+  group1: MyString
+  group2: MyString
+  provider: MyString
 
 two:
   name: MyString
   description: MyText
-  scale_id: 1
-  publisher: 
-  realm_id: 1
-  series_id: 1
-  status_id: 1
+  scale: MyString
+  status: MyString
+  group1: MyString
+  group2: MyString
+  provider: MyString

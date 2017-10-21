@@ -1,40 +1,27 @@
 module ModelstocksHelper
 
-  def cycle_ms_order(str1 = '', str2 = '')
-    if str1.empty? then
-      return 'name asc' # set default
-    end
-    if str2.include?('asc') then
-      return str1 + ' desc'
-    elsif str2.include?('desc') then
-      return str1 + ' asc'
-    end
-    return str1 + ' asc' # set default
-  end
-
-  def get_ms_status_list
-    list = []
-    Modelstock.status_list.each do |s|
-        list << [t('modelstock.status.'+s), s]
-    end
-    return list
-  end
-
-  def get_ms_scale_list
+  def modelstock_scale_selection
     list = []
     Modelstock.scale_list.each do |s|
-      list << [s, s]
+        list << [s, s]
     end
     return list
   end
 
-  def get_ms_realm_list
+  def modelstock_status_selection
     list = []
-    Modelstock.realm_list.each do |r|
-      list << [t('modelstock.realm.'+r), r]
+    Modelstock.status_list.each do |s|
+        list << [t('modelstock.statuses.' + s), s]
+    end
+    return list
+  end
+
+  def modelstock_provider_selection
+    list = []
+    Provider.where(app_id: Modelstock::APP_ID).each do |p|
+        list << [p.name, p.name]
     end
     return list
   end
 
 end
-

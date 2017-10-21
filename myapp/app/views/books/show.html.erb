@@ -1,57 +1,40 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => t('book.show.main_title')} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('common.show')} %>
 
-<div class="operation">
-  <%= render :partial => 'commands', :locals => {:val => 'show'} %>
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'show', :obj => @book } %>
 </div>
 
-<p id="notice"><%= notice %></p>
+<div class="form_layout">
 
-<p>
-  <b><%= ts('book.show.title') %></b>
-  <%= @book.title %>
-</p>
+<%= form_for(@book) do |f| %>
 
-<p>
-  <b><%= ts('book.show.volume') %></b>
-  <%= @book.volume %>
-</p>
+<div>
+<fieldset>
+  <%= f.label :title, t('book.title') %><br>
+  <%= f.text_field :title, {:disabled => true} %><br>
+  <%= f.label :volume, t('book.volume') %><br>
+  <%= f.text_field :volume, {:disabled => true} %><br>
+  <%= f.label :status, t('book.status') %><br>
+  <%= text_field_tag :status, t('book.statuses.'+@book.status), {:disabled => true} %><br>
+  <%= f.label :group1, t('book.group1') %><br>
+  <%= text_field_tag :group1, @book.group1, {:disabled => true} %><br>
+  <%= f.label :group2, t('book.group2') %><br>
+  <%= text_field_tag :group2, @book.group2, {:disabled => true} %><br>
+  <%= f.label :provider, t('book.provider') %><br>
+  <%= text_field_tag :provider, @book.provider, {:disabled => true} %><br>
+</fieldset>
+</div>
 
-<p>
-  <b><%= ts('book.show.status') %></b>
-  <%= td('book.status', @book.status) %>
-</p>
+<div>
+<fieldset>
+  <%= f.label :author, t('book.author') %><br>
+  <%= text_field_tag :author, @book.author, {:disabled => true} %><br>
+  <%= f.label :description, t('book.description') %><br>
+  <%= f.text_area :description, {:disabled => true} %><br>
+</fieldset>
+</div>
 
-<p>
-  <b><%= ts('book.show.realm') %></b>
-  <%= td('book.realm', @book.realm) %>
-</p>
-
-<p>
-  <b><%= ts('book.show.series') %></b>
-  <%= @book.series.name %>
-</p>
-
-<p>
-  <b><%= ts('book.show.author') %></b>
-  <%= @book.author.name %>
-</p>
-
-<p>
-  <b><%= ts('book.show.publisher') %></b>
-  <%= @book.publisher.name %>
-</p>
-
-<p>
-  <b><%= ts('book.show.description') %></b>
-  <%= @book.description %>
-</p>
-
-
-<% content_for :sidebar do %>
-<p>
-This is side bar area.
-</p>
 <% end %>
 
-
+</div>

@@ -1,0 +1,29 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => t('common.groups') } %>
+
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index' } %>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t('group.app_id') %></th>
+      <th><%= t('group.group1') %></th>
+      <th><%= t('group.group2') %></th>
+      <th colspan="2"><%= t('common.commands') %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @groups.each do |group| %>
+    <tr>
+      <td><%= group.app_id %></td>
+      <td><%= group.group1 %></td>
+      <td><%= group.group2 %></td>
+      <td><%= link_to t('common.edit'), edit_group_path(group) %></td>
+      <td><%= link_to t('common.delete'), group, method: :delete, data: {confirm: t('common.confirm')} %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

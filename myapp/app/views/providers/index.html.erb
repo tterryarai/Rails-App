@@ -1,0 +1,27 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => t('common.providers')} %>
+
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index' } %>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th><%= t('provider.app_id') %></th>
+      <th><%= t('provider.name') %></th>
+      <th colspan="2"><%= t('common.commands') %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @providers.each do |provider| %>
+    <tr>
+      <td><%= provider.app_id %></td>
+      <td><%= provider.name %></td>
+      <td><%= link_to t('common.edit'), edit_provider_path(provider) %></td>
+      <td><%= link_to t('common.delete'), provider, method: :delete, data: {confirm: t('common.confirm')} %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>

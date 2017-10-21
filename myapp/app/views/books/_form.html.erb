@@ -1,57 +1,36 @@
-
-<% if @book.errors.any? %>
-  <div id="error_explanation">
-    <h2><%= pluralize(@book.errors.count, "error") %> prohibited this book from being saved:</h2>
-    <ul>
-    <% @book.errors.full_messages.each do |msg| %>
-      <li><%= msg %></li>
-    <% end %>
-    </ul>
-  </div>
-<% end %>
+<div class="form_layout">
 
 <%= form_for(@book) do |f| %>
 
-<div class="form">
-  <div class="field">
-    <%= f.label t('book.form.title') %><br />
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label t('book.form.volume') %><br />
-    <%= f.text_field :volume %>
-  </div>
-  <div class="field">
-    <%= f.label t('book.form.status') %><br />
-    <%= f.select :status, options_for_select(get_bk_status_list, @book.status) %>
-  </div>
-  <div class="field">
-    <%= f.label t('book.form.realm') %><br />
-    <%= f.select :realm, options_for_select(get_bk_realm_list, @book.realm) %>
-  </div>
-  <div class="field">
-    <%= f.label t('book.form.realm_and_series') %><br />
-    <%= f.select :series_id, options_for_select(get_series_list(Book::APP_ID), @book.series_id) %>
-  </div>
-  <div class="field">
-    <%= f.label t('book.form.author') %><br />
-    <%= f.select :author_id, options_for_select(get_bk_author_list, @book.author_id) %>
-  </div>
-  <div class="field">
-    <%= f.label t('book.form.publisher') %><br />
-    <%= f.select :publisher_id, options_for_select(get_publisher_list(Book::APP_ID), @book.publisher_id) %>
-  </div>
+<%= render :partial => '/parts/form_errors', :locals => {:obj => @book} %>
+
+<div>
+<fieldset>
+  <%= f.label :title, t('book.title') %><br>
+  <%= f.text_field :title %><br>
+  <%= f.label :volume, t('book.volume') %><br>
+  <%= f.text_field :volume %><br>
+  <%= f.label :status, t('book.status') %><br>
+  <%= f.select :status, options_for_select(book_status_selection, @book.status) %><br>
+  <%= f.label :group1, t('book.group1') %><br>
+  <%= f.select :group1, options_for_select(book_group1_selection, @book.group1) %><br>
+  <%= f.label :group2, t('book.group2') %><br>
+  <%= f.select :group2, options_for_select(book_group2_selection, @book.group2) %><br>
+  <%= f.label :provider, t('book.provider') %><br>
+  <%= f.select :provider, options_for_select(book_provider_selection, @book.provider) %><br>
+</fieldset>
 </div>
 
-<div class="form">
-  <div class="field">
-    <%= f.label t('book.form.description') %><br />
-    <%= f.text_area :description, {:size => "40x13"}%>
-  </div>
-  <div class="actions">
-    <%= f.submit val %>
-  </div>
+<div>
+<fieldset>
+  <%= f.label :author, t('book.author') %><br>
+  <%= f.select :author, options_for_select(book_author_selection, @book.author) %><br>
+  <%= f.label :description, t('book.description') %><br>
+  <%= f.text_area :description %><br>
+  <%= f.submit val, {:class => "actions"} %>
+</fieldset>
 </div>
 
 <% end %>
 
+</div>

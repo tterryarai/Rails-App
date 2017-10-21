@@ -1,0 +1,169 @@
+// Place all the styles related to the virtual_runs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+//
+// specific setting: virtual_run
+//
+
+$bg-color:#226688;
+$f-color:#ffffff;
+$f-color2:#000000;
+$bg-color-deep:#66f;
+$bg-color-light:#88f;
+$bg-color-gray:#444;
+$bg-color-gray-light:#888;
+
+$bg-color-y-deep:#ff6;
+$bg-color-y-light:#ff8;
+
+$bg-color-o-deep:#fc0;
+$bg-color-o-light:#fa6;
+
+$bg-color-g-deep:#0d0;
+$bg-color-g-light:#8f8;
+
+$f-size:16px;
+
+#container {
+
+	#wrapper {
+
+		#main {
+			.vcourse {
+				border: 1px solid white;
+				border-radius: 10px;
+				width: 100%;
+				padding: 10px;
+			}
+			.index_layout, .js-masonry { // .js-masonry reserved by masonry
+				float: left;
+				display: table;
+				width: 100%;
+				margin-top: 20px;
+
+				.vrun_running, .vrun_goal, .vrun_not_running {
+					border: 1px solid white;
+					border-radius: 20px;
+					background-color: $bg-color-o-deep;
+					float: left; // commented for masonry
+					width: 140px;
+					height: 180px;
+					display: table;
+					text-align: center;
+					color: $f-color2;
+					margin: 2px;
+
+					a, a:active, a:hover, a:visited {
+						border-radius: 20px;
+						font-size: 14px;
+						font-weight: bold;
+						display: table-cell;
+						vertical-align: middle;
+						text-decoration: none;
+						padding: 2px;
+						color: $f-color2;
+					}
+
+					a:hover {
+						background-color: $bg-color-o-light;
+					}
+
+					p {
+						font-weight: normal;
+					}
+
+					.vrun_image {
+						width: 50px;
+						height: 50px;
+					}
+				}
+
+				.vrun_goal {
+					background-color: $bg-color-g-deep;
+					font-weight: normal;
+
+					a, a:active, a:hover, a:visited {
+						color: $f-color2;
+					}
+
+					a:hover {
+						background-color: $bg-color-g-light;
+					}
+				}
+
+				.vrun_not_running {
+					background-color: $bg-color-gray;
+					font-weight: normal;
+
+					a, a:active, a:hover, a:visited {
+						color: $f-color;
+					}
+
+					a:hover {
+						background-color: $bg-color-gray-light;
+					}
+				}
+
+				.vpoint_pass, .vpoint_goal, .vpoint_not_pass {
+					border: 1px solid white;
+					border-radius: 10px;
+					background-color: $bg-color-o-deep;
+					float: left; // commented for masonry
+					width: 100px;
+					height: 130px;
+					display: table;
+					text-align: center;
+					font-size: 14px;
+					font-weight: bold;
+					margin: 2px;
+					color: $f-color2;
+
+					a, a:active, a:hover, a:visited {
+						border-radius: 10px;
+						display: table-cell;
+						vertical-align: middle;
+						text-decoration: none;
+						padding: 2px;
+						color: $f-color2;
+					}
+
+					a:hover {
+						background-color: $bg-color-o-light;
+					}
+
+					.vpoint_pass_image {
+						width: 50px;
+						height: 50px;
+					}
+				}
+
+				.vpoint_goal {
+					background-color: $bg-color-g-deep;
+					font-weight: normal;
+
+					a, a:active, a:hover, a:visited {
+						color: $f-color2;
+					}
+
+					a:hover {
+						background-color: $bg-color-g-light;
+					}
+				}
+
+				.vpoint_not_pass {
+					background-color: $bg-color-gray;
+					font-weight: normal;
+
+					a, a:active, a:hover, a:visited {
+						color: $f-color;
+					}
+
+					a:hover {
+						background-color: $bg-color-gray-light;
+					}
+				}
+			}
+		}
+	}
+}

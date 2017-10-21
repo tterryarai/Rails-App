@@ -1,0 +1,9 @@
+<!-- <div id="leaf_layout_stamps"> -->
+<div id="leaf_layout_stamps" class="js-masonry" data-masonry-options='{"columnWidth": 100,"gutter": 10,"isFitWidth": true,"itemSelector": ".stamp"}'>
+  <% val.stamps.each do |stamp| %>
+  <div class="stamp">
+    <%= link_to image_tag(leaf_image(stamp), {:size => "100x100"}), stamp_path(stamp.id) %>
+    <p><%= stamp.name + ' '+ stamp.price %></p>
+  </div>
+  <% end %>
+</div>

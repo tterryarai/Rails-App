@@ -1,0 +1,8 @@
+
+<%= render :partial => '/parts/title', :locals => {:val => t('common.edit')} %>
+
+<div id="operations">
+<%= render :partial => '/parts/commands', :locals => {:command => 'edit' } %>
+</div>
+
+<%= render :partial => 'form', :locals => {:val => t('common.update')} %>

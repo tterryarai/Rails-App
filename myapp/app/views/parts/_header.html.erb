@@ -1,0 +1,20 @@
+<div id="header">
+  <h1><a href="/"><%= t('common.main_title')%></a></h1>
+
+<% if user_signed_in? %>
+<div id="user-navigation">
+  <div><%= link_to t('common.virtual_runs'), virtual_runs_path %></div>
+  <div><%= link_to t('common.leafs'), leafs_path %></div>
+  <div><%= link_to t('common.stamps'), stamps_path %></div>
+  <div><%= link_to t('common.books'), books_path %></div>
+  <div><%= link_to t('common.modelstocks'), modelstocks_path %></div>
+  <div><%= link_to t('common.authors'), authors_path %></div>
+  <div><%= link_to t('common.groups'), groups_path %></div>
+  <div><%= link_to t('common.providers'), providers_path %></div>
+  <div><%= link_to t('common.stamps')+" "+t('common.statistics'), statistics_stamps_path %></div>
+  <div><%= link_to t('common.logout'), destroy_user_session_path, method: :delete %></div>
+</div>
+<% else %>
+<% end %>
+
+</div>

@@ -1,0 +1,11 @@
+<% @leafs.each do |leaf| %>
+  <div class="leaf">
+    <%= link_to leaf do %>
+      <p><%= ss(leaf.group2) %></p>
+      <p><%= ss(leaf.title) %></p>
+    <% end %>
+  </div>
+<% end %>
+  <div class="index_layout_ctl">
+    <%= link_to t('common.back'), leafs_path(:select => 'CLEAR') %>
+  </div>

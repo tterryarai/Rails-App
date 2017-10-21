@@ -1,0 +1,13 @@
+<% Leaf.group1_list.each do |g| %>
+  <% if g != '(none)' then %>
+  <div class="leaf">
+    <%= link_to g, leafs_path(:select => g) %>
+  </div>
+  <% end %>
+<% end %>
+  <div class="index_layout_all">
+    <%= link_to t('leaf.all'), leafs_path(:select => 'ALL') %>
+  </div>
+  <div class="index_layout_ctl">
+    <%= link_to t('common.new'), new_leaf_path %>
+  </div>

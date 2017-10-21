@@ -1,54 +1,56 @@
 
-<%= render :partial => '/parts/title', :locals => {:val => t('stamp.index.main_title')} %>
+<%= render :partial => '/parts/title', :locals => {:val => t('common.stamps')} %>
 
-<div class="operation">
-  <%= render :partial => 'pagination' %>
-  <%= render :partial => 'commands', :locals => {:val => 'index'} %>
+<div id="operations">
+  <%= render :partial => '/parts/paginate', :locals => {:obj => @stamps} %>
+  <%= render :partial => '/parts/search', :locals => {:path => stamps_path } %>
+  <%= render :partial => '/parts/commands', :locals => {:command => 'index' } %>
 </div>
 
-<table class="index_table">
-<% order = cycle_order(session[:order].to_s) %>
-  <tr>
-    <th><%= t('stamp.common.edit')%></th>
-    <th><%= link_to t('stamp.attr.name'), stamps_path(:sort => 'name', :order => order) %></th>
-    <th><%= link_to t('stamp.attr.area'), stamps_path(:sort => 'area', :order => order) %></th>
-    <th><%= link_to t('stamp.attr.group1'), stamps_path(:sort => 'group1', :order => order) %></th>
-    <th><%= link_to t('stamp.attr.group2'), stamps_path(:sort => 'group2', :order => order) %></th>
-    <th><%= t('stamp.attr.group3')%></th>
-    <th><%= t('stamp.attr.issue_date')%></th>
-    <th><%= t('stamp.attr.price')%></th>
-    <th><%= t('stamp.attr.remark1')%></th>
-    <th><%= t('stamp.attr.remark2')%></th>
-    <th><%= t('stamp.attr.remark3')%></th>
-    <th><%= link_to t('stamp.attr.own'), stamps_path(:sort => 'own', :order => order) %></th>
-  </tr>
+<% if @stamps.present? then %>
 
-<% no_data = t('app.common.no_data')%>
-<% @stamps.each do |stamp| %>
-  <tr>
-    <td><%= link_to image_tag('web-app-theme/icons/application_edit.png'), {:action => 'edit', :id => stamp.id}, :method => :get %></td>
-    <td id='index_table_title_td'><%= link_to stamp.name, stamp %></td>
-    <td><%= stamp.area    %></td>
-    <td><%= stamp.group1  %></td>
-    <td><%= stamp.group2  %></td>
-    <td><%= stamp.group3  %></td>
-    <td><%= stamp.issue_date %></td>
-    <td><%= stamp.price   %></td>
-    <td><%= stamp.remark1 %></td>
-    <td><%= stamp.remark2 %></td>
-    <td><%= stamp.remark3 %></td>
-    <td><%= stamp.own     %></td>
-  </tr>
-<% end %>
+<table>
+  <thead>
+    <tr>
+      <th><%= link_to t('stamp.name'), stamps_path(:order => 'name') %></th>
+      <th><%= link_to t('stamp.area'), stamps_path(:order => 'area') %></th>
+      <th><%= link_to t('stamp.group1'), stamps_path(:order => 'group1') %></th>
+      <th><%= link_to t('stamp.group2'), stamps_path(:order => 'group2') %></th>
+      <th><%= link_to t('stamp.group3'), stamps_path(:order => 'group3') %></th>
+      <th><%= link_to t('stamp.issue_date'), stamps_path(:order => 'issue_date') %></th>
+      <th><%= link_to t('stamp.price'), stamps_path(:order => 'price') %></th>
+      <th><%= link_to t('stamp.remark1'), stamps_path(:order => 'remark1') %></th>
+      <th><%= link_to t('stamp.remark2'), stamps_path(:order => 'remark2') %></th>
+      <th><%= link_to t('stamp.remark3'), stamps_path(:order => 'remark3') %></th>
+      <th><%= link_to t('stamp.leaf_id'), stamps_path(:order => 'leaf_id') %></th>
+      <th><%= link_to t('stamp.status'), stamps_path(:order => 'status') %></th>
+      <th><%= t('common.edit') %></th>
+    </tr>
+  </thead>
+
+  <tbody>
+  <% @stamps.each do |stamp| %>
+    <tr>
+      <td><%= link_to stamp.name, stamp %></td>
+      <td><%= stamp.area %></td>
+      <td><%= sn(stamp.group1) %></td>
+      <td><%= sn(stamp.group2) %></td>
+      <td><%= sn(stamp.group3) %></td>
+      <td><%= sn(stamp.issue_date) %></td>
+      <td><%= sn(stamp.price) %></td>
+      <td><%= sn(stamp.remark1) %></td>
+      <td><%= sn(stamp.remark2) %></td>
+      <td><%= sn(stamp.remark3) %></td>
+      <td><%= stamp.leaf_id %></td>
+      <td><%= image_tag Stamp.icons[stamp.status] %></td>
+      <td><%= link_to image_tag(Stamp.icons['edit']), edit_stamp_path(stamp) %></td>
+    </tr>
+  <% end %>
+  </tbody>
 </table>
 
-<br />
+<% else %>
 
+<%= t('message.empty') %>
 
-<% content_for :sidebar do %>
-<p>
-This is side bar area.
-</p>
 <% end %>
-
-

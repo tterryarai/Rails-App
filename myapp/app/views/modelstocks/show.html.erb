@@ -1,52 +1,37 @@
+<%= render :partial => '/parts/title', :locals => {:val => t('common.show')} %>
 
-<%= render :partial => '/parts/title', :locals => {:val => t('modelstock.show.main_title')} %>
-
-<div class="operation">
-  <%= render :partial => 'commands', :locals => {:val => 'show'} %>
+<div id="operations">
+  <%= render :partial => '/parts/commands', :locals => {:command => 'show', :obj => @modelstock } %>
 </div>
 
-<p id="notice"><%= notice %></p>
+<div class="form_layout">
 
-<p>
-  <b><%= ts('modelstock.show.name') %></b>
-  <%= @modelstock.name %>
-</p>
+<%= form_for(@modelstock) do |f| %>
 
-<p>
-  <b><%= ts('modelstock.show.status') %></b>
-  <%= td('modelstock.status', @modelstock.status)%>
-</p>
+<div>
+<fieldset>
+  <%= f.label :name, t('modelstock.name') %><br>
+  <%= f.text_field :name, {:disabled => true} %><br>
+  <%= f.label :scale, t('modelstock.scale') %><br>
+  <%= f.text_field :scale, {:disabled => true} %><br>
+  <%= f.label :status, t('modelstock.status') %><br>
+  <%= text_field_tag :status, t('modelstock.statuses.'+@modelstock.status), {:disabled => true} %><br>
+  <%= f.label :group1, t('modelstock.group1') %><br>
+  <%= f.text_field :group1, {:disabled => true} %><br>
+  <%= f.label :group2, t('modelstock.group2') %><br>
+  <%= f.text_field :group2, {:disabled => true} %><br>
+</fieldset>
+</div>
 
-<p>
-  <b><%= ts('modelstock.show.description') %></b>
-  <%= @modelstock.description %>
-</p>
+<div>
+<fieldset>
+  <%= f.label :provider, t('modelstock.provider') %><br>
+  <%= f.text_field :provider, {:disabled => true} %><br>
+  <%= f.label :description, t('modelstock.description') %><br>
+  <%= f.text_area :description, {:disabled => true} %><br>
+</fieldset>
+</div>
 
-<p>
-  <b><%= ts('modelstock.show.scale') %></b>
-  <%= @modelstock.scale %>
-</p>
-
-<p>
-  <b><%= ts('modelstock.show.publisher') %></b>
-  <%= @modelstock.publisher.name %>
-</p>
-
-<p>
-  <b><%= ts('modelstock.show.realm') %></b>
-  <%= td('modelstock.realm', @modelstock.realm)%>
-</p>
-
-<p>
-  <b><%= ts('modelstock.show.series') %></b>
-  <%= td('modelstock.series', @modelstock.series.name)%>
-</p>
-
-
-<% content_for :sidebar do %>
-<p>
-This is side bar area.
-</p>
 <% end %>
 
-
+</div>

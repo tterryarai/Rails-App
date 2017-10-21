@@ -1,87 +1,97 @@
 class BooksController < ApplicationController
-  before_filter :set_book, only: [:show, :edit, :update, :destroy]
+  before_action :set_book, only: [:show, :edit, :update, :destroy]
 
-  respond_to :html
-
+  # GET /books
   def index
-    # set ORDER_BY parameter if params[:order] is set
-    # default is 'title asc'
-    if params[:order].present? then 
-      case params[:order]
-      when 'title desc'
-        order = 'books.title DESC'
-      when 'title asc'
-        order = 'books.title ASC'
-      when 'series desc'
-        order = 'series.name DESC'
-      when 'series asc'
-        order = 'series.name ASC'
-      when 'realm desc'
-        order = 'books.realm DESC'
-      when 'realm asc'
-        order = 'books.realm ASC'
-      else
-        order = 'books.title ASC' # set default for other illegal order
-      end
-        session[:order] = params[:order] # store order
-    else
-      order = 'books.title ASC' # set default
-      session[:order] = ''
-    end
 
-    # set LIKE parameter from params[:keyword] or session[:keyword] or ''
-    if params[:keyword].present? && params[:commit].present? && params[:commit]==t('book.index.search') then
+    # ORDER BY parameter
+    if params[:order].present? then
+      order = params[:order]
+    elsif session[:order].present? then
+      order = session[:order]
+    else
+      order = 'title' # default
+    end
+    session[:order] = order # store order
+
+    # LIKE parameter
+    if params[:keyword].present? && params[:commit].present? && params[:commit]==t('common.search') then
       like = '%' + params[:keyword].to_s + '%'
       session[:keyword] = params[:keyword]
-    elsif params[:commit].present? && params[:commit]==t('book.index.clear') then
-      like = ''
-      session[:keyword] = ''
     elsif session[:keyword].present? then
       like = '%' + session[:keyword].to_s + '%'
     else
-      like = '' # default
+      like = ''
+      session[:keyword] = ''
+      session[:order] = ''
+    end
+
+    # all clear
+    if params[:commit].present? && params[:commit]==t('common.clear') then
+      like = ''
+      session[:keyword] = ''
+      session[:order] = ''
     end
 
     # exec SELECT
-    @books = Book.joins('LEFT JOIN series ON books.series_id = series.id')
+    select = 'id, title, volume, status, group1, group2'
+    @books = Book.select(select)
     if like.present? then
-      @books = @books.where('(books.title LIKE ?) OR (series.name LIKE ?) OR (books.realm LIKE ?)', like, like, like)
+      @books = @books.where('(title LIKE ?) OR (group1 LIKE ?) OR (group2 LIKE ?)', like, like, like)
     end
     @books = @books.order(order).page(params[:page])
 
-    respond_with(@books)
   end
 
+  # GET /books/1
   def show
-    respond_with(@book)
   end
 
+  # GET /books/new
   def new
     @book = Book.new
-    respond_with(@book)
+    render_new
   end
 
+  # GET /books/1/edit
   def edit
+    render_edit
   end
 
+  # POST /books
   def create
-    @book = Book.new(params[:book])
-    @book.save
-    respond_with(@book)
+    @book = Book.new(book_params)
+
+    if @book.save
+      redirect_to @book, notice: t('message.registered')
+    else
+      render_new
+    end
   end
 
+  # PATCH/PUT /books/1
   def update
-    @book.update_attributes(params[:book])
-    respond_with(@book)
+    if @book.update(book_params)
+      redirect_to @book, notice: t('message.updated')
+    else
+      render_edit
+    end
   end
 
+  # DELETE /books/1
   def destroy
     @book.destroy
-    respond_with(@book)
+    redirect_to books_url, notice: t('message.deleted')
   end
 
   private
+    # Use callbacks to share common setup or constraints between actions.
     def set_book
       @book = Book.find(params[:id])
+    end
+
+    # Only allow a trusted parameter "white list" through.
+    def book_params
+      params.require(:book).permit(:title, :volume, :description, :status, :group1, :group2, :provider, :author)
     end
 end

@@ -1,216 +1,129 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
-  app:
-    common:
-      main_title: "Web Application 2.0"
-      app_books:   "Books"
-      app_model_stocks: "Model Stocks"
-      app_stamps: "Stamps"
-      app_authors: "Edit Authors"
-      app_series:  "Edit Series"
-      no_data: "no data"
-      separator: ":"
-
-  book:
-    common:
-      back: "Back"
-      edit: "Edit"
-      show: "Show"
-      delete: "Delete"
-      confirm: "Are you sure?"
-    status:
-      __not_purchase: "Not Purchased"
-      __purchase: "Purchased"
-      __read: "Read"
-    realm:
-      __none:    "(none)"
-      __forgotten_realms: "Forgotten Realms"
-      __dragonlance:     "Dragonlance"
-    index:
-      main_title: "Books"
-      th_title:  "Title"
-      th_volume: "Volume"
-      th_status: "Status"
-      th_realm:  "Realm"
-      th_series: "Series"
-      th_edit:   "Edit"
-      search:    "Search"
-      clear:     "Clear"
-      register:  "New Book"
-    new:
-      main_title: "New Book"
-      register:   "Register"
-    edit:
-      main_title: "Edit Book Information"
-      register:   "Update"
-    show:
-      main_title: "Book Information"
-      title:     "Title"
-      volume:    "Volume"
-      status:    "Status"
-      realm:     "Realm"
-      series:    "Series"
-      author:    "Author"
-      publisher: "Publisher"
-      description: "Description"
-    form:
-      title:     "Title"
-      volume:    "Volume"
-      status:    "Status"
-      realm:     "Realm"
-      realm_and_series: "Realm and Series"
-      author:    "Author"
-      publisher: "Publisher"
-      description: "Description"
-
-  modelstock:
-    common:
-      back: "Back"
-      edit: "Edit"
-      show: "Show"
-      delete: "Delete"
-      confirm: "Are you sure?"
-    status:
-      __plan: "Planned"
-      __purchase: "Purchased"
-      __build: "Building"
-      __complete: "Completed"
-    realm:
-      __none:    "(none)"
-      __ijn:     "IJN"
-      __usn:     "USN"
-      __hms:     "HMS"
-      __sms_dkm: "SMS/DKM"
-      __fn:      "FN"
-      __rn:      "RN"
-      __other_navy: "Other Navy"
-      __logh:    "LoGH"
-      __mobilesuit_gundam: "Mobilesuit Gundam"
-      __space_battleship_yamato: "Space Battleship Yamato"
-      __fss: "Five Star Stories"
-    series:
-      __other_vessels:       "Other Vessels"
-      __earch_federation_space_force:   "E.F.S.F"
-      __earth_federation_defense_force: "E.F.D.F"
-      __gamilas_empire:      "Gamilas Empire"
-      __empire_fleets:       "Empire Fleets"
-      __free_planets_fleets: "Free Planets Fleets"
-    index:
-      main_title: "Model Stocks"
-      th_name:   "Name"
-      th_scale:  "Scale"
-      th_publisher: "Maker"
-      th_realm:  "Category"
-      th_series: "Group"
-      th_status: "Status"
-      th_edit:   "Edit"
-      search:    "Search"
-      clear:     "Clear"
-      register:  "New Model"
-    new:
-      main_title: "New Model"
-      register:   "Register"
-    edit:
-      main_title: "Edit Model Information"
-      register:   "Update"
-    show:
-      main_title: "Model Information"
-      name:      "Name"
-      status:    "Status"
-      description: "Description"
-      scale:     "Scale"
-      publisher: "Maker"
-      realm:     "Category"
-      series:    "Group"
-    form:
-      name:      "Name"
-      scale:     "Scale"
-      publisher: "Maker"
-      realm:     "Category"
-      series:    "Group"
-      realm_and_series: "Category and Group"
-      status:    "Status"
-      description: "Description"
+  common:
+    main_title: "Web Application on Ruby on Rails"
+    leafs: "Leaves"
+    stamps: "Stamps"
+    books: "Books"
+    modelstocks: "Model Stocks"
+    authors: "Authors"
+    groups: "Groups"
+    providers: "Providers"
+    virtual_runs: "Virtual Runs"
+    new: "New Register"
+    edit: "Edit"
+    update: "Update"
+    show: "Detail"
+    delete: "Delete"
+    confirm: "Are you sure?"
+    statistics: "Statistics"
+    register: "Register"
+    back: "Back"
+    search: "Search"
+    clear: "Clear"
+    logout: "Logout"
+    commands: "Commands"
+    none: "(none)"
+  message:
+    registered: 'Registered successfully.'
+    updated: 'Updated successfully.'
+    deleted: 'Deleted successfully.'
+    empty: 'No items found.'
 
   author:
-    common:
-      back: "Back"
-      edit: "Edit"
-      delete: "Delete"
-      confirm: "Are you sure?"
-    index:
-      main_title:  "Authors"
-      th_name:     "Name"
-      th_commands: "Commands"
-      register:    "New Author"
-    new:
-      main_title: "New Author"
-      register:   "Register"
-    edit:
-      main_title: "Edit Author Information"
-      register:   "Update"
-    form:
-      name:      "Name"
-
-  series:
-    common:
-      back: "Back"
-      edit: "Edit"
-      delete: "Delete"
-      confirm: "Are you sure?"
-    index:
-      main_title:  "Series"
-      th_app_id:   "App ID"
-      th_realm:    "Realm"
-      th_name:     "Name"
-      th_commands: "Commands"
-      register:    "New Series"
-    new:
-      main_title: "New Series"
-      register:   "Register"
-    edit:
-      main_title: "Edit Series Information"
-      register:   "Update"
-    form:
-      app_id:    "APP ID"
-      name:      "Name"
-
+    name: "Name"
+  book:
+    title: "Title"
+    volume: "Volume"
+    description: "Description"
+    status: "Status"
+    group1: "Realm"
+    group2: "Series"
+    statuses:
+      __not_purchase__: "Not Purchase"
+      __purchased__: "Purchased"
+      __read__: "Read"
+    provider: "Publisher"
+    author: "Author"
+  group:
+    app_id: "APP ID"
+    group1: "Group1"
+    group2: "Group2"
+  leaf:
+    title: "Title"
+    subtitle: "Sub Title"
+    description: "Description"
+    group1: "Group1"
+    group2: "Group2"
+    group3: "Group3"
+    all: "ALL"
+  modelstock:
+    name: "Name"
+    scale: "Scale"
+    status: "Status"
+    description: "Description"
+    group1: "Group1"
+    group2: "Group2"
+    provider: "Maker"
+    statuses:
+      __build__: "Building"
+      __complete__: "Complete"
+      __plan__: "Planning"
+      __purchase__: "Purchased"
+  provider:
+    app_id: "APP ID"
+    name: "Name"
   stamp:
-    common:
-      back:    "Back"
-      edit:    "Edit"
-      show:    "Show"
-      delete:  "Delete"
-      confirm: "Are you sure?"
-    attr:
-      name:       "Name"
-      area:       "Area"
-      group1:     "Group1"
-      group2:     "Group2"
-      group3:     "Group3"
-      issue_date: "Issue Date"
-      price:      "Price"
-      own:        "Own"
-      image_path: "Image Path"
-      remark1:    "Remark1"
-      remark2:    "Remark2"
-      remark3:    "Remark3"
-      description: "Description"
-    index:
-      main_title: "Stamps"
-      search:     "Search"
-      clear:      "Clear"
-      register:   "New Stamp"
-    new:
-      main_title: "New Stamp"
-      register:   "Register"
-    edit:
-      main_title: "Edit Stamp Information"
-      register:   "Update"
-    show:
-      main_title: "Stamp Information"
-    form:
-
+    name: "Name"
+    area: "Region"
+    issue_date: "Issue Date"
+    price: "Price"
+    image_path: "Image Path"
+    description: "Description"
+    group1: "Group1"
+    group2: "Group2"
+    group3: "Group3"
+    remark1: "Remark1"
+    remark2: "Remark2"
+    remark3: "Remark3"
+    leaf_id: "Leaf ID"
+    leaf: "Leaf"
+    status: "Status"
+    statuses:
+      __not_purchase__: "Not Purchase"
+      __purchased__: "Purchased"
+      __plan__: "Planning"
+    override:
+      remark1: "(SG#/Used)"
+      remark2: "(Printing)"
+  virtual_run:
+    name: "Course Memo"
+    length: "Current:"
+    last: "Latest Run[km]"
+    virtual_course_id: "Course"
+    virtual_course:
+      length: "Course Length:"
+  devise:
+    new: "Login"
+    email: "ID"
+    password: "Password"

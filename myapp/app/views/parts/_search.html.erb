@@ -1,0 +1,11 @@
+
+<%# params: path %>
+
+<div id="search_operation">
+<%= form_tag path, :method => :get do %>
+  <%= text_field_tag :keyword, session[:keyword], {:id => "input_keyword"} %>
+  <%= submit_tag t('common.search'), { :class => 'search_button' } %>
+  <%= submit_tag t('common.clear'),  { :class => 'search_button' } %>
+  <%= hidden_field_tag :order, session[:order] %>
+<% end %>
+</div>
