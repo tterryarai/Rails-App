@@ -15,8 +15,4 @@
 !/log/.keep
 /tmp/*
 !/tmp/.keep
-*.log
-
-# Ignore old files
-*~
 
