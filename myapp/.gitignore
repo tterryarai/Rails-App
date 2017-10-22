@@ -6,6 +6,12 @@
 
 # Ignore bundler config.
 /.bundle
+/vendor/bundle
+
+# Ignore secrets
+/config/initializers/secret_token.rb
+#/config/secrets.yml
+
 
 # Ignore the default SQLite database.
 #/db/*.sqlite3
@@ -15,4 +21,10 @@
 !/log/.keep
 /tmp/*
 !/tmp/.keep
+
+# Ignore oldfiles.
+*.rb~
+*.txt~
+*.erb~
+*.scss~
 
